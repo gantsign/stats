@@ -1,5 +1,6 @@
 package stats.ui.summarytable
 
+import ext.materialui.core.MProps
 import ext.materialui.core.paper
 import ext.materialui.core.styles.muiThemeProvider
 import ext.materialui.core.styles.withStyles
@@ -15,6 +16,7 @@ import ext.semver.Semver
 import kotlinext.js.js
 import react.RBuilder
 import react.RComponent
+import react.RState
 import react.dom.a
 import react.dom.div
 import react.dom.h2
@@ -117,6 +119,73 @@ private val columns = arrayOf(
 )
 
 private val columnMapping = columns.associateBy(Column::id)
+
+private interface TotalRowProps : MProps {
+    var classes: dynamic
+    var summary: Summary?
+}
+
+private class TotalRow : RComponent<TotalRowProps, RState>() {
+    override fun RBuilder.render() {
+        val summary = props.summary ?: return
+        val classes = props.classes
+        tableRow {
+            attrs {
+                className = classes.totals
+            }
+            tableCell {
+                attrs {
+                    numeric = false
+                }
+                +"Totals"
+            }
+            columns
+                .filter { it.id != "name" }
+                .forEach {
+                    tableCell {
+                        attrs {
+                            numeric = it.numeric
+                        }
+                        val url = it.totalLinkAccessor(summary)
+                        if (url != null) {
+                            a(classes = classes.totalLink, href = url) {
+                                +it.totalAccessor(summary)
+                            }
+                        } else {
+                            +it.totalAccessor(summary)
+                        }
+                    }
+                }
+        }
+    }
+}
+
+private val styledTotalRow = withStyles<TotalRowProps, TotalRow> { theme: dynamic ->
+    js {
+        totals = js {
+            backgroundColor = theme.palette.grey["300"]
+        }
+        totalLink = js {
+            fontWeight = theme.typography.caption.fontWeight
+            color = theme.typography.caption.color
+            textDecoration = "none"
+            this["&:focus, &:visited, &:link, &:active"] = js {
+                color = theme.typography.caption.color
+                textDecoration = "none"
+            }
+            this["&:hover"] = js {
+                color = theme.typography.caption.color
+                textDecoration = "underline"
+            }
+        }
+    }
+}
+
+private fun RBuilder.totalRow(summary: Summary) = styledTotalRow {
+    attrs {
+        this.summary = summary
+    }
+}
 
 class SummaryTable : RComponent<SummaryTableProps, SummaryTableState>() {
 
@@ -231,64 +300,10 @@ class SummaryTable : RComponent<SummaryTableProps, SummaryTableState>() {
                             }
                         }
                     }
-                    tableRow {
-                        attrs {
-                            className = classes.totals as? String
-                        }
-                        tableCell {
-                            attrs {
-                                numeric = false
-                            }
-                            +"Totals"
-                        }
-                        columns
-                            .filter { it.id != "name" }
-                            .forEach {
-                                tableCell {
-                                    attrs {
-                                        numeric = it.numeric
-                                    }
-                                    val url = it.totalLinkAccessor(summary)
-                                    if (url != null) {
-                                        a(classes = classes.totalLink as? String, href = url) {
-                                            +it.totalAccessor(summary)
-                                        }
-                                    } else {
-                                        +it.totalAccessor(summary)
-                                    }
-                                }
-                            }
-                    }
+                    totalRow(summary)
                 }
                 tableFooter {
-                    tableRow {
-                        attrs {
-                            className = classes.totals as? String
-                        }
-                        tableCell {
-                            attrs {
-                                numeric = false
-                            }
-                            +"Totals"
-                        }
-                        columns
-                            .filter { it.id != "name" }
-                            .forEach {
-                                tableCell {
-                                    attrs {
-                                        numeric = it.numeric
-                                    }
-                                    val url = it.totalLinkAccessor(summary)
-                                    if (url != null) {
-                                        a(classes = classes.totalLink as? String, href = url) {
-                                            +it.totalAccessor(summary)
-                                        }
-                                    } else {
-                                        +it.totalAccessor(summary)
-                                    }
-                                }
-                            }
-                    }
+                    totalRow(summary)
                 }
                 tableBody {
                     for (repository in sortedRepositories) {
@@ -321,7 +336,7 @@ class SummaryTable : RComponent<SummaryTableProps, SummaryTableState>() {
     }
 }
 
-val styledSummaryTable = withStyles<SummaryTableProps, SummaryTable> { theme: dynamic ->
+private val styledSummaryTable = withStyles<SummaryTableProps, SummaryTable> { theme: dynamic ->
     js {
         root = js {
             overflowX = "auto"
@@ -348,9 +363,6 @@ val styledSummaryTable = withStyles<SummaryTableProps, SummaryTable> { theme: dy
             lineHeight = theme.typography.caption.lineHeight
             color = theme.palette.common.white
         }
-        totals = js {
-            backgroundColor = theme.palette.grey["300"]
-        }
         bodyLink = js {
             fontWeight = theme.typography.body1.fontWeight
             color = theme.typography.body1.color
@@ -361,19 +373,6 @@ val styledSummaryTable = withStyles<SummaryTableProps, SummaryTable> { theme: dy
             }
             this["&:hover"] = js {
                 color = theme.typography.body1.color
-                textDecoration = "underline"
-            }
-        }
-        totalLink = js {
-            fontWeight = theme.typography.caption.fontWeight
-            color = theme.typography.caption.color
-            textDecoration = "none"
-            this["&:focus, &:visited, &:link, &:active"] = js {
-                color = theme.typography.caption.color
-                textDecoration = "none"
-            }
-            this["&:hover"] = js {
-                color = theme.typography.caption.color
                 textDecoration = "underline"
             }
         }
