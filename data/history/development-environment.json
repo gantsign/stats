@@ -1,0 +1,25 @@
+{
+    "ansible_url": null,
+    "created_at": "2016-03-21T21:53:32Z",
+    "downloads_url": null,
+    "github_url": "https://github.com/gantsign/development-environment",
+    "history": [
+        {
+            "commits_since_release": 1,
+            "commits_since_release_url": "https://github.com/gantsign/development-environment/compare/1.23.0...master",
+            "data_at": "2018-09-04T10:09:41Z",
+            "downloads_count": null,
+            "latest_release_at": "2018-08-26T10:19:07Z",
+            "latest_release_url": "https://github.com/gantsign/development-environment/releases/tag/1.23.0",
+            "latest_release_version": "1.23.0",
+            "open_issues_count": 0,
+            "open_pull_requests_count": 0,
+            "stargazers_count": 16
+        }
+    ],
+    "name": "development-environment",
+    "open_issues_url": "https://github.com/gantsign/development-environment/issues",
+    "open_pull_requests_url": "https://github.com/gantsign/development-environment/pulls",
+    "stargazers_url": "https://github.com/gantsign/development-environment/stargazers",
+    "url": "https://github.com/gantsign/development-environment"
+}

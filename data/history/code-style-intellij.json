@@ -1,0 +1,25 @@
+{
+    "ansible_url": null,
+    "created_at": "2016-09-10T16:40:41Z",
+    "downloads_url": null,
+    "github_url": "https://github.com/gantsign/code-style-intellij",
+    "history": [
+        {
+            "commits_since_release": 7,
+            "commits_since_release_url": "https://github.com/gantsign/code-style-intellij/compare/1.0.0...master",
+            "data_at": "2018-09-04T10:09:41Z",
+            "downloads_count": null,
+            "latest_release_at": "2016-09-11T17:23:53Z",
+            "latest_release_url": "https://github.com/gantsign/code-style-intellij/releases/tag/1.0.0",
+            "latest_release_version": "1.0.0",
+            "open_issues_count": 0,
+            "open_pull_requests_count": 0,
+            "stargazers_count": 0
+        }
+    ],
+    "name": "code-style-intellij",
+    "open_issues_url": "https://github.com/gantsign/code-style-intellij/issues",
+    "open_pull_requests_url": "https://github.com/gantsign/code-style-intellij/pulls",
+    "stargazers_url": "https://github.com/gantsign/code-style-intellij/stargazers",
+    "url": "https://github.com/gantsign/code-style-intellij"
+}

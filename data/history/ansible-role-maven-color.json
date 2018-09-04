@@ -1,0 +1,25 @@
+{
+    "ansible_url": "https://galaxy.ansible.com/gantsign/maven-color",
+    "created_at": "2016-04-20T15:26:38Z",
+    "downloads_url": "https://galaxy.ansible.com/gantsign/maven-color",
+    "github_url": "https://github.com/gantsign/ansible-role-maven-color",
+    "history": [
+        {
+            "commits_since_release": 7,
+            "commits_since_release_url": "https://github.com/gantsign/ansible-role-maven-color/compare/4.2.0...master",
+            "data_at": "2018-09-04T10:09:41Z",
+            "downloads_count": 814,
+            "latest_release_at": "2018-04-12T20:29:04Z",
+            "latest_release_url": "https://github.com/gantsign/ansible-role-maven-color/releases/tag/4.2.0",
+            "latest_release_version": "4.2.0",
+            "open_issues_count": 0,
+            "open_pull_requests_count": 0,
+            "stargazers_count": 3
+        }
+    ],
+    "name": "ansible-role-maven-color",
+    "open_issues_url": "https://github.com/gantsign/ansible-role-maven-color/issues",
+    "open_pull_requests_url": "https://github.com/gantsign/ansible-role-maven-color/pulls",
+    "stargazers_url": "https://github.com/gantsign/ansible-role-maven-color/stargazers",
+    "url": "https://galaxy.ansible.com/gantsign/maven-color"
+}

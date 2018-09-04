@@ -1,0 +1,25 @@
+{
+    "ansible_url": null,
+    "created_at": "2016-09-10T19:06:20Z",
+    "downloads_url": null,
+    "github_url": "https://github.com/gantsign/checkstyle-config",
+    "history": [
+        {
+            "commits_since_release": 0,
+            "commits_since_release_url": "https://github.com/gantsign/checkstyle-config/compare/2.1.0...master",
+            "data_at": "2018-09-04T10:09:41Z",
+            "downloads_count": null,
+            "latest_release_at": "2018-04-19T11:36:49Z",
+            "latest_release_url": "https://github.com/gantsign/checkstyle-config/releases/tag/2.1.0",
+            "latest_release_version": "2.1.0",
+            "open_issues_count": 0,
+            "open_pull_requests_count": 0,
+            "stargazers_count": 1
+        }
+    ],
+    "name": "checkstyle-config",
+    "open_issues_url": "https://github.com/gantsign/checkstyle-config/issues",
+    "open_pull_requests_url": "https://github.com/gantsign/checkstyle-config/pulls",
+    "stargazers_url": "https://github.com/gantsign/checkstyle-config/stargazers",
+    "url": "https://github.com/gantsign/checkstyle-config"
+}
