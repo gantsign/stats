@@ -30,7 +30,11 @@ def normalize_repo_name(name):
 
 data_at = format_iso_datetime(datetime.utcnow())
 
-data_dir = pathlib.Path('data')
+if len(sys.argv) == 2:
+    data_dir = pathlib.Path(sys.argv[1])
+else:
+    data_dir = pathlib.Path('data')
+
 data_dir.mkdir(parents=True, exist_ok=True)
 
 galaxy_server = 'https://galaxy.ansible.com'
