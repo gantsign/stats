@@ -33,7 +33,7 @@ data_at = format_iso_datetime(datetime.utcnow())
 if len(sys.argv) == 2:
     data_dir = pathlib.Path(sys.argv[1])
 else:
-    data_dir = pathlib.Path('data')
+    data_dir = pathlib.Path('public') / 'data'
 
 data_dir.mkdir(parents=True, exist_ok=True)
 

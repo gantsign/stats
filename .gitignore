@@ -516,3 +516,7 @@ $RECYCLE.BIN/
 
 
 # End of https://www.gitignore.io/api/windows,linux,osx,vim,emacs,visualstudiocode,intellij,eclipse,netbeans,python,node,java
+
+### Project specific ###
+/public/data
+/.idea/checkstyle-idea.xml

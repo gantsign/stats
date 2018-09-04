@@ -21,8 +21,6 @@ Using report script.
     git push "$repo_url" gh-pages
 }
 
-pwd
-
 pipenv run python report.py tmp/data
 
 (cd tmp && push)

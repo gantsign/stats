@@ -14,6 +14,14 @@ jobs:
       script:
         - .travis/report.sh
 
+    - name: Build web
+      if: type != cron
+
+      language: java
+
+      script:
+        - .travis/build-web.sh
+
 branches:
   only:
     - master
