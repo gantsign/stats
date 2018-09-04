@@ -1,0 +1,8 @@
+{
+    "python.formatting.provider": "yapf",
+    "python.formatting.yapfArgs": [
+        "--style",
+        "google"
+    ],
+    "python.pythonPath": "/home/vagrant/.local/share/virtualenvs/report-GbA0oMvZ/bin/python"
+}
