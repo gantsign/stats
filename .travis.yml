@@ -13,3 +13,8 @@ jobs:
 
       script:
         - .travis/report.sh
+
+branches:
+  only:
+    - master
+    - /^(0|[1-9][0-9]*)\.(0|[1-9][0-9]*)([\.\-].*)?$/
