@@ -15,6 +15,18 @@
             "open_issues_count": 0,
             "open_pull_requests_count": 0,
             "stargazers_count": 1
+        },
+        {
+            "commits_since_release": 2,
+            "commits_since_release_url": "https://github.com/gantsign/java-application-maven-archetype/compare/1.6.0...master",
+            "data_at": "2018-09-05T10:29:39Z",
+            "downloads_count": null,
+            "latest_release_at": "2018-09-04T22:48:13Z",
+            "latest_release_url": "https://github.com/gantsign/java-application-maven-archetype/releases/tag/1.6.0",
+            "latest_release_version": "1.6.0",
+            "open_issues_count": 0,
+            "open_pull_requests_count": 0,
+            "stargazers_count": 1
         }
     ],
     "name": "java-application-maven-archetype",
