@@ -51,6 +51,18 @@
             "open_issues_count": 0,
             "open_pull_requests_count": 0,
             "stargazers_count": 0
+        },
+        {
+            "commits_since_release": 0,
+            "commits_since_release_url": "https://github.com/gantsign/molecule-wrapper/compare/0.9.2...master",
+            "data_at": "2018-09-08T13:45:35Z",
+            "downloads_count": null,
+            "latest_release_at": "2018-09-08T07:45:45Z",
+            "latest_release_url": "https://github.com/gantsign/molecule-wrapper/releases/tag/0.9.2",
+            "latest_release_version": "0.9.2",
+            "open_issues_count": 0,
+            "open_pull_requests_count": 0,
+            "stargazers_count": 0
         }
     ],
     "name": "molecule-wrapper",
