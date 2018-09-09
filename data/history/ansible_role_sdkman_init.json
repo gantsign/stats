@@ -63,6 +63,18 @@
             "open_issues_count": 0,
             "open_pull_requests_count": 1,
             "stargazers_count": 0
+        },
+        {
+            "commits_since_release": 1,
+            "commits_since_release_url": "https://github.com/gantsign/ansible_role_sdkman_init/compare/1.0.0...master",
+            "data_at": "2018-09-09T10:31:41Z",
+            "downloads_count": 122,
+            "latest_release_at": "2018-08-18T21:05:15Z",
+            "latest_release_url": "https://github.com/gantsign/ansible_role_sdkman_init/releases/tag/1.0.0",
+            "latest_release_version": "1.0.0",
+            "open_issues_count": 0,
+            "open_pull_requests_count": 0,
+            "stargazers_count": 0
         }
     ],
     "name": "ansible_role_sdkman_init",
