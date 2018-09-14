@@ -123,6 +123,18 @@
             "open_issues_count": 0,
             "open_pull_requests_count": 0,
             "stargazers_count": 0
+        },
+        {
+            "commits_since_release": 7,
+            "commits_since_release_url": "https://github.com/gantsign/code-style-intellij/compare/1.0.0...master",
+            "data_at": "2018-09-14T11:50:00Z",
+            "downloads_count": null,
+            "latest_release_at": "2016-09-11T17:23:53Z",
+            "latest_release_url": "https://github.com/gantsign/code-style-intellij/releases/tag/1.0.0",
+            "latest_release_version": "1.0.0",
+            "open_issues_count": 0,
+            "open_pull_requests_count": 0,
+            "stargazers_count": 0
         }
     ],
     "name": "code-style-intellij",
