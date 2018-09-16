@@ -147,6 +147,18 @@
             "open_issues_count": 0,
             "open_pull_requests_count": 0,
             "stargazers_count": 16
+        },
+        {
+            "commits_since_release": 3,
+            "commits_since_release_url": "https://github.com/gantsign/development-environment/compare/1.23.0...master",
+            "data_at": "2018-09-16T13:06:16Z",
+            "downloads_count": null,
+            "latest_release_at": "2018-08-26T10:19:07Z",
+            "latest_release_url": "https://github.com/gantsign/development-environment/releases/tag/1.23.0",
+            "latest_release_version": "1.23.0",
+            "open_issues_count": 0,
+            "open_pull_requests_count": 1,
+            "stargazers_count": 16
         }
     ],
     "name": "development-environment",
