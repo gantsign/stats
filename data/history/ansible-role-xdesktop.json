@@ -195,6 +195,18 @@
             "open_issues_count": 0,
             "open_pull_requests_count": 0,
             "stargazers_count": 0
+        },
+        {
+            "commits_since_release": 0,
+            "commits_since_release_url": "https://github.com/gantsign/ansible-role-xdesktop/compare/3.0.1...master",
+            "data_at": "2018-09-20T10:38:43Z",
+            "downloads_count": null,
+            "latest_release_at": "2018-09-16T06:52:43Z",
+            "latest_release_url": "https://github.com/gantsign/ansible-role-xdesktop/releases/tag/3.0.1",
+            "latest_release_version": "3.0.1",
+            "open_issues_count": 0,
+            "open_pull_requests_count": 0,
+            "stargazers_count": 0
         }
     ],
     "name": "ansible-role-xdesktop",
