@@ -123,6 +123,18 @@
             "open_issues_count": 0,
             "open_pull_requests_count": 0,
             "stargazers_count": 1
+        },
+        {
+            "commits_since_release": 4,
+            "commits_since_release_url": "https://github.com/gantsign/maven-archetypes/compare/2.3.2...master",
+            "data_at": "2018-09-21T10:39:44Z",
+            "downloads_count": null,
+            "latest_release_at": "2018-09-15T19:44:23Z",
+            "latest_release_url": "https://github.com/gantsign/maven-archetypes/releases/tag/2.3.2",
+            "latest_release_version": "2.3.2",
+            "open_issues_count": 0,
+            "open_pull_requests_count": 0,
+            "stargazers_count": 1
         }
     ],
     "name": "maven-archetypes",
