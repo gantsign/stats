@@ -27,6 +27,18 @@
             "open_issues_count": 0,
             "open_pull_requests_count": 0,
             "stargazers_count": 0
+        },
+        {
+            "commits_since_release": 0,
+            "commits_since_release_url": "https://github.com/gantsign/ansible_role_intellij_jdks/compare/1.0.0...master",
+            "data_at": "2018-09-27T10:42:21Z",
+            "downloads_count": 0,
+            "latest_release_at": "2018-09-24T15:05:31Z",
+            "latest_release_url": "https://github.com/gantsign/ansible_role_intellij_jdks/releases/tag/1.0.0",
+            "latest_release_version": "1.0.0",
+            "open_issues_count": 0,
+            "open_pull_requests_count": 0,
+            "stargazers_count": 0
         }
     ],
     "name": "ansible_role_intellij_jdks",
