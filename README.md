@@ -10,7 +10,7 @@ GantSign open-source projects.
 ## Web interface
 
 You can view the web interface at
-[http://gantsign.com/stats](http://gantsign.com/stats).
+[https://gantsign.com/stats](https://gantsign.com/stats).
 
 ## Gathering data
 
