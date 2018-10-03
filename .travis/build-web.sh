@@ -41,6 +41,10 @@ if [ "$TRAVIS_PULL_REQUEST" == "false" ] && [ "$TRAVIS_BRANCH" == "master" ]; th
 
         git add --verbose .
 
+        if [[ "$(git status --porcelain)" == "" ]]; then
+            return 0
+        fi
+
         git commit --message="\
 Updated web application
 
