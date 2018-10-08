@@ -1,0 +1,25 @@
+{
+    "ansible_url": "https://galaxy.ansible.com/gantsign/pwquality",
+    "created_at": "2018-10-08T09:09:39Z",
+    "downloads_url": "https://galaxy.ansible.com/gantsign/pwquality",
+    "github_url": "https://github.com/gantsign/ansible_role_pwquality",
+    "history": [
+        {
+            "commits_since_release": null,
+            "commits_since_release_url": null,
+            "data_at": "2018-10-08T10:48:31Z",
+            "downloads_count": null,
+            "latest_release_at": null,
+            "latest_release_url": null,
+            "latest_release_version": null,
+            "open_issues_count": 0,
+            "open_pull_requests_count": 0,
+            "stargazers_count": 0
+        }
+    ],
+    "name": "ansible_role_pwquality",
+    "open_issues_url": "https://github.com/gantsign/ansible_role_pwquality/issues",
+    "open_pull_requests_url": "https://github.com/gantsign/ansible_role_pwquality/pulls",
+    "stargazers_url": "https://github.com/gantsign/ansible_role_pwquality/stargazers",
+    "url": "https://galaxy.ansible.com/gantsign/pwquality"
+}

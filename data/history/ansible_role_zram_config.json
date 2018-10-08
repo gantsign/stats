@@ -411,6 +411,18 @@
             "open_issues_count": 0,
             "open_pull_requests_count": 0,
             "stargazers_count": 1
+        },
+        {
+            "commits_since_release": 0,
+            "commits_since_release_url": "https://github.com/gantsign/ansible_role_zram_config/compare/1.4.1...master",
+            "data_at": "2018-10-08T10:48:31Z",
+            "downloads_count": 1629,
+            "latest_release_at": "2018-09-16T07:04:59Z",
+            "latest_release_url": "https://github.com/gantsign/ansible_role_zram_config/releases/tag/1.4.1",
+            "latest_release_version": "1.4.1",
+            "open_issues_count": 0,
+            "open_pull_requests_count": 0,
+            "stargazers_count": 1
         }
     ],
     "name": "ansible_role_zram_config",
