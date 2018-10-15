@@ -495,6 +495,18 @@
             "open_issues_count": 0,
             "open_pull_requests_count": 0,
             "stargazers_count": 0
+        },
+        {
+            "commits_since_release": 0,
+            "commits_since_release_url": "https://github.com/gantsign/ansible_role_minikube/compare/1.3.0...master",
+            "data_at": "2018-10-15T11:04:26Z",
+            "downloads_count": 246,
+            "latest_release_at": "2018-10-11T08:28:38Z",
+            "latest_release_url": "https://github.com/gantsign/ansible_role_minikube/releases/tag/1.3.0",
+            "latest_release_version": "1.3.0",
+            "open_issues_count": 0,
+            "open_pull_requests_count": 0,
+            "stargazers_count": 0
         }
     ],
     "name": "ansible_role_minikube",
