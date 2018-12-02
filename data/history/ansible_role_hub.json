@@ -1071,6 +1071,18 @@
             "open_issues_count": 0,
             "open_pull_requests_count": 0,
             "stargazers_count": 0
+        },
+        {
+            "commits_since_release": 2,
+            "commits_since_release_url": "https://github.com/gantsign/ansible_role_hub/compare/1.1.1...master",
+            "data_at": "2018-12-02T11:18:01Z",
+            "downloads_count": 473,
+            "latest_release_at": "2018-09-26T16:13:42Z",
+            "latest_release_url": "https://github.com/gantsign/ansible_role_hub/releases/tag/1.1.1",
+            "latest_release_version": "1.1.1",
+            "open_issues_count": 0,
+            "open_pull_requests_count": 0,
+            "stargazers_count": 0
         }
     ],
     "name": "ansible_role_hub",
