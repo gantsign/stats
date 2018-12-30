@@ -1407,6 +1407,18 @@
             "open_issues_count": 0,
             "open_pull_requests_count": 0,
             "stargazers_count": 0
+        },
+        {
+            "commits_since_release": 0,
+            "commits_since_release_url": "https://github.com/gantsign/ansible_role_helm/compare/1.3.0...master",
+            "data_at": "2018-12-30T11:33:05Z",
+            "downloads_count": 409,
+            "latest_release_at": "2018-12-08T17:56:00Z",
+            "latest_release_url": "https://github.com/gantsign/ansible_role_helm/releases/tag/1.3.0",
+            "latest_release_version": "1.3.0",
+            "open_issues_count": 0,
+            "open_pull_requests_count": 0,
+            "stargazers_count": 0
         }
     ],
     "name": "ansible_role_helm",
