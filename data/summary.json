@@ -1,5 +1,5 @@
 {
-    "data_at": "2019-01-05T11:36:56Z",
+    "data_at": "2019-01-06T11:37:07Z",
     "repositories": [
         {
             "ansible_url": null,
@@ -326,7 +326,7 @@
             "commits_since_release": 0,
             "commits_since_release_url": "https://github.com/gantsign/ansible-role-golang/compare/2.0.3...master",
             "created_at": "2016-11-03T16:28:31Z",
-            "downloads_count": 2102,
+            "downloads_count": 2129,
             "downloads_url": "https://galaxy.ansible.com/gantsign/golang",
             "github_url": "https://github.com/gantsign/ansible-role-golang",
             "latest_release_at": "2018-12-15T14:49:11Z",
@@ -586,7 +586,7 @@
             "commits_since_release": 0,
             "commits_since_release_url": "https://github.com/gantsign/ansible-role-maven/compare/5.3.0...master",
             "created_at": "2016-08-13T09:17:34Z",
-            "downloads_count": 15190,
+            "downloads_count": 15200,
             "downloads_url": "https://galaxy.ansible.com/gantsign/maven",
             "github_url": "https://github.com/gantsign/ansible-role-maven",
             "latest_release_at": "2018-11-02T10:32:31Z",
@@ -915,7 +915,7 @@
             "name": "ansible-role-visual-studio-code",
             "open_issues_count": 1,
             "open_issues_url": "https://github.com/gantsign/ansible-role-visual-studio-code/issues",
-            "open_pull_requests_count": 0,
+            "open_pull_requests_count": 1,
             "open_pull_requests_url": "https://github.com/gantsign/ansible-role-visual-studio-code/pulls",
             "stargazers_count": 19,
             "stargazers_url": "https://github.com/gantsign/ansible-role-visual-studio-code/stargazers",
@@ -1283,10 +1283,10 @@
         }
     ],
     "total_commits_since_release": 87,
-    "total_downloads_count": 78815,
+    "total_downloads_count": 78852,
     "total_open_issues_count": 3,
     "total_open_issues_url": "https://github.com/issues?q=is%3Aopen+is%3Aissue+archived%3Afalse+user%3Agantsign",
-    "total_open_pull_requests_count": 16,
+    "total_open_pull_requests_count": 17,
     "total_open_pull_requests_url": "https://github.com/pulls?q=is%3Aopen+is%3Apr+archived%3Afalse+user%3Agantsign",
     "total_stargazers_count": 174,
     "url": "https://github.com/gantsign?type=source"
