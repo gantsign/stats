@@ -1923,6 +1923,18 @@
             "open_issues_count": 0,
             "open_pull_requests_count": 0,
             "stargazers_count": 4
+        },
+        {
+            "commits_since_release": 2,
+            "commits_since_release_url": "https://github.com/gantsign/ansible-role-postman/compare/2.3.0...master",
+            "data_at": "2019-02-12T11:56:40Z",
+            "downloads_count": 2301,
+            "latest_release_at": "2018-09-16T06:45:31Z",
+            "latest_release_url": "https://github.com/gantsign/ansible-role-postman/releases/tag/2.3.0",
+            "latest_release_version": "2.3.0",
+            "open_issues_count": 0,
+            "open_pull_requests_count": 0,
+            "stargazers_count": 4
         }
     ],
     "name": "ansible-role-postman",
