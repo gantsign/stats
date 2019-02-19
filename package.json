@@ -2,23 +2,39 @@
   "name": "stats",
   "version": "0.1.0",
   "private": true,
-  "homepage" : "http://gantsign.github.io/stats",
+  "homepage": "http://gantsign.github.io/stats",
   "dependencies": {
     "@material-ui/core": "^3.9.2",
+    "@types/jest": "24.0.5",
+    "@types/node": "11.9.4",
+    "@types/react": "16.8.3",
+    "@types/react-dom": "16.8.2",
+    "@types/semver": "^5.5.0",
     "axios": "^0.18.0",
-    "react": "^16.8.1",
-    "react-dom": "^16.8.1",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2",
+    "react-scripts": "2.1.5",
     "semver": "^5.6.0"
   },
-  "devDependencies": {
-    "react-scripts-kotlin": "2.1.12"
-  },
   "scripts": {
-    "start": "react-scripts-kotlin start",
-    "build": "react-scripts-kotlin build",
-    "eject": "react-scripts-kotlin eject",
-    "gen-idea-libs": "react-scripts-kotlin gen-idea-libs",
-    "get-types": "react-scripts-kotlin get-types --dest=src/types",
-    "postinstall": "npm run gen-idea-libs"
+    "start": "react-scripts start",
+    "prebuild": "tslint --project .",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "tslint --project ."
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3"
   }
 }

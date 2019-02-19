@@ -2,25 +2,10 @@
 
 set -e
 
-# Lint
-curl -sSLO https://github.com/shyiko/ktlint/releases/download/0.27.0/ktlint &&
-  chmod a+x ktlint
-
-./ktlint --color "src/**/*.kt"
-
-# Install nodejs
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-
-nvm install --lts node
-
 # Install dependencies
 npm install
 
 # Build web app
-unset _JAVA_OPTIONS
 npm run build
 
 if [ "$TRAVIS_PULL_REQUEST" == "false" ] && [ "$TRAVIS_BRANCH" == "master" ]; then

@@ -17,7 +17,9 @@ jobs:
     - name: Build web
       if: type != cron
 
-      language: java
+      language: node_js
+      node_js:
+        - "8"
 
       script:
         - .travis/build-web.sh
