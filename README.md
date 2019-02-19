@@ -48,7 +48,6 @@ pipenv run python report.py
 ## To build the web application
 
 Dependencies:
-* Java JDK 8 (you can install this using https://sdkman.io)
 * Node.js 8 (you can install this using https://github.com/creationix/nvm)
 
 To build the web interface run the following from the project root:
@@ -65,14 +64,14 @@ npm start
 
 ### Built using
 
-* [Kotlin](https://kotlinlang.org)
+* [TypeScript](https://www.typescriptlang.org)
 * [Node.js](https://nodejs.org)
 * [React](https://reactjs.org)
 * [Material-UI](https://material-ui.com)
 * [Axios](https://www.npmjs.com/package/axios)
 * [SemVer](https://www.npmjs.com/package/semver)
-* [Create React Kotlin App](https://github.com/JetBrains/create-react-kotlin-app)
-* [ktlint](https://github.com/shyiko/ktlint)
+* [Create React App](https://facebook.github.io/create-react-app/)
+* [TSLint](https://palantir.github.io/tslint/)
 
 ## License
 
