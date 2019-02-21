@@ -7,10 +7,12 @@ name = "pypi"
 pylint = "*"
 yapf = "*"
 rope = "*"
+nbconvert = "*"
 
 [packages]
 pygithub = "*"
 tqdm = "*"
+pandas = "*"
 
 [requires]
 python_version = "3.5"
