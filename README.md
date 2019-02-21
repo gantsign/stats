@@ -38,6 +38,7 @@ pipenv run python report.py
 ### Built using
 
 * [Python 3](https://www.python.org)
+* [pandas](https://pandas.pydata.org/)
 * [Pipenv](https://github.com/pypa/pipenv)
 * [PyGithub](https://github.com/PyGithub/PyGithub)
 * [tqdm](https://github.com/tqdm/tqdm)

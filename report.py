@@ -10,7 +10,9 @@ import urllib.request
 from datetime import datetime
 from operator import itemgetter
 
+import pandas as pd
 from github import Github
+from pandas.io.json import json_normalize
 from tqdm import tqdm
 
 organization = 'gantsign'
@@ -93,7 +95,7 @@ def copy_dict(src, keys):
     return result
 
 
-def update_repo_history(repo):
+def update_repo_history(repo, repos_history_df):
     history_dir = data_dir / 'history'
     history_dir.mkdir(parents=True, exist_ok=True)
 
@@ -124,6 +126,15 @@ def update_repo_history(repo):
     stats['data_at'] = data_at
     repo_history.append(stats)
 
+    repo_history_df = json_normalize(repo_history)
+    repo_history_df.data_at = pd.to_datetime(repo_history_df.data_at)
+    repo_history_df['repository_name'] = repo['name']
+    if 'downloads_count' in repo_history_df:
+        repo_history_df[
+            'downloads_delta'] = repo_history_df.downloads_count.fillna(
+                0).diff().shift(-1)
+    repos_history_df = pd.concat([repos_history_df, repo_history_df], sort=True)
+
     with repo_data_file.open('w') as outfile:
         json.dump(
             repo_data,
@@ -132,10 +143,16 @@ def update_repo_history(repo):
             indent=4,
             separators=(',', ': '))
 
+    return repos_history_df
+
 
 def update_repo_data():
     repos = list(g.get_organization(organization).get_repos())
 
+    repos_history_df = pd.DataFrame(columns=[
+        'repository_name', 'data_at', 'downloads_count', 'downloads_delta',
+        'open_issues_count', 'open_pull_requests_count', 'stargazers_count'
+    ])
     result_repos = []
     for repo in tqdm(
             iterable=repos, desc='Processing repositories', unit='repo'):
@@ -213,11 +230,11 @@ def update_repo_data():
             'downloads_url': downloads_url
         }
         result_repos.append(result_repo)
-        update_repo_history(result_repo)
+        repos_history_df = update_repo_history(result_repo, repos_history_df)
 
     result_repos = sorted(
         result_repos, key=lambda repo: normalize_repo_name(repo['name']))
-    return result_repos
+    return result_repos, repos_history_df
 
 
 def write_summary(repos):
@@ -271,4 +288,24 @@ def write_summary(repos):
             summary, outfile, sort_keys=True, indent=4, separators=(',', ': '))
 
 
-write_summary(update_repo_data())
+def write_downloads(repos_history_df):
+    downloads = repos_history_df.filter(
+        ['data_at', 'repository_name', 'downloads_count', 'downloads_delta'],
+        axis=1).dropna().to_json(
+            orient='records', date_format='iso')
+
+    downloads_file = data_dir / 'downloads.json'
+
+    with downloads_file.open('w') as outfile:
+        json.dump(
+            json.loads(downloads),
+            outfile,
+            sort_keys=True,
+            indent=4,
+            separators=(',', ': '))
+
+
+repo_data, repos_history_df = update_repo_data()
+
+write_summary(repo_data)
+write_downloads(repos_history_df)
