@@ -2043,6 +2043,18 @@
             "open_issues_count": 0,
             "open_pull_requests_count": 0,
             "stargazers_count": 9
+        },
+        {
+            "commits_since_release": 0,
+            "commits_since_release_url": "https://github.com/gantsign/ansible-role-golang/compare/2.0.4...master",
+            "data_at": "2019-02-22T12:02:58Z",
+            "downloads_count": 2880,
+            "latest_release_at": "2019-01-24T08:37:19Z",
+            "latest_release_url": "https://github.com/gantsign/ansible-role-golang/releases/tag/2.0.4",
+            "latest_release_version": "2.0.4",
+            "open_issues_count": 0,
+            "open_pull_requests_count": 0,
+            "stargazers_count": 9
         }
     ],
     "name": "ansible-role-golang",
