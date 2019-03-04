@@ -34,7 +34,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "tslint": "^5.13.0",
+    "tslint": "^5.13.1",
     "typescript": "^3.3.3333"
   }
 }
