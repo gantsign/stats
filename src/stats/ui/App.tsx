@@ -7,7 +7,7 @@ import {Summary} from "../model/Summary";
 import StatsService from "../service/StatsService";
 import {DownloadSnapshot} from "../model/DownloadSnapshot";
 
-const SummaryTable = React.lazy(() => import("./summarytable/SummaryTable"));
+const SummaryTable = React.lazy(() => import("./SummaryTable"));
 const DownloadsDialog = React.lazy(() => import("./DownloadsDialog"));
 
 library.add(faChartLine);
