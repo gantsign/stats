@@ -1,5 +1,6 @@
 import React from 'react';
 import {
+    IconButton,
     MuiThemeProvider,
     Paper,
     Table,
@@ -27,8 +28,7 @@ import {
 import {StyleRules} from "@material-ui/core/styles";
 import {Summary} from "../../model/Summary";
 import Semver from "semver";
-import {AxiosResponse} from "axios";
-import StatsService from "../../service/StatsService";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 class Column {
     constructor(
@@ -39,7 +39,8 @@ class Column {
             readonly linkAccessor: (repo: SummaryRepository) => string | null,
             readonly comparator: (a: SummaryRepository, b: SummaryRepository) => number,
             readonly totalAccessor: (summary: Summary) => string,
-            readonly totalLinkAccessor: (summary: Summary) => string | null
+            readonly totalLinkAccessor: (summary: Summary) => string | null,
+            readonly iconAccessor: (repo: SummaryRepository, props: SummaryTableProps) => JSX.Element | null
     ) {
     }
 }
@@ -65,6 +66,9 @@ const columns: Column[] = [
             },
             (): string | null => {
                 return null;
+            },
+            () => {
+                return null;
             }
     ),
     new Column(
@@ -87,6 +91,9 @@ const columns: Column[] = [
             },
             (summary: Summary): string | null => {
                 return summary.url;
+            },
+            () => {
+                return null;
             }
     ),
     new Column(
@@ -109,6 +116,9 @@ const columns: Column[] = [
             },
             (summary: Summary): string | null => {
                 return summary.total_open_issues_url;
+            },
+            () => {
+                return null;
             }
     ),
     new Column(
@@ -131,6 +141,9 @@ const columns: Column[] = [
             },
             (summary: Summary): string | null => {
                 return summary.total_open_pull_requests_url;
+            },
+            () => {
+                return null;
             }
     ),
     new Column(
@@ -165,6 +178,9 @@ const columns: Column[] = [
             },
             (): string | null => {
                 return null;
+            },
+            () => {
+                return null;
             }
     ),
     new Column(
@@ -186,6 +202,9 @@ const columns: Column[] = [
                 return "";
             },
             (): string | null => {
+                return null;
+            },
+            () => {
                 return null;
             }
     ),
@@ -209,6 +228,9 @@ const columns: Column[] = [
             },
             (): string | null => {
                 return null;
+            },
+            () => {
+                return null;
             }
     ),
     new Column(
@@ -230,6 +252,9 @@ const columns: Column[] = [
                 return toLocaleString(summary.total_stargazers_count);
             },
             (): string | null => {
+                return null;
+            },
+            () => {
                 return null;
             }
     ),
@@ -253,6 +278,16 @@ const columns: Column[] = [
             },
             (): string | null => {
                 return null;
+            },
+            (repo: SummaryRepository, props: SummaryTableProps) => {
+                return repo.downloads_count ? (
+                        <IconButton
+                                onClick={() => props.onShowDownloadsChart(repo.name)}
+                                className={props.classes.chartIcon}
+                                disableRipple={true}>
+                            <FontAwesomeIcon icon="chart-line"/>
+                        </IconButton>
+                ) : null;
             }
     ),
 ];
@@ -331,16 +366,10 @@ const TotalRow = withStyles(totalRowStyles)(TotalRowBase);
 class SummaryTableBase extends React.Component<SummaryTableProps, SummaryTableState> {
 
     componentDidMount(): void {
-        (async () => {
-            const response: AxiosResponse<Summary> = await StatsService.getSummary();
-            if (response.status === 200) {
-                this.setState({
-                    order: "asc",
-                    orderBy: "name",
-                    summary: response.data
-                });
-            }
-        })();
+        this.setState({
+            orderBy: "name",
+            order: "asc"
+        });
     }
 
     sortBy = (columnId: string) => {
@@ -353,8 +382,7 @@ class SummaryTableBase extends React.Component<SummaryTableProps, SummaryTableSt
 
         this.setState({
             orderBy: columnId,
-            order,
-            summary: this.state.summary
+            order
         });
     };
 
@@ -363,10 +391,7 @@ class SummaryTableBase extends React.Component<SummaryTableProps, SummaryTableSt
         if (!state) {
             return (<div>Loading...</div>);
         }
-        const summary = state.summary;
-        if (!summary) {
-            return (<div>Loading...</div>);
-        }
+        const summary = this.props.summary;
         const classes: any = this.props.classes;
         const orderBy: string = state.orderBy || "name";
         const order: SortDirection = state.order || "asc";
@@ -438,6 +463,7 @@ class SummaryTableBase extends React.Component<SummaryTableProps, SummaryTableSt
                                                         <TableCell key={column.id}
                                                                    align={column.numeric ? "right" : "left"}>
                                                             {contents}
+                                                            {column.iconAccessor(repository, this.props) || ""}
                                                         </TableCell>
                                                 );
                                             })}
@@ -490,6 +516,11 @@ const styles = (theme: Theme): StyleRules => {
                 color: theme.typography.body1.color,
                 textDecoration: "underline"
             }
+        },
+        chartIcon: {
+            padding: 0,
+            paddingLeft: "0.25em",
+            borderRadius: 0
         }
     };
 };
