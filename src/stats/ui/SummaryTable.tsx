@@ -14,19 +14,17 @@ import {
     Tooltip,
     withStyles
 } from "@material-ui/core";
-import {SummaryTableProps} from "./SummaryTableProps";
-import {SummaryTableState} from "./SummaryTableState";
 import {SortDirection} from "@material-ui/core/TableCell";
-import {SummaryRepository} from "../../model/SummaryRepository";
+import {SummaryRepository} from "../model/SummaryRepository";
 import {
     darkTheme,
     parseIsoDateToMillis,
     reformatIsoAsLocaleDate,
     reformatIsoAsLocaleDatetime,
     toLocaleString
-} from "../App";
+} from "./App";
 import {StyleRules} from "@material-ui/core/styles";
-import {Summary} from "../../model/Summary";
+import {Summary} from "../model/Summary";
 import Semver from "semver";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
@@ -267,6 +265,22 @@ const totalRowStyles = (theme: Theme): StyleRules => ({
 });
 
 const TotalRow = withStyles(totalRowStyles)(TotalRowBase);
+
+interface SummaryTableProps {
+
+    summary: Summary;
+
+    classes: any;
+
+    onShowDownloadsChart: (repositoryName: string) => void;
+}
+
+interface SummaryTableState {
+
+    orderBy?: string;
+
+    order?: SortDirection;
+}
 
 class SummaryTableBase extends React.Component<SummaryTableProps, SummaryTableState> {
 
