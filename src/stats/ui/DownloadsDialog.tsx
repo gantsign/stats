@@ -162,11 +162,9 @@ class DownloadsDialogBase extends React.Component<DownloadsDialogProps, Download
                         if (!repositoryName) {
                             return <></>;
                         }
-                        return (
-                                <DownloadChart downloadsDf={downloadsDf}
-                                               repositoryName={repositoryName}
-                                               variant={variant}/>
-                        );
+                        return <DownloadChart downloadsDf={downloadsDf}
+                                              repositoryName={repositoryName}
+                                              variant={variant}/>;
                     })()}
                 </Dialog>
         );

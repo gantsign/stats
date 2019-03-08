@@ -87,16 +87,16 @@ class App extends React.Component<{}, AppState> {
     render() {
         const state = this.state;
         if (!state) {
-            return (<div>Loading...</div>);
+            return <div>Loading...</div>;
         }
         const errorMessage = state.errorMessage;
         if (errorMessage) {
-            return (<div>{errorMessage}</div>);
+            return <div>{errorMessage}</div>;
         }
         const summary = state.summary || null;
         const downloads = state.downloads || [];
         if (!summary) {
-            return (<div>Loading...</div>);
+            return <div>Loading...</div>;
         }
 
         const repositoryName = state.repositoryName || null;
@@ -107,7 +107,7 @@ class App extends React.Component<{}, AppState> {
                     <Suspense fallback={<div>Loading...</div>}>
                         <SummaryTable
                                 summary={summary}
-                                onShowDownloadsChart={(repositoryName) => this.showChart(repositoryName)}/>
+                                onShowDownloadsChart={repositoryName => this.showChart(repositoryName)}/>
                     </Suspense>
                     <Suspense fallback={<></>}>
                         <DownloadsDialog
