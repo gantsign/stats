@@ -8,7 +8,6 @@ import sys
 import time
 import urllib.request
 from datetime import datetime
-from operator import itemgetter
 
 import pandas as pd
 from github import Github
@@ -67,7 +66,7 @@ def get_ansible_downloads(repo_name):
     role_name = repo_name[len(role_prefix):]
 
     if galaxy_namespace is None:
-        return (None, role_name)
+        return None, role_name
 
     role_name = repo_name[len(role_prefix):]
 
@@ -83,9 +82,9 @@ def get_ansible_downloads(repo_name):
             galaxy_response = json.loads(url_connection.read().decode())
             results = galaxy_response.get('results')
             if results is None or len(results) != 1:
-                return (None, role_name)
-            return (results[0].get('download_count'), role_name)
-    return (None, role_name)
+                return None, role_name
+            return results[0].get('download_count'), role_name
+    return None, role_name
 
 
 def copy_dict(src, keys):
@@ -101,7 +100,6 @@ def update_repo_history(repo, repos_history_df):
 
     repo_data_file = history_dir / (repo['name'] + '.json')
 
-    repo_history = []
     if repo_data_file.exists():
         with repo_data_file.open('r') as infile:
             repo_data = json.load(infile)
