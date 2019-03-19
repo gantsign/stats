@@ -175,10 +175,11 @@ def update_repo_data():
         downloads_count = None
         if normalize_repo_name(repo.name).startswith(role_prefix):
             downloads_count, role_name = get_ansible_downloads(repo.name)
-            ansible_url = 'https://galaxy.ansible.com/%s/%s' % (organization,
-                                                                role_name)
-            url = ansible_url
-            downloads_url = url
+            if downloads_count is not None:
+                ansible_url = 'https://galaxy.ansible.com/%s/%s' % (
+                    organization, role_name)
+                url = ansible_url
+                downloads_url = url
         else:
             for release in repo.get_releases():
                 for asset in release.get_assets():
