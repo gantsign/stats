@@ -2379,6 +2379,18 @@
             "open_issues_count": 0,
             "open_pull_requests_count": 0,
             "stargazers_count": 0
+        },
+        {
+            "commits_since_release": 8,
+            "commits_since_release_url": "https://github.com/gantsign/kotlin-maven-plugin-tools/compare/0.9.13...master",
+            "data_at": "2019-03-23T12:16:10Z",
+            "downloads_count": null,
+            "latest_release_at": "2019-03-09T21:46:23Z",
+            "latest_release_url": "https://github.com/gantsign/kotlin-maven-plugin-tools/releases/tag/0.9.13",
+            "latest_release_version": "0.9.13",
+            "open_issues_count": 0,
+            "open_pull_requests_count": 0,
+            "stargazers_count": 0
         }
     ],
     "name": "kotlin-maven-plugin-tools",
