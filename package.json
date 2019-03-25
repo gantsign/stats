@@ -17,7 +17,7 @@
     "@types/react-plotly.js": "^2.2.2",
     "@types/semver": "^5.5.0",
     "axios": "^0.18.0",
-    "data-forge": "^1.5.1",
+    "data-forge": "^1.6.2",
     "plotly.js": "^1.45.3",
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
