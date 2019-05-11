@@ -1,11 +1,9 @@
 export interface DownloadSnapshot {
+  data_at: string;
 
-    data_at: string;
+  downloads_delta: number;
 
-    downloads_delta: number;
+  downloads_count: number;
 
-    downloads_count: number;
-
-    repository_name: string;
-
+  repository_name: string;
 }
