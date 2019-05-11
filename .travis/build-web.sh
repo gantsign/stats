@@ -5,6 +5,16 @@ set -e
 # Install dependencies
 npm install
 
+# Check if files are properly formatted
+npm run fix
+if [[ $(git status --porcelain=v1 --untracked-files=no | \
+        grep --invert-match 'package-lock.json') ]]; then
+    echo "Source files not properly formatted, reformat and push again."
+    git status --porcelain=v1 --untracked-files=no | \
+        grep --invert-match 'package-lock.json'
+    exit 1
+fi
+
 # Build web app
 npm run build
 
