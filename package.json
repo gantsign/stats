@@ -27,8 +27,8 @@
     "semver": "^6.0.0"
   },
   "scripts": {
+    "prestart": "gts fix",
     "start": "react-scripts start",
-    "prebuild": "gts fix",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
