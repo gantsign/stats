@@ -25,6 +25,13 @@ indent_style = space
 indent_size = 4
 trim_trailing_whitespaces = false
 
+# Follow Google Style for TypeScript
+[*.{ts,tsx}]
+indent_style = space
+indent_size = 2
+continuation_indent_size = unset
+charset = utf-8
+
 # Python
 [*.py]
 indent_style = space
@@ -39,7 +46,7 @@ continuation_indent_size = 4
 charset = utf-8
 
 # Files with a smaller indent
-[*.{xml}]
+[*.{xml,json}]
 indent_style = space
 indent_size = 2
 continuation_indent_size = 4
