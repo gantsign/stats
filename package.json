@@ -1,8 +1,22 @@
 {
-  "name": "stats",
-  "version": "0.1.0",
   "private": true,
+  "name": "stats",
   "homepage": "http://gantsign.github.io/stats",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "react-scripts build",
+    "check": "gts check",
+    "clean": "gts clean",
+    "compile": "tsc -p .",
+    "eject": "react-scripts eject",
+    "fix": "gts fix && prettier-package-json --write",
+    "prepare": "npm run compile",
+    "start": "react-scripts start",
+    "prestat": "gts fix && prettier-package-json --write",
+    "pretest": "npm run compile",
+    "test": "react-scripts test",
+    "posttest": "npm run check"
+  },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.18",
     "@fortawesome/free-solid-svg-icons": "^5.8.2",
@@ -26,22 +40,11 @@
     "react-scripts": "3.0.1",
     "semver": "^6.0.0"
   },
-  "scripts": {
-    "prestart": "gts fix",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "check": "gts check",
-    "clean": "gts clean",
-    "compile": "tsc -p .",
-    "fix": "gts fix",
-    "prepare": "npm run compile",
-    "pretest": "npm run compile",
-    "posttest": "npm run check"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
+  "devDependencies": {
+    "gts": "^1.0.0",
+    "prettier-package-json": "^2.1.0",
+    "tslint": "^5.16.0",
+    "typescript": "^3.4.5"
   },
   "browserslist": [
     ">0.2%",
@@ -49,9 +52,7 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "devDependencies": {
-    "tslint": "^5.16.0",
-    "typescript": "^3.4.5",
-    "gts": "^1.0.0"
+  "eslintConfig": {
+    "extends": "react-app"
   }
 }
