@@ -38,7 +38,7 @@
     "react-measure": "^2.3.0",
     "react-plotly.js": "^2.3.0",
     "react-scripts": "3.0.1",
-    "semver": "^6.0.0"
+    "semver": "^6.1.0"
   },
   "devDependencies": {
     "gts": "^1.0.0",
