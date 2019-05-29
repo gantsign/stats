@@ -3123,6 +3123,18 @@
             "open_issues_count": 0,
             "open_pull_requests_count": 0,
             "stargazers_count": 1
+        },
+        {
+            "commits_since_release": 2,
+            "commits_since_release_url": "https://github.com/gantsign/ansible_role_kompose/compare/1.2.0...master",
+            "data_at": "2019-05-29T12:45:53Z",
+            "downloads_count": 632,
+            "latest_release_at": "2019-03-01T23:18:18Z",
+            "latest_release_url": "https://github.com/gantsign/ansible_role_kompose/releases/tag/1.2.0",
+            "latest_release_version": "1.2.0",
+            "open_issues_count": 0,
+            "open_pull_requests_count": 0,
+            "stargazers_count": 1
         }
     ],
     "name": "ansible_role_kompose",
