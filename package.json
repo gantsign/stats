@@ -44,7 +44,7 @@
     "gts": "^1.0.0",
     "json": "^9.0.6",
     "prettier-package-json": "^2.1.0",
-    "tslint": "^5.17.0",
+    "tslint": "^5.18.0",
     "typescript": "^3.5.2"
   },
   "browserslist": [
