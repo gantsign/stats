@@ -32,10 +32,10 @@
         },
         "deprecated": {
             "hashes": [
-                "sha256:2f293eb0eee34b1fcf3da530fe8fc4b0d71d43ddc2dc78e2ffb444b6c0868557",
-                "sha256:749f6cdcfbdc3f79258f8154bad43fced95adc632c337675d0385959895894bc"
+                "sha256:a515c4cf75061552e0284d123c3066fbbe398952c87333a92b8fc3dd8e4f9cc1",
+                "sha256:b07b414c8aac88f60c1d837d21def7e83ba711052e03b3cbaff27972567a8f8d"
             ],
-            "version": "==1.2.5"
+            "version": "==1.2.6"
         },
         "idna": {
             "hashes": [
@@ -214,10 +214,10 @@
         },
         "isort": {
             "hashes": [
-                "sha256:c40744b6bc5162bbb39c1257fe298b7a393861d50978b565f3ccd9cb9de0182a",
-                "sha256:f57abacd059dc3bd666258d1efb0377510a89777fda3e3274e3c01f7c03ae22d"
+                "sha256:54da7e92468955c4fceacd0c86bd0ec997b0e1ee80d97f67c35a78b719dccab1",
+                "sha256:6e811fcb295968434526407adb8796944f1988c5b65e8139058f2014cbe100fd"
             ],
-            "version": "==4.3.20"
+            "version": "==4.3.21"
         },
         "jinja2": {
             "hashes": [
@@ -348,9 +348,9 @@
         },
         "pyrsistent": {
             "hashes": [
-                "sha256:16692ee739d42cf5e39cef8d27649a8c1fdb7aa99887098f1460057c5eb75c3a"
+                "sha256:50cffebc87ca91b9d4be2dcc2e479272bcb466b5a0487b6c271f7ddea6917e14"
             ],
-            "version": "==0.15.2"
+            "version": "==0.15.3"
         },
         "rope": {
             "hashes": [
@@ -418,11 +418,11 @@
         },
         "yapf": {
             "hashes": [
-                "sha256:34f6f80c446dcb2c44bd644c4037a2024b6645e293a4c9c4521983dd0bb247a1",
-                "sha256:613deba14233623ff3432d9d5032631b5f600be97b39f66932cbe67648bfa8ea"
+                "sha256:02ace10a00fa2e36c7ebd1df2ead91dbfbd7989686dc4ccbdc549e95d19f5780",
+                "sha256:6f94b6a176a7c114cfa6bad86d40f259bbe0f10cf2fa7f2f4b3596fc5802a41b"
             ],
             "index": "pypi",
-            "version": "==0.27.0"
+            "version": "==0.28.0"
         }
     }
 }
