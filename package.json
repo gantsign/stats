@@ -4,7 +4,7 @@
   "homepage": "http://gantsign.github.io/stats",
   "version": "0.1.0",
   "scripts": {
-    "build": "react-scripts build",
+    "build": "react-scripts --max_old_space_size=6144 build",
     "check": "gts check",
     "clean": "gts clean",
     "compile": "tsc -p .",

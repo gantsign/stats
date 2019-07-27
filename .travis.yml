@@ -21,10 +21,6 @@ jobs:
       node_js:
         - '10'
 
-      env:
-        global:
-          - NODE_OPTIONS='--max_old_space_size=6144'
-
       script:
         - .travis/build-web.sh
 
