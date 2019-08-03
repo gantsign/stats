@@ -33,9 +33,7 @@ class App extends React.Component<{}, AppState> {
       const summaryResponse: AxiosResponse<Summary> = await summaryPromise;
       if (summaryResponse.status !== 200) {
         console.log(
-          `Summary request failed: [${summaryResponse.status} ${
-            summaryResponse.statusText
-          }] ${summaryResponse.data}`
+          `Summary request failed: [${summaryResponse.status} ${summaryResponse.statusText}] ${summaryResponse.data}`
         );
         this.setState({
           errorMessage:
@@ -49,9 +47,7 @@ class App extends React.Component<{}, AppState> {
       > = await downloadsPromise;
       if (downloadsResponse.status !== 200) {
         console.log(
-          `Downloads request failed: [${downloadsResponse.status} ${
-            downloadsResponse.statusText
-          }] ${downloadsResponse.data}`
+          `Downloads request failed: [${downloadsResponse.status} ${downloadsResponse.statusText}] ${downloadsResponse.data}`
         );
         this.setState({
           errorMessage:

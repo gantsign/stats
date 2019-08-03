@@ -109,13 +109,11 @@ class DownloadsDialogBase extends React.Component<
       .getSeries('repository_name')
       .distinct()
       .toArray()
-      .sort(
-        (nameA: string, nameB: string): number => {
-          const nameNormA = nameA.replace('_', '-');
-          const nameNormB = nameB.replace('_', '-');
-          return nameNormA.localeCompare(nameNormB);
-        }
-      );
+      .sort((nameA: string, nameB: string): number => {
+        const nameNormA = nameA.replace('_', '-');
+        const nameNormB = nameB.replace('_', '-');
+        return nameNormA.localeCompare(nameNormB);
+      });
 
     const open = this.props.open;
 
