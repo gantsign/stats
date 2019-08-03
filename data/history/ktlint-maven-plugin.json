@@ -3963,6 +3963,18 @@
             "open_issues_count": 0,
             "open_pull_requests_count": 1,
             "stargazers_count": 12
+        },
+        {
+            "commits_since_release": 14,
+            "commits_since_release_url": "https://github.com/gantsign/ktlint-maven-plugin/compare/1.1.1...master",
+            "data_at": "2019-08-03T13:16:19Z",
+            "downloads_count": null,
+            "latest_release_at": "2019-06-23T08:59:57Z",
+            "latest_release_url": "https://github.com/gantsign/ktlint-maven-plugin/releases/tag/1.1.1",
+            "latest_release_version": "1.1.1",
+            "open_issues_count": 0,
+            "open_pull_requests_count": 3,
+            "stargazers_count": 12
         }
     ],
     "name": "ktlint-maven-plugin",
