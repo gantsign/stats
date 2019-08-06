@@ -3999,6 +3999,18 @@
             "open_issues_count": 0,
             "open_pull_requests_count": 0,
             "stargazers_count": 6
+        },
+        {
+            "commits_since_release": 8,
+            "commits_since_release_url": "https://github.com/gantsign/ansible-role-inotify/compare/1.2.0...master",
+            "data_at": "2019-08-06T13:41:34Z",
+            "downloads_count": 2093,
+            "latest_release_at": "2018-09-15T15:02:08Z",
+            "latest_release_url": "https://github.com/gantsign/ansible-role-inotify/releases/tag/1.2.0",
+            "latest_release_version": "1.2.0",
+            "open_issues_count": 0,
+            "open_pull_requests_count": 0,
+            "stargazers_count": 6
         }
     ],
     "name": "ansible-role-inotify",
