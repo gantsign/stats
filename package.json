@@ -34,7 +34,7 @@
     "data-forge": "^1.7.2",
     "plotly.js": "^1.49.1",
     "react": "^16.9.0",
-    "react-dom": "^16.8.6",
+    "react-dom": "^16.9.0",
     "react-measure": "^2.3.0",
     "react-plotly.js": "^2.3.0",
     "semver": "^6.3.0"
