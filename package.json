@@ -45,7 +45,7 @@
     "prettier-package-json": "^2.1.0",
     "react-scripts": "3.1.1",
     "tslint": "^5.19.0",
-    "typescript": "^3.6.2"
+    "typescript": "^3.6.3"
   },
   "browserslist": [
     ">0.2%",
