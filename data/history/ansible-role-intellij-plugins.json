@@ -4659,6 +4659,18 @@
             "open_issues_count": 0,
             "open_pull_requests_count": 0,
             "stargazers_count": 4
+        },
+        {
+            "commits_since_release": 8,
+            "commits_since_release_url": "https://github.com/gantsign/ansible-role-intellij-plugins/compare/2.0.1...master",
+            "data_at": "2019-09-30T13:43:09Z",
+            "downloads_count": 2122,
+            "latest_release_at": "2018-09-24T13:05:19Z",
+            "latest_release_url": "https://github.com/gantsign/ansible-role-intellij-plugins/releases/tag/2.0.1",
+            "latest_release_version": "2.0.1",
+            "open_issues_count": 0,
+            "open_pull_requests_count": 0,
+            "stargazers_count": 4
         }
     ],
     "name": "ansible-role-intellij-plugins",
