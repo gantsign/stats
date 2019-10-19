@@ -36,7 +36,7 @@
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-measure": "^2.3.0",
-    "react-plotly.js": "^2.3.0",
+    "react-plotly.js": "^2.4.0",
     "semver": "^6.3.0"
   },
   "devDependencies": {
