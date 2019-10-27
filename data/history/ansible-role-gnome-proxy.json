@@ -4983,6 +4983,18 @@
             "open_issues_count": 0,
             "open_pull_requests_count": 0,
             "stargazers_count": 1
+        },
+        {
+            "commits_since_release": 7,
+            "commits_since_release_url": "https://github.com/gantsign/ansible-role-gnome-proxy/compare/1.2.0...master",
+            "data_at": "2019-10-27T13:54:15Z",
+            "downloads_count": 1983,
+            "latest_release_at": "2018-09-15T14:56:08Z",
+            "latest_release_url": "https://github.com/gantsign/ansible-role-gnome-proxy/releases/tag/1.2.0",
+            "latest_release_version": "1.2.0",
+            "open_issues_count": 0,
+            "open_pull_requests_count": 0,
+            "stargazers_count": 1
         }
     ],
     "name": "ansible-role-gnome-proxy",
