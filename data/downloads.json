@@ -2502,6 +2502,12 @@
         "repository_name": "ansible-role-lightdm"
     },
     {
+        "data_at": "2019-10-29T13:55:17.000Z",
+        "downloads_count": 4371,
+        "downloads_delta": 9.0,
+        "repository_name": "ansible-role-lightdm"
+    },
+    {
         "data_at": "2018-09-04T10:09:41.000Z",
         "downloads_count": 1313,
         "downloads_delta": 0.0,
@@ -4999,6 +5005,12 @@
     },
     {
         "data_at": "2019-10-28T13:54:49.000Z",
+        "downloads_count": 2354,
+        "downloads_delta": 0.0,
+        "repository_name": "ansible-role-maven-notifier"
+    },
+    {
+        "data_at": "2019-10-29T13:55:17.000Z",
         "downloads_count": 2354,
         "downloads_delta": 0.0,
         "repository_name": "ansible-role-maven-notifier"
@@ -7506,6 +7518,12 @@
         "repository_name": "ansible_role_zram_config"
     },
     {
+        "data_at": "2019-10-29T13:55:17.000Z",
+        "downloads_count": 2344,
+        "downloads_delta": 0.0,
+        "repository_name": "ansible_role_zram_config"
+    },
+    {
         "data_at": "2018-09-04T10:09:41.000Z",
         "downloads_count": 2009,
         "downloads_delta": 22.0,
@@ -10005,6 +10023,12 @@
         "data_at": "2019-10-28T13:54:49.000Z",
         "downloads_count": 5259,
         "downloads_delta": 11.0,
+        "repository_name": "ansible-role-keyboard"
+    },
+    {
+        "data_at": "2019-10-29T13:55:17.000Z",
+        "downloads_count": 5270,
+        "downloads_delta": 17.0,
         "repository_name": "ansible-role-keyboard"
     },
     {
@@ -12510,6 +12534,12 @@
         "repository_name": "ansible-role-atom"
     },
     {
+        "data_at": "2019-10-29T13:55:17.000Z",
+        "downloads_count": 3332,
+        "downloads_delta": 7.0,
+        "repository_name": "ansible-role-atom"
+    },
+    {
         "data_at": "2018-09-04T10:09:41.000Z",
         "downloads_count": 1358,
         "downloads_delta": 15.0,
@@ -15007,6 +15037,12 @@
     },
     {
         "data_at": "2019-10-28T13:54:49.000Z",
+        "downloads_count": 2422,
+        "downloads_delta": 0.0,
+        "repository_name": "ansible-role-audio"
+    },
+    {
+        "data_at": "2019-10-29T13:55:17.000Z",
         "downloads_count": 2422,
         "downloads_delta": 0.0,
         "repository_name": "ansible-role-audio"
@@ -17514,6 +17550,12 @@
         "repository_name": "ansible-role-intellij"
     },
     {
+        "data_at": "2019-10-29T13:55:17.000Z",
+        "downloads_count": 10317,
+        "downloads_delta": 7.0,
+        "repository_name": "ansible-role-intellij"
+    },
+    {
         "data_at": "2018-09-04T10:09:41.000Z",
         "downloads_count": 1370,
         "downloads_delta": 15.0,
@@ -20011,6 +20053,12 @@
     },
     {
         "data_at": "2019-10-28T13:54:49.000Z",
+        "downloads_count": 2455,
+        "downloads_delta": 0.0,
+        "repository_name": "ansible-role-apt"
+    },
+    {
+        "data_at": "2019-10-29T13:55:17.000Z",
         "downloads_count": 2455,
         "downloads_delta": 0.0,
         "repository_name": "ansible-role-apt"
@@ -22518,6 +22566,12 @@
         "repository_name": "ansible-role-visual-studio-code"
     },
     {
+        "data_at": "2019-10-29T13:55:17.000Z",
+        "downloads_count": 8954,
+        "downloads_delta": 20.0,
+        "repository_name": "ansible-role-visual-studio-code"
+    },
+    {
         "data_at": "2018-09-04T10:09:41.000Z",
         "downloads_count": 8074,
         "downloads_delta": 98.0,
@@ -25017,6 +25071,12 @@
         "data_at": "2019-10-28T13:54:49.000Z",
         "downloads_count": 30922,
         "downloads_delta": 120.0,
+        "repository_name": "ansible-role-maven"
+    },
+    {
+        "data_at": "2019-10-29T13:55:17.000Z",
+        "downloads_count": 31042,
+        "downloads_delta": 89.0,
         "repository_name": "ansible-role-maven"
     },
     {
@@ -27522,6 +27582,12 @@
         "repository_name": "ansible-role-java"
     },
     {
+        "data_at": "2019-10-29T13:55:17.000Z",
+        "downloads_count": 15799,
+        "downloads_delta": 46.0,
+        "repository_name": "ansible-role-java"
+    },
+    {
         "data_at": "2018-09-04T10:09:41.000Z",
         "downloads_count": 2851,
         "downloads_delta": 19.0,
@@ -30024,6 +30090,12 @@
         "repository_name": "ansible-role-oh-my-zsh"
     },
     {
+        "data_at": "2019-10-29T13:55:17.000Z",
+        "downloads_count": 11436,
+        "downloads_delta": 64.0,
+        "repository_name": "ansible-role-oh-my-zsh"
+    },
+    {
         "data_at": "2018-09-04T10:09:41.000Z",
         "downloads_count": 1327,
         "downloads_delta": 15.0,
@@ -32521,6 +32593,12 @@
     },
     {
         "data_at": "2019-10-28T13:54:49.000Z",
+        "downloads_count": 3040,
+        "downloads_delta": 0.0,
+        "repository_name": "ansible-role-pin-to-launcher"
+    },
+    {
+        "data_at": "2019-10-29T13:55:17.000Z",
         "downloads_count": 3040,
         "downloads_delta": 0.0,
         "repository_name": "ansible-role-pin-to-launcher"
@@ -35028,6 +35106,12 @@
         "repository_name": "ansible-role-terminator"
     },
     {
+        "data_at": "2019-10-29T13:55:17.000Z",
+        "downloads_count": 2840,
+        "downloads_delta": 0.0,
+        "repository_name": "ansible-role-terminator"
+    },
+    {
         "data_at": "2018-09-04T10:09:41.000Z",
         "downloads_count": 1208,
         "downloads_delta": 15.0,
@@ -37525,6 +37609,12 @@
     },
     {
         "data_at": "2019-10-28T13:54:49.000Z",
+        "downloads_count": 2359,
+        "downloads_delta": 0.0,
+        "repository_name": "ansible-role-default-web-browser"
+    },
+    {
+        "data_at": "2019-10-29T13:55:17.000Z",
         "downloads_count": 2359,
         "downloads_delta": 0.0,
         "repository_name": "ansible-role-default-web-browser"
@@ -40032,6 +40122,12 @@
         "repository_name": "ansible-role-inotify"
     },
     {
+        "data_at": "2019-10-29T13:55:17.000Z",
+        "downloads_count": 2317,
+        "downloads_delta": 0.0,
+        "repository_name": "ansible-role-inotify"
+    },
+    {
         "data_at": "2018-09-04T10:09:41.000Z",
         "downloads_count": 928,
         "downloads_delta": 15.0,
@@ -42529,6 +42625,12 @@
     },
     {
         "data_at": "2019-10-28T13:54:49.000Z",
+        "downloads_count": 1983,
+        "downloads_delta": 0.0,
+        "repository_name": "ansible-role-gnome-proxy"
+    },
+    {
+        "data_at": "2019-10-29T13:55:17.000Z",
         "downloads_count": 1983,
         "downloads_delta": 0.0,
         "repository_name": "ansible-role-gnome-proxy"
@@ -45036,6 +45138,12 @@
         "repository_name": "alt-galaxy"
     },
     {
+        "data_at": "2019-10-29T13:55:17.000Z",
+        "downloads_count": 2226,
+        "downloads_delta": 7.0,
+        "repository_name": "alt-galaxy"
+    },
+    {
         "data_at": "2018-09-04T10:09:41.000Z",
         "downloads_count": 1257,
         "downloads_delta": 1.0,
@@ -47538,6 +47646,12 @@
         "repository_name": "ansible-role-golang"
     },
     {
+        "data_at": "2019-10-29T13:55:17.000Z",
+        "downloads_count": 14776,
+        "downloads_delta": 57.0,
+        "repository_name": "ansible-role-golang"
+    },
+    {
         "data_at": "2018-09-04T10:09:41.000Z",
         "downloads_count": 1005,
         "downloads_delta": 0.0,
@@ -50035,6 +50149,12 @@
     },
     {
         "data_at": "2019-10-28T13:54:49.000Z",
+        "downloads_count": 2183,
+        "downloads_delta": 0.0,
+        "repository_name": "ansible-role-intellij-plugins"
+    },
+    {
+        "data_at": "2019-10-29T13:55:17.000Z",
         "downloads_count": 2183,
         "downloads_delta": 0.0,
         "repository_name": "ansible-role-intellij-plugins"
@@ -52542,6 +52662,12 @@
         "repository_name": "ansible-role-visual-studio-code-extensions"
     },
     {
+        "data_at": "2019-10-29T13:55:17.000Z",
+        "downloads_count": 2391,
+        "downloads_delta": 2.0,
+        "repository_name": "ansible-role-visual-studio-code-extensions"
+    },
+    {
         "data_at": "2018-09-04T10:09:41.000Z",
         "downloads_count": 1025,
         "downloads_delta": 0.0,
@@ -55044,6 +55170,12 @@
         "repository_name": "ansible-role-atom-packages"
     },
     {
+        "data_at": "2019-10-29T13:55:17.000Z",
+        "downloads_count": 1852,
+        "downloads_delta": 7.0,
+        "repository_name": "ansible-role-atom-packages"
+    },
+    {
         "data_at": "2018-09-04T10:09:41.000Z",
         "downloads_count": 1331,
         "downloads_delta": 15.0,
@@ -57541,6 +57673,12 @@
     },
     {
         "data_at": "2019-10-28T13:54:49.000Z",
+        "downloads_count": 2751,
+        "downloads_delta": 0.0,
+        "repository_name": "ansible-role-kubernetes"
+    },
+    {
+        "data_at": "2019-10-29T13:55:17.000Z",
         "downloads_count": 2751,
         "downloads_delta": 0.0,
         "repository_name": "ansible-role-kubernetes"
@@ -60048,6 +60186,12 @@
         "repository_name": "ansible-role-postman"
     },
     {
+        "data_at": "2019-10-29T13:55:17.000Z",
+        "downloads_count": 4498,
+        "downloads_delta": 0.0,
+        "repository_name": "ansible-role-postman"
+    },
+    {
         "data_at": "2018-09-04T10:09:41.000Z",
         "downloads_count": 175,
         "downloads_delta": 0.0,
@@ -62550,6 +62694,12 @@
         "repository_name": "ansible_role_antigen"
     },
     {
+        "data_at": "2019-10-29T13:55:17.000Z",
+        "downloads_count": 2369,
+        "downloads_delta": 10.0,
+        "repository_name": "ansible_role_antigen"
+    },
+    {
         "data_at": "2018-09-04T10:09:41.000Z",
         "downloads_count": 170,
         "downloads_delta": 0.0,
@@ -65047,6 +65197,12 @@
     },
     {
         "data_at": "2019-10-28T13:54:49.000Z",
+        "downloads_count": 1513,
+        "downloads_delta": 0.0,
+        "repository_name": "ansible_role_git_credential_manager"
+    },
+    {
+        "data_at": "2019-10-29T13:55:17.000Z",
         "downloads_count": 1513,
         "downloads_delta": 0.0,
         "repository_name": "ansible_role_git_credential_manager"
@@ -67554,6 +67710,12 @@
         "repository_name": "ansible_role_hub"
     },
     {
+        "data_at": "2019-10-29T13:55:17.000Z",
+        "downloads_count": 1062,
+        "downloads_delta": 0.0,
+        "repository_name": "ansible_role_hub"
+    },
+    {
         "data_at": "2018-09-04T10:09:41.000Z",
         "downloads_count": 164,
         "downloads_delta": 0.0,
@@ -70056,6 +70218,12 @@
         "repository_name": "ansible_role_antigen_bundles"
     },
     {
+        "data_at": "2019-10-29T13:55:17.000Z",
+        "downloads_count": 1032,
+        "downloads_delta": 0.0,
+        "repository_name": "ansible_role_antigen_bundles"
+    },
+    {
         "data_at": "2018-09-04T10:09:41.000Z",
         "downloads_count": 197,
         "downloads_delta": 0.0,
@@ -72553,6 +72721,12 @@
     },
     {
         "data_at": "2019-10-28T13:54:49.000Z",
+        "downloads_count": 1523,
+        "downloads_delta": 0.0,
+        "repository_name": "ansible_role_sdkman"
+    },
+    {
+        "data_at": "2019-10-29T13:55:17.000Z",
         "downloads_count": 1523,
         "downloads_delta": 0.0,
         "repository_name": "ansible_role_sdkman"
@@ -75060,6 +75234,12 @@
         "repository_name": "ansible_role_sdkman_init"
     },
     {
+        "data_at": "2019-10-29T13:55:17.000Z",
+        "downloads_count": 1067,
+        "downloads_delta": 0.0,
+        "repository_name": "ansible_role_sdkman_init"
+    },
+    {
         "data_at": "2018-09-04T10:09:41.000Z",
         "downloads_count": 109,
         "downloads_delta": 0.0,
@@ -77557,6 +77737,12 @@
     },
     {
         "data_at": "2019-10-28T13:54:49.000Z",
+        "downloads_count": 976,
+        "downloads_delta": 0.0,
+        "repository_name": "ansible_role_backup"
+    },
+    {
+        "data_at": "2019-10-29T13:55:17.000Z",
         "downloads_count": 976,
         "downloads_delta": 0.0,
         "repository_name": "ansible_role_backup"
@@ -80064,6 +80250,12 @@
         "repository_name": "ansible_role_minikube"
     },
     {
+        "data_at": "2019-10-29T13:55:17.000Z",
+        "downloads_count": 6587,
+        "downloads_delta": 2.0,
+        "repository_name": "ansible_role_minikube"
+    },
+    {
         "data_at": "2018-09-04T10:09:41.000Z",
         "downloads_count": 36,
         "downloads_delta": 0.0,
@@ -82561,6 +82753,12 @@
     },
     {
         "data_at": "2019-10-28T13:54:49.000Z",
+        "downloads_count": 1482,
+        "downloads_delta": 0.0,
+        "repository_name": "ansible_role_helm"
+    },
+    {
+        "data_at": "2019-10-29T13:55:17.000Z",
         "downloads_count": 1482,
         "downloads_delta": 0.0,
         "repository_name": "ansible_role_helm"
@@ -85068,6 +85266,12 @@
         "repository_name": "ansible_role_ctop"
     },
     {
+        "data_at": "2019-10-29T13:55:17.000Z",
+        "downloads_count": 1638,
+        "downloads_delta": 4.0,
+        "repository_name": "ansible_role_ctop"
+    },
+    {
         "data_at": "2018-09-04T10:09:41.000Z",
         "downloads_count": 22,
         "downloads_delta": 0.0,
@@ -87570,6 +87774,12 @@
         "repository_name": "ansible_role_git_user"
     },
     {
+        "data_at": "2019-10-29T13:55:17.000Z",
+        "downloads_count": 1929,
+        "downloads_delta": 2.0,
+        "repository_name": "ansible_role_git_user"
+    },
+    {
         "data_at": "2018-09-10T10:31:52.000Z",
         "downloads_count": 4.0,
         "downloads_delta": 5.0,
@@ -90031,6 +90241,12 @@
     },
     {
         "data_at": "2019-10-28T13:54:49.000Z",
+        "downloads_count": 874.0,
+        "downloads_delta": 0.0,
+        "repository_name": "ansible_role_kompose"
+    },
+    {
+        "data_at": "2019-10-29T13:55:17.000Z",
         "downloads_count": 874.0,
         "downloads_delta": 0.0,
         "repository_name": "ansible_role_kompose"
@@ -92502,6 +92718,12 @@
         "repository_name": "ansible_role_pipenv"
     },
     {
+        "data_at": "2019-10-29T13:55:17.000Z",
+        "downloads_count": 1313.0,
+        "downloads_delta": 0.0,
+        "repository_name": "ansible_role_pipenv"
+    },
+    {
         "data_at": "2018-09-18T10:37:18.000Z",
         "downloads_count": 4.0,
         "downloads_delta": 23.0,
@@ -94920,6 +95142,12 @@
         "repository_name": "ansible_role_pyenv"
     },
     {
+        "data_at": "2019-10-29T13:55:17.000Z",
+        "downloads_count": 1296.0,
+        "downloads_delta": 1.0,
+        "repository_name": "ansible_role_pyenv"
+    },
+    {
         "data_at": "2018-09-25T10:41:21.000Z",
         "downloads_count": 0,
         "downloads_delta": 0.0,
@@ -97296,6 +97524,12 @@
         "repository_name": "ansible_role_intellij_jdks"
     },
     {
+        "data_at": "2019-10-29T13:55:17.000Z",
+        "downloads_count": 780,
+        "downloads_delta": 0.0,
+        "repository_name": "ansible_role_intellij_jdks"
+    },
+    {
         "data_at": "2018-09-29T10:42:58.000Z",
         "downloads_count": 6.0,
         "downloads_delta": 1.0,
@@ -99643,6 +99877,12 @@
     },
     {
         "data_at": "2019-10-28T13:54:49.000Z",
+        "downloads_count": 761.0,
+        "downloads_delta": 0.0,
+        "repository_name": "ansible_role_fd"
+    },
+    {
+        "data_at": "2019-10-29T13:55:17.000Z",
         "downloads_count": 761.0,
         "downloads_delta": 0.0,
         "repository_name": "ansible_role_fd"
@@ -102000,6 +102240,12 @@
         "repository_name": "ansible_role_bat"
     },
     {
+        "data_at": "2019-10-29T13:55:17.000Z",
+        "downloads_count": 1010.0,
+        "downloads_delta": 0.0,
+        "repository_name": "ansible_role_bat"
+    },
+    {
         "data_at": "2018-10-01T10:44:35.000Z",
         "downloads_count": 25.0,
         "downloads_delta": 10.0,
@@ -104335,6 +104581,12 @@
     },
     {
         "data_at": "2019-10-28T13:54:49.000Z",
+        "downloads_count": 1140.0,
+        "downloads_delta": 0.0,
+        "repository_name": "ansible_role_timezone"
+    },
+    {
+        "data_at": "2019-10-29T13:55:17.000Z",
         "downloads_count": 1140.0,
         "downloads_delta": 0.0,
         "repository_name": "ansible_role_timezone"
@@ -106680,6 +106932,12 @@
         "repository_name": "ansible_role_kops"
     },
     {
+        "data_at": "2019-10-29T13:55:17.000Z",
+        "downloads_count": 1055,
+        "downloads_delta": 0.0,
+        "repository_name": "ansible_role_kops"
+    },
+    {
         "data_at": "2018-10-09T11:04:14.000Z",
         "downloads_count": 5.0,
         "downloads_delta": 0.0,
@@ -108972,6 +109230,12 @@
         "repository_name": "ansible_role_pwquality"
     },
     {
+        "data_at": "2019-10-29T13:55:17.000Z",
+        "downloads_count": 697.0,
+        "downloads_delta": 0.0,
+        "repository_name": "ansible_role_pwquality"
+    },
+    {
         "data_at": "2019-10-07T13:45:28.000Z",
         "downloads_count": 28.0,
         "downloads_delta": 0.0,
@@ -109104,6 +109368,12 @@
         "repository_name": "ansible_role_swapspace"
     },
     {
+        "data_at": "2019-10-29T13:55:17.000Z",
+        "downloads_count": 30.0,
+        "downloads_delta": 0.0,
+        "repository_name": "ansible_role_swapspace"
+    },
+    {
         "data_at": "2019-10-07T13:45:28.000Z",
         "downloads_count": 25,
         "downloads_delta": 0.0,
@@ -109231,6 +109501,12 @@
     },
     {
         "data_at": "2019-10-28T13:54:49.000Z",
+        "downloads_count": 27,
+        "downloads_delta": 0.0,
+        "repository_name": "ansible_role_zswap"
+    },
+    {
+        "data_at": "2019-10-29T13:55:17.000Z",
         "downloads_count": 27,
         "downloads_delta": 0.0,
         "repository_name": "ansible_role_zswap"
