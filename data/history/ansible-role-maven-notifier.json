@@ -5199,6 +5199,18 @@
             "open_issues_count": 0,
             "open_pull_requests_count": 0,
             "stargazers_count": 2
+        },
+        {
+            "commits_since_release": 4,
+            "commits_since_release_url": "https://github.com/gantsign/ansible-role-maven-notifier/compare/3.0.0...master",
+            "data_at": "2019-11-14T14:05:10Z",
+            "downloads_count": 2365,
+            "latest_release_at": "2019-05-17T17:24:02Z",
+            "latest_release_url": "https://github.com/gantsign/ansible-role-maven-notifier/releases/tag/3.0.0",
+            "latest_release_version": "3.0.0",
+            "open_issues_count": 0,
+            "open_pull_requests_count": 0,
+            "stargazers_count": 2
         }
     ],
     "name": "ansible-role-maven-notifier",
