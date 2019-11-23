@@ -42,9 +42,7 @@ class App extends React.Component<{}, AppState> {
         return;
       }
 
-      const downloadsResponse: AxiosResponse<
-        DownloadSnapshot[]
-      > = await downloadsPromise;
+      const downloadsResponse: AxiosResponse<DownloadSnapshot[]> = await downloadsPromise;
       if (downloadsResponse.status !== 200) {
         console.log(
           `Downloads request failed: [${downloadsResponse.status} ${downloadsResponse.statusText}] ${downloadsResponse.data}`
