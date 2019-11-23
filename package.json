@@ -40,7 +40,7 @@
     "semver": "^6.3.0"
   },
   "devDependencies": {
-    "gts": "^1.1.0",
+    "gts": "^1.1.2",
     "json": "^9.0.6",
     "prettier-package-json": "^2.1.0",
     "react-scripts": "3.2.0",
