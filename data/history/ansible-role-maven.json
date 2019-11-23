@@ -5307,6 +5307,18 @@
             "open_issues_count": 0,
             "open_pull_requests_count": 0,
             "stargazers_count": 8
+        },
+        {
+            "commits_since_release": 3,
+            "commits_since_release_url": "https://github.com/gantsign/ansible-role-maven/compare/5.4.1...master",
+            "data_at": "2019-11-23T14:07:09Z",
+            "downloads_count": 32878,
+            "latest_release_at": "2019-09-22T08:07:03Z",
+            "latest_release_url": "https://github.com/gantsign/ansible-role-maven/releases/tag/5.4.1",
+            "latest_release_version": "5.4.1",
+            "open_issues_count": 0,
+            "open_pull_requests_count": 0,
+            "stargazers_count": 8
         }
     ],
     "name": "ansible-role-maven",
