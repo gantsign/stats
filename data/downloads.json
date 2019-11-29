@@ -2682,6 +2682,12 @@
         "repository_name": "ansible-role-lightdm"
     },
     {
+        "data_at": "2019-11-28T14:09:37.000Z",
+        "downloads_count": 4535,
+        "downloads_delta": 4.0,
+        "repository_name": "ansible-role-lightdm"
+    },
+    {
         "data_at": "2018-09-04T10:09:41.000Z",
         "downloads_count": 1313,
         "downloads_delta": 0.0,
@@ -5364,2686 +5370,10 @@
         "repository_name": "ansible-role-maven-notifier"
     },
     {
-        "data_at": "2018-09-04T10:09:41.000Z",
-        "downloads_count": 1349,
+        "data_at": "2019-11-28T14:09:37.000Z",
+        "downloads_count": 2366,
         "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-09-05T10:29:39.000Z",
-        "downloads_count": 1349,
-        "downloads_delta": 2.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-09-06T10:30:25.000Z",
-        "downloads_count": 1351,
-        "downloads_delta": 5.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-09-07T10:31:17.000Z",
-        "downloads_count": 1356,
-        "downloads_delta": 2.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-09-08T13:45:35.000Z",
-        "downloads_count": 1358,
-        "downloads_delta": 2.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-09-09T10:31:41.000Z",
-        "downloads_count": 1360,
-        "downloads_delta": 5.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-09-10T10:31:52.000Z",
-        "downloads_count": 1365,
-        "downloads_delta": 4.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-09-11T10:32:44.000Z",
-        "downloads_count": 1369,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-09-12T10:33:38.000Z",
-        "downloads_count": 1369,
-        "downloads_delta": 1.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-09-13T10:34:12.000Z",
-        "downloads_count": 1370,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-09-14T11:50:00.000Z",
-        "downloads_count": 1370,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-09-15T10:35:29.000Z",
-        "downloads_count": 1370,
-        "downloads_delta": 10.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-09-16T13:06:16.000Z",
-        "downloads_count": 1380,
-        "downloads_delta": 88.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-09-17T10:36:33.000Z",
-        "downloads_count": 1468,
-        "downloads_delta": 11.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-09-18T10:37:18.000Z",
-        "downloads_count": 1479,
-        "downloads_delta": 23.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-09-19T10:38:07.000Z",
-        "downloads_count": 1502,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-09-20T10:38:43.000Z",
-        "downloads_count": 1502,
-        "downloads_delta": 3.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-09-21T10:39:44.000Z",
-        "downloads_count": 1505,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-09-22T10:39:53.000Z",
-        "downloads_count": 1505,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-09-23T10:39:59.000Z",
-        "downloads_count": 1505,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-09-24T10:40:33.000Z",
-        "downloads_count": 1505,
-        "downloads_delta": 4.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-09-25T10:41:21.000Z",
-        "downloads_count": 1509,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-09-26T10:42:33.000Z",
-        "downloads_count": 1509,
-        "downloads_delta": 2.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-09-27T10:42:21.000Z",
-        "downloads_count": 1511,
-        "downloads_delta": 14.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-09-28T10:42:46.000Z",
-        "downloads_count": 1525,
-        "downloads_delta": 15.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-09-29T10:42:58.000Z",
-        "downloads_count": 1540,
-        "downloads_delta": 2.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-09-30T10:43:54.000Z",
-        "downloads_count": 1542,
-        "downloads_delta": 28.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-10-01T10:44:35.000Z",
-        "downloads_count": 1570,
-        "downloads_delta": 10.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-10-02T10:46:03.000Z",
-        "downloads_count": 1580,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-10-03T10:45:51.000Z",
-        "downloads_count": 1580,
-        "downloads_delta": 3.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-10-04T10:46:33.000Z",
-        "downloads_count": 1583,
-        "downloads_delta": 20.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-10-05T10:47:15.000Z",
-        "downloads_count": 1603,
-        "downloads_delta": 5.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-10-06T10:47:52.000Z",
-        "downloads_count": 1608,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-10-07T10:48:28.000Z",
-        "downloads_count": 1608,
-        "downloads_delta": 21.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-10-08T10:48:31.000Z",
-        "downloads_count": 1629,
-        "downloads_delta": 8.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-10-09T11:04:14.000Z",
-        "downloads_count": 1637,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-10-10T10:48:53.000Z",
-        "downloads_count": 1637,
-        "downloads_delta": 42.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-10-11T10:49:07.000Z",
-        "downloads_count": 1679,
-        "downloads_delta": 1.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-10-12T10:49:19.000Z",
-        "downloads_count": 1680,
-        "downloads_delta": 7.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-10-13T10:50:23.000Z",
-        "downloads_count": 1687,
-        "downloads_delta": 11.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-10-14T10:51:07.000Z",
-        "downloads_count": 1698,
-        "downloads_delta": 5.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-10-15T11:04:26.000Z",
-        "downloads_count": 1703,
-        "downloads_delta": 29.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-10-16T10:52:08.000Z",
-        "downloads_count": 1732,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-10-17T10:52:04.000Z",
-        "downloads_count": 1732,
-        "downloads_delta": 18.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-10-18T10:53:00.000Z",
-        "downloads_count": 1750,
-        "downloads_delta": 5.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-10-19T10:53:59.000Z",
-        "downloads_count": 1755,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-10-20T10:53:50.000Z",
-        "downloads_count": 1755,
-        "downloads_delta": 8.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-10-21T10:54:29.000Z",
-        "downloads_count": 1763,
-        "downloads_delta": 6.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-10-22T10:55:41.000Z",
-        "downloads_count": 1769,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-10-23T10:56:06.000Z",
-        "downloads_count": 1769,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-10-24T10:56:24.000Z",
-        "downloads_count": 1769,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-10-25T10:57:35.000Z",
-        "downloads_count": 1769,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-10-26T10:58:05.000Z",
-        "downloads_count": 1769,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-10-27T10:58:53.000Z",
-        "downloads_count": 1769,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-10-28T10:59:02.000Z",
-        "downloads_count": 1769,
-        "downloads_delta": 1.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-10-29T10:59:19.000Z",
-        "downloads_count": 1770,
-        "downloads_delta": 1.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-10-30T10:59:41.000Z",
-        "downloads_count": 1771,
-        "downloads_delta": 3.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-10-31T10:59:46.000Z",
-        "downloads_count": 1774,
-        "downloads_delta": 5.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-11-01T11:00:49.000Z",
-        "downloads_count": 1779,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-11-02T11:01:16.000Z",
-        "downloads_count": 1779,
-        "downloads_delta": 4.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-11-03T11:01:09.000Z",
-        "downloads_count": 1783,
-        "downloads_delta": 3.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-11-04T11:02:04.000Z",
-        "downloads_count": 1786,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-11-05T11:02:47.000Z",
-        "downloads_count": 1786,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-11-06T11:02:41.000Z",
-        "downloads_count": 1786,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-11-07T11:03:17.000Z",
-        "downloads_count": 1786,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-11-08T11:03:34.000Z",
-        "downloads_count": 1786,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-11-09T11:04:14.000Z",
-        "downloads_count": 1786,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-11-10T11:04:19.000Z",
-        "downloads_count": 1786,
-        "downloads_delta": 4.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-11-11T11:04:49.000Z",
-        "downloads_count": 1790,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-11-12T11:05:21.000Z",
-        "downloads_count": 1790,
-        "downloads_delta": 3.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-11-13T11:06:01.000Z",
-        "downloads_count": 1793,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-11-14T11:06:41.000Z",
-        "downloads_count": 1793,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-11-15T11:07:06.000Z",
-        "downloads_count": 1793,
-        "downloads_delta": 1.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-11-16T11:07:52.000Z",
-        "downloads_count": 1794,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-11-17T11:08:32.000Z",
-        "downloads_count": 1794,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-11-18T11:09:40.000Z",
-        "downloads_count": 1794,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-11-19T11:11:02.000Z",
-        "downloads_count": 1794,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-11-20T11:11:13.000Z",
-        "downloads_count": 1794,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-11-21T11:12:08.000Z",
-        "downloads_count": 1794,
-        "downloads_delta": 2.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-11-22T11:12:26.000Z",
-        "downloads_count": 1796,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-11-23T11:12:33.000Z",
-        "downloads_count": 1796,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-11-24T11:13:04.000Z",
-        "downloads_count": 1796,
-        "downloads_delta": 4.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-11-25T11:13:39.000Z",
-        "downloads_count": 1800,
-        "downloads_delta": 14.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-11-26T11:14:05.000Z",
-        "downloads_count": 1814,
-        "downloads_delta": 4.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-11-27T11:14:42.000Z",
-        "downloads_count": 1818,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-11-28T11:15:31.000Z",
-        "downloads_count": 1818,
-        "downloads_delta": 2.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-11-29T11:16:18.000Z",
-        "downloads_count": 1820,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-11-30T11:16:41.000Z",
-        "downloads_count": 1820,
-        "downloads_delta": 6.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-12-01T11:17:18.000Z",
-        "downloads_count": 1826,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-12-02T11:18:01.000Z",
-        "downloads_count": 1826,
-        "downloads_delta": 2.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-12-03T11:18:56.000Z",
-        "downloads_count": 1828,
-        "downloads_delta": 17.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-12-04T11:19:33.000Z",
-        "downloads_count": 1845,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-12-05T11:20:04.000Z",
-        "downloads_count": 1845,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-12-06T11:20:11.000Z",
-        "downloads_count": 1845,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-12-07T11:21:10.000Z",
-        "downloads_count": 1845,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-12-08T11:21:18.000Z",
-        "downloads_count": 1845,
-        "downloads_delta": 13.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-12-09T11:21:28.000Z",
-        "downloads_count": 1858,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-12-10T11:21:38.000Z",
-        "downloads_count": 1858,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-12-11T11:21:58.000Z",
-        "downloads_count": 1858,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-12-12T11:22:38.000Z",
-        "downloads_count": 1858,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-12-13T11:23:10.000Z",
-        "downloads_count": 1858,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-12-14T11:23:30.000Z",
-        "downloads_count": 1858,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-12-15T11:24:05.000Z",
-        "downloads_count": 1858,
-        "downloads_delta": 13.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-12-16T11:25:10.000Z",
-        "downloads_count": 1871,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-12-17T11:25:58.000Z",
-        "downloads_count": 1871,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-12-18T11:29:07.000Z",
-        "downloads_count": 1871,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-12-19T11:27:50.000Z",
-        "downloads_count": 1871,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-12-20T11:28:04.000Z",
-        "downloads_count": 1871,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-12-21T11:28:52.000Z",
-        "downloads_count": 1871,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-12-22T11:29:22.000Z",
-        "downloads_count": 1871,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-12-23T11:29:53.000Z",
-        "downloads_count": 1871,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-12-24T11:30:46.000Z",
-        "downloads_count": 1871,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-12-25T11:30:57.000Z",
-        "downloads_count": 1871,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-12-26T11:31:38.000Z",
-        "downloads_count": 1871,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-12-27T11:31:42.000Z",
-        "downloads_count": 1871,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-12-28T11:32:25.000Z",
-        "downloads_count": 1871,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-12-29T11:32:35.000Z",
-        "downloads_count": 1871,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-12-30T11:33:05.000Z",
-        "downloads_count": 1871,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2018-12-31T11:33:20.000Z",
-        "downloads_count": 1871,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-01-01T11:33:50.000Z",
-        "downloads_count": 1871,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-01-02T11:34:30.000Z",
-        "downloads_count": 1871,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-01-03T11:35:29.000Z",
-        "downloads_count": 1871,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-01-04T11:36:11.000Z",
-        "downloads_count": 1871,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-01-05T11:36:56.000Z",
-        "downloads_count": 1871,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-01-06T11:37:07.000Z",
-        "downloads_count": 1871,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-01-07T11:37:22.000Z",
-        "downloads_count": 1871,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-01-08T11:38:17.000Z",
-        "downloads_count": 1871,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-01-09T11:40:07.000Z",
-        "downloads_count": 1871,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-01-10T11:40:15.000Z",
-        "downloads_count": 1871,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-01-11T11:41:24.000Z",
-        "downloads_count": 1871,
-        "downloads_delta": 12.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-01-13T11:41:40.000Z",
-        "downloads_count": 1883,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-01-14T11:43:03.000Z",
-        "downloads_count": 1883,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-01-15T11:42:55.000Z",
-        "downloads_count": 1883,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-01-16T11:42:47.000Z",
-        "downloads_count": 1883,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-01-17T11:43:25.000Z",
-        "downloads_count": 1883,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-01-18T11:44:34.000Z",
-        "downloads_count": 1883,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-01-19T11:44:54.000Z",
-        "downloads_count": 1883,
-        "downloads_delta": 4.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-01-20T11:45:24.000Z",
-        "downloads_count": 1887,
-        "downloads_delta": 17.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-01-21T11:46:35.000Z",
-        "downloads_count": 1904,
-        "downloads_delta": 3.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-01-22T11:47:05.000Z",
-        "downloads_count": 1907,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-01-23T11:47:55.000Z",
-        "downloads_count": 1907,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-01-24T11:51:39.000Z",
-        "downloads_count": 1907,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-01-25T11:48:27.000Z",
-        "downloads_count": 1907,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-01-26T11:49:10.000Z",
-        "downloads_count": 1907,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-01-27T11:49:21.000Z",
-        "downloads_count": 1907,
-        "downloads_delta": 1.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-01-28T11:49:33.000Z",
-        "downloads_count": 1908,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-01-29T11:50:14.000Z",
-        "downloads_count": 1908,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-01-30T11:50:19.000Z",
-        "downloads_count": 1908,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-01-31T11:50:43.000Z",
-        "downloads_count": 1908,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-02-01T11:51:29.000Z",
-        "downloads_count": 1908,
-        "downloads_delta": 1.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-02-02T11:52:10.000Z",
-        "downloads_count": 1909,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-02-03T11:52:43.000Z",
-        "downloads_count": 1909,
-        "downloads_delta": 1.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-02-04T11:53:47.000Z",
-        "downloads_count": 1910,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-02-05T11:53:51.000Z",
-        "downloads_count": 1910,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-02-06T11:54:59.000Z",
-        "downloads_count": 1910,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-02-07T11:53:58.000Z",
-        "downloads_count": 1910,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-02-08T11:58:24.000Z",
-        "downloads_count": 1910,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-02-09T11:55:10.000Z",
-        "downloads_count": 1910,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-02-10T11:55:20.000Z",
-        "downloads_count": 1910,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-02-11T11:55:37.000Z",
-        "downloads_count": 1910,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-02-12T11:56:40.000Z",
-        "downloads_count": 1910,
-        "downloads_delta": 8.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-02-13T11:56:50.000Z",
-        "downloads_count": 1918,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-02-14T12:04:43.000Z",
-        "downloads_count": 1918,
-        "downloads_delta": 1.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-02-15T11:58:25.000Z",
-        "downloads_count": 1919,
-        "downloads_delta": 20.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-02-16T11:58:18.000Z",
-        "downloads_count": 1939,
-        "downloads_delta": 3.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-02-17T11:58:44.000Z",
-        "downloads_count": 1942,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-02-18T11:59:43.000Z",
-        "downloads_count": 1942,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-02-19T12:00:21.000Z",
-        "downloads_count": 1942,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-02-20T12:01:02.000Z",
-        "downloads_count": 1942,
-        "downloads_delta": 9.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-02-21T12:01:45.000Z",
-        "downloads_count": 1951,
-        "downloads_delta": 5.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-02-22T12:02:58.000Z",
-        "downloads_count": 1956,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-02-23T12:02:23.000Z",
-        "downloads_count": 1956,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-02-24T12:03:07.000Z",
-        "downloads_count": 1956,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-02-25T12:04:06.000Z",
-        "downloads_count": 1956,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-02-26T12:04:42.000Z",
-        "downloads_count": 1956,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-02-27T12:04:57.000Z",
-        "downloads_count": 1956,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-02-28T12:05:11.000Z",
-        "downloads_count": 1956,
-        "downloads_delta": 10.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-03-01T12:05:06.000Z",
-        "downloads_count": 1966,
-        "downloads_delta": 5.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-03-02T12:05:09.000Z",
-        "downloads_count": 1971,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-03-03T12:06:06.000Z",
-        "downloads_count": 1971,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-03-04T12:06:26.000Z",
-        "downloads_count": 1971,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-03-05T12:07:09.000Z",
-        "downloads_count": 1971,
-        "downloads_delta": 10.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-03-07T12:08:19.000Z",
-        "downloads_count": 1981,
-        "downloads_delta": 10.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-03-08T12:08:39.000Z",
-        "downloads_count": 1991,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-03-09T12:09:10.000Z",
-        "downloads_count": 1991,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-03-10T12:09:42.000Z",
-        "downloads_count": 1991,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-03-11T12:10:46.000Z",
-        "downloads_count": 1991,
-        "downloads_delta": 6.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-03-12T12:11:18.000Z",
-        "downloads_count": 1997,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-03-13T12:11:46.000Z",
-        "downloads_count": 1997,
-        "downloads_delta": 2.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-03-14T12:12:49.000Z",
-        "downloads_count": 1999,
-        "downloads_delta": 9.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-03-15T12:13:48.000Z",
-        "downloads_count": 2008,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-03-16T12:13:58.000Z",
-        "downloads_count": 2008,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-03-17T12:14:20.000Z",
-        "downloads_count": 2008,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-03-18T12:15:14.000Z",
-        "downloads_count": 2008,
-        "downloads_delta": 6.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-03-19T12:15:35.000Z",
-        "downloads_count": 2014,
-        "downloads_delta": 18.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-03-20T12:16:26.000Z",
-        "downloads_count": 2032,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-03-21T12:16:12.000Z",
-        "downloads_count": 2032,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-03-22T12:16:24.000Z",
-        "downloads_count": 2032,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-03-23T12:16:10.000Z",
-        "downloads_count": 2032,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-03-24T12:16:34.000Z",
-        "downloads_count": 2032,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-03-26T12:17:00.000Z",
-        "downloads_count": 2032,
-        "downloads_delta": 1.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-03-27T12:17:48.000Z",
-        "downloads_count": 2033,
-        "downloads_delta": 2.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-03-28T12:28:18.000Z",
-        "downloads_count": 2035,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-03-29T12:18:26.000Z",
-        "downloads_count": 2035,
-        "downloads_delta": 1.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-03-30T12:19:09.000Z",
-        "downloads_count": 2036,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-03-31T12:19:27.000Z",
-        "downloads_count": 2036,
-        "downloads_delta": 3.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-04-01T12:19:44.000Z",
-        "downloads_count": 2039,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-04-02T13:16:39.000Z",
-        "downloads_count": 2039,
-        "downloads_delta": 2.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-04-03T12:21:11.000Z",
-        "downloads_count": 2041,
-        "downloads_delta": 3.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-04-04T12:22:00.000Z",
-        "downloads_count": 2044,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-04-05T12:22:45.000Z",
-        "downloads_count": 2044,
-        "downloads_delta": 5.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-04-06T12:23:37.000Z",
-        "downloads_count": 2049,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-04-07T12:23:34.000Z",
-        "downloads_count": 2049,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-04-08T12:24:55.000Z",
-        "downloads_count": 2049,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-04-09T12:24:19.000Z",
-        "downloads_count": 2049,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-04-10T12:24:19.000Z",
-        "downloads_count": 2049,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-04-11T12:24:51.000Z",
-        "downloads_count": 2049,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-04-12T12:25:23.000Z",
-        "downloads_count": 2049,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-04-13T12:25:46.000Z",
-        "downloads_count": 2049,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-04-14T12:26:14.000Z",
-        "downloads_count": 2049,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-04-15T12:26:38.000Z",
-        "downloads_count": 2049,
-        "downloads_delta": 1.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-04-16T12:26:48.000Z",
-        "downloads_count": 2050,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-04-17T12:27:13.000Z",
-        "downloads_count": 2050,
-        "downloads_delta": 3.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-04-19T11:52:34.000Z",
-        "downloads_count": 2053,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-04-19T12:27:28.000Z",
-        "downloads_count": 2053,
-        "downloads_delta": 22.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-04-20T12:29:17.000Z",
-        "downloads_count": 2075,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-04-21T12:28:48.000Z",
-        "downloads_count": 2075,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-04-22T12:29:49.000Z",
-        "downloads_count": 2075,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-04-23T12:29:54.000Z",
-        "downloads_count": 2075,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-04-24T12:30:27.000Z",
-        "downloads_count": 2075,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-04-25T12:31:01.000Z",
-        "downloads_count": 2075,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-04-26T12:32:02.000Z",
-        "downloads_count": 2075,
-        "downloads_delta": 1.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-04-27T12:32:41.000Z",
-        "downloads_count": 2076,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-04-28T12:32:51.000Z",
-        "downloads_count": 2076,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-04-29T12:33:54.000Z",
-        "downloads_count": 2076,
-        "downloads_delta": 4.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-04-30T12:33:51.000Z",
-        "downloads_count": 2080,
-        "downloads_delta": 13.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-05-01T12:35:02.000Z",
-        "downloads_count": 2093,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-05-02T12:34:36.000Z",
-        "downloads_count": 2093,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-05-03T12:35:02.000Z",
-        "downloads_count": 2093,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-05-04T12:35:19.000Z",
-        "downloads_count": 2093,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-05-05T12:35:35.000Z",
-        "downloads_count": 2093,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-05-06T12:37:53.000Z",
-        "downloads_count": 2093,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-05-07T12:36:23.000Z",
-        "downloads_count": 2093,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-05-08T12:36:52.000Z",
-        "downloads_count": 2093,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-05-09T12:37:06.000Z",
-        "downloads_count": 2093,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-05-10T12:38:00.000Z",
-        "downloads_count": 2093,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-05-11T12:38:22.000Z",
-        "downloads_count": 2093,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-05-12T12:38:21.000Z",
-        "downloads_count": 2093,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-05-13T12:38:34.000Z",
-        "downloads_count": 2093,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-05-14T12:39:00.000Z",
-        "downloads_count": 2093,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-05-15T12:39:37.000Z",
-        "downloads_count": 2093,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-05-16T12:40:09.000Z",
-        "downloads_count": 2093,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-05-17T12:57:00.000Z",
-        "downloads_count": 2093,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-05-18T12:41:21.000Z",
-        "downloads_count": 2093,
-        "downloads_delta": 14.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-05-19T12:41:37.000Z",
-        "downloads_count": 2107,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-05-20T12:42:13.000Z",
-        "downloads_count": 2107,
-        "downloads_delta": 3.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-05-21T12:43:08.000Z",
-        "downloads_count": 2110,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-05-22T12:43:10.000Z",
-        "downloads_count": 2110,
-        "downloads_delta": 14.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-05-23T12:44:18.000Z",
-        "downloads_count": 2124,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-05-24T12:44:13.000Z",
-        "downloads_count": 2124,
-        "downloads_delta": 2.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-05-25T12:44:17.000Z",
-        "downloads_count": 2126,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-05-26T12:44:26.000Z",
-        "downloads_count": 2126,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-05-27T12:45:38.000Z",
-        "downloads_count": 2126,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-05-28T12:45:37.000Z",
-        "downloads_count": 2126,
-        "downloads_delta": 3.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-05-29T12:45:53.000Z",
-        "downloads_count": 2129,
-        "downloads_delta": 1.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-05-30T12:46:39.000Z",
-        "downloads_count": 2130,
-        "downloads_delta": 5.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-05-31T12:47:15.000Z",
-        "downloads_count": 2135,
-        "downloads_delta": 4.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-06-01T12:47:24.000Z",
-        "downloads_count": 2139,
-        "downloads_delta": 2.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-06-02T12:47:25.000Z",
-        "downloads_count": 2141,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-06-03T12:47:57.000Z",
-        "downloads_count": 2141,
-        "downloads_delta": 3.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-06-04T12:49:23.000Z",
-        "downloads_count": 2144,
-        "downloads_delta": 3.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-06-05T12:49:16.000Z",
-        "downloads_count": 2147,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-06-06T12:49:56.000Z",
-        "downloads_count": 2147,
-        "downloads_delta": 4.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-06-07T12:50:41.000Z",
-        "downloads_count": 2151,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-06-08T12:51:51.000Z",
-        "downloads_count": 2151,
-        "downloads_delta": 15.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-06-09T12:51:28.000Z",
-        "downloads_count": 2166,
-        "downloads_delta": 1.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-06-10T12:51:33.000Z",
-        "downloads_count": 2167,
-        "downloads_delta": 2.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-06-11T12:52:11.000Z",
-        "downloads_count": 2169,
-        "downloads_delta": 5.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-06-12T12:53:05.000Z",
-        "downloads_count": 2174,
-        "downloads_delta": 2.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-06-13T12:55:10.000Z",
-        "downloads_count": 2176,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-06-14T12:54:11.000Z",
-        "downloads_count": 2176,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-06-15T12:57:07.000Z",
-        "downloads_count": 2176,
-        "downloads_delta": 10.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-06-16T12:55:38.000Z",
-        "downloads_count": 2186,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-06-17T12:56:03.000Z",
-        "downloads_count": 2186,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-06-18T12:56:10.000Z",
-        "downloads_count": 2186,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-06-19T12:56:36.000Z",
-        "downloads_count": 2186,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-06-20T12:57:27.000Z",
-        "downloads_count": 2186,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-06-21T12:57:57.000Z",
-        "downloads_count": 2186,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-06-22T13:03:11.000Z",
-        "downloads_count": 2186,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-06-23T12:57:39.000Z",
-        "downloads_count": 2186,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-06-24T12:58:27.000Z",
-        "downloads_count": 2186,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-06-25T12:59:45.000Z",
-        "downloads_count": 2186,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-06-26T13:00:29.000Z",
-        "downloads_count": 2186,
-        "downloads_delta": 3.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-06-27T15:38:43.000Z",
-        "downloads_count": 2189,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-06-28T13:02:09.000Z",
-        "downloads_count": 2189,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-06-29T13:01:07.000Z",
-        "downloads_count": 2189,
-        "downloads_delta": 1.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-06-30T13:01:08.000Z",
-        "downloads_count": 2190,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-07-01T13:01:53.000Z",
-        "downloads_count": 2190,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-07-02T13:02:50.000Z",
-        "downloads_count": 2190,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-07-03T13:06:05.000Z",
-        "downloads_count": 2190,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-07-04T13:03:52.000Z",
-        "downloads_count": 2190,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-07-05T13:04:11.000Z",
-        "downloads_count": 2190,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-07-06T13:04:21.000Z",
-        "downloads_count": 2190,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-07-07T13:04:26.000Z",
-        "downloads_count": 2190,
-        "downloads_delta": 7.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-07-08T13:05:12.000Z",
-        "downloads_count": 2197,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-07-09T13:04:38.000Z",
-        "downloads_count": 2197,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-07-10T13:06:01.000Z",
-        "downloads_count": 2197,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-07-11T13:07:07.000Z",
-        "downloads_count": 2197,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-07-12T13:06:23.000Z",
-        "downloads_count": 2197,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-07-13T13:07:06.000Z",
-        "downloads_count": 2197,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-07-14T13:07:45.000Z",
-        "downloads_count": 2197,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-07-15T13:08:34.000Z",
-        "downloads_count": 2197,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-07-16T13:08:57.000Z",
-        "downloads_count": 2197,
-        "downloads_delta": 1.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-07-17T13:09:27.000Z",
-        "downloads_count": 2198,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-07-18T13:10:15.000Z",
-        "downloads_count": 2198,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-07-19T14:11:10.000Z",
-        "downloads_count": 2198,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-07-20T13:10:17.000Z",
-        "downloads_count": 2198,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-07-21T13:10:37.000Z",
-        "downloads_count": 2198,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-07-22T13:10:52.000Z",
-        "downloads_count": 2198,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-07-23T13:11:15.000Z",
-        "downloads_count": 2198,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-07-24T13:11:47.000Z",
-        "downloads_count": 2198,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-07-25T13:23:35.000Z",
-        "downloads_count": 2198,
-        "downloads_delta": 20.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-07-26T13:13:41.000Z",
-        "downloads_count": 2218,
-        "downloads_delta": 2.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-07-27T13:13:03.000Z",
-        "downloads_count": 2220,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-07-28T13:13:26.000Z",
-        "downloads_count": 2220,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-07-29T13:13:56.000Z",
-        "downloads_count": 2220,
-        "downloads_delta": 1.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-07-30T13:14:08.000Z",
-        "downloads_count": 2221,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-07-31T13:14:13.000Z",
-        "downloads_count": 2221,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-08-01T13:15:05.000Z",
-        "downloads_count": 2221,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-08-02T13:15:18.000Z",
-        "downloads_count": 2221,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-08-03T13:16:19.000Z",
-        "downloads_count": 2221,
-        "downloads_delta": 2.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-08-04T13:16:54.000Z",
-        "downloads_count": 2223,
-        "downloads_delta": 15.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-08-05T13:17:40.000Z",
-        "downloads_count": 2238,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-08-06T13:41:34.000Z",
-        "downloads_count": 2238,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-08-07T13:18:03.000Z",
-        "downloads_count": 2238,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-08-08T13:18:47.000Z",
-        "downloads_count": 2238,
-        "downloads_delta": 1.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-08-09T13:19:44.000Z",
-        "downloads_count": 2239,
-        "downloads_delta": 2.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-08-10T13:20:20.000Z",
-        "downloads_count": 2241,
-        "downloads_delta": 15.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-08-11T13:20:24.000Z",
-        "downloads_count": 2256,
-        "downloads_delta": 4.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-08-12T13:21:16.000Z",
-        "downloads_count": 2260,
-        "downloads_delta": 11.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-08-13T13:21:42.000Z",
-        "downloads_count": 2271,
-        "downloads_delta": 17.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-08-14T13:22:29.000Z",
-        "downloads_count": 2288,
-        "downloads_delta": 3.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-08-15T13:22:57.000Z",
-        "downloads_count": 2291,
-        "downloads_delta": 5.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-08-16T13:23:37.000Z",
-        "downloads_count": 2296,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-08-17T13:24:24.000Z",
-        "downloads_count": 2296,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-08-18T13:24:21.000Z",
-        "downloads_count": 2296,
-        "downloads_delta": 1.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-08-19T13:24:42.000Z",
-        "downloads_count": 2297,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-08-20T13:24:43.000Z",
-        "downloads_count": 2297,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-08-21T13:25:27.000Z",
-        "downloads_count": 2297,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-08-22T13:25:33.000Z",
-        "downloads_count": 2297,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-08-23T13:26:11.000Z",
-        "downloads_count": 2297,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-08-24T13:26:36.000Z",
-        "downloads_count": 2297,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-08-25T13:26:37.000Z",
-        "downloads_count": 2297,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-08-26T13:27:37.000Z",
-        "downloads_count": 2297,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-08-27T13:27:31.000Z",
-        "downloads_count": 2297,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-08-28T13:28:08.000Z",
-        "downloads_count": 2297,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-08-29T13:28:49.000Z",
-        "downloads_count": 2297,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-08-30T13:29:24.000Z",
-        "downloads_count": 2297,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-08-31T13:29:39.000Z",
-        "downloads_count": 2297,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-09-01T13:29:39.000Z",
-        "downloads_count": 2297,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-09-02T13:30:17.000Z",
-        "downloads_count": 2297,
-        "downloads_delta": 5.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-09-03T13:30:18.000Z",
-        "downloads_count": 2302,
-        "downloads_delta": 2.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-09-04T13:30:49.000Z",
-        "downloads_count": 2304,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-09-05T13:31:51.000Z",
-        "downloads_count": 2304,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-09-06T13:32:18.000Z",
-        "downloads_count": 2304,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-09-07T13:32:22.000Z",
-        "downloads_count": 2304,
-        "downloads_delta": 2.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-09-08T13:33:08.000Z",
-        "downloads_count": 2306,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-09-09T13:33:04.000Z",
-        "downloads_count": 2306,
-        "downloads_delta": 3.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-09-10T13:33:46.000Z",
-        "downloads_count": 2309,
-        "downloads_delta": 6.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-09-11T13:33:49.000Z",
-        "downloads_count": 2315,
-        "downloads_delta": 1.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-09-12T13:34:17.000Z",
-        "downloads_count": 2316,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-09-13T13:35:00.000Z",
-        "downloads_count": 2316,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-09-14T13:35:50.000Z",
-        "downloads_count": 2316,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-09-15T13:36:45.000Z",
-        "downloads_count": 2316,
-        "downloads_delta": 2.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-09-16T13:36:53.000Z",
-        "downloads_count": 2318,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-09-17T13:36:52.000Z",
-        "downloads_count": 2318,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-09-18T13:38:02.000Z",
-        "downloads_count": 2318,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-09-19T13:38:31.000Z",
-        "downloads_count": 2318,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-09-20T13:51:14.000Z",
-        "downloads_count": 2318,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-09-21T13:38:49.000Z",
-        "downloads_count": 2318,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-09-22T13:39:48.000Z",
-        "downloads_count": 2318,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-09-23T13:44:27.000Z",
-        "downloads_count": 2318,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-09-24T13:40:13.000Z",
-        "downloads_count": 2318,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-09-25T13:40:24.000Z",
-        "downloads_count": 2318,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-09-26T13:41:20.000Z",
-        "downloads_count": 2318,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-09-27T13:42:13.000Z",
-        "downloads_count": 2318,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-09-28T13:42:32.000Z",
-        "downloads_count": 2318,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-09-29T13:42:48.000Z",
-        "downloads_count": 2318,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-09-30T13:43:09.000Z",
-        "downloads_count": 2318,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-10-01T13:44:12.000Z",
-        "downloads_count": 2318,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-10-02T13:44:18.000Z",
-        "downloads_count": 2318,
-        "downloads_delta": 4.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-10-03T13:44:44.000Z",
-        "downloads_count": 2322,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-10-04T13:45:25.000Z",
-        "downloads_count": 2322,
-        "downloads_delta": 2.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-10-05T13:45:48.000Z",
-        "downloads_count": 2324,
-        "downloads_delta": 17.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-10-06T13:45:37.000Z",
-        "downloads_count": 2341,
-        "downloads_delta": 3.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-10-07T13:45:28.000Z",
-        "downloads_count": 2344,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-10-08T13:45:41.000Z",
-        "downloads_count": 2344,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-10-09T13:45:53.000Z",
-        "downloads_count": 2344,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-10-10T17:21:48.000Z",
-        "downloads_count": 2344,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-10-11T13:47:00.000Z",
-        "downloads_count": 2344,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-10-12T13:47:38.000Z",
-        "downloads_count": 2344,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-10-13T13:47:45.000Z",
-        "downloads_count": 2344,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-10-14T13:48:33.000Z",
-        "downloads_count": 2344,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-10-15T13:49:23.000Z",
-        "downloads_count": 2344,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-10-16T13:50:00.000Z",
-        "downloads_count": 2344,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-10-17T13:50:02.000Z",
-        "downloads_count": 2344,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-10-18T15:54:51.000Z",
-        "downloads_count": 2344,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-10-19T13:50:51.000Z",
-        "downloads_count": 2344,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-10-20T13:51:26.000Z",
-        "downloads_count": 2344,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-10-21T22:04:07.000Z",
-        "downloads_count": 2344,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-10-22T13:52:50.000Z",
-        "downloads_count": 2344,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-10-23T13:53:08.000Z",
-        "downloads_count": 2344,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-10-24T13:53:28.000Z",
-        "downloads_count": 2344,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-10-25T13:53:30.000Z",
-        "downloads_count": 2344,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-10-26T13:54:08.000Z",
-        "downloads_count": 2344,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-10-27T13:54:15.000Z",
-        "downloads_count": 2344,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-10-28T13:54:49.000Z",
-        "downloads_count": 2344,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-10-29T13:55:17.000Z",
-        "downloads_count": 2344,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-10-30T13:56:05.000Z",
-        "downloads_count": 2344,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-10-31T13:56:41.000Z",
-        "downloads_count": 2344,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-11-01T13:56:40.000Z",
-        "downloads_count": 2344,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-11-02T13:57:05.000Z",
-        "downloads_count": 2344,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-11-03T13:57:40.000Z",
-        "downloads_count": 2344,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-11-04T13:58:27.000Z",
-        "downloads_count": 2344,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-11-05T13:58:55.000Z",
-        "downloads_count": 2344,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-11-06T13:59:28.000Z",
-        "downloads_count": 2344,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-11-07T14:00:21.000Z",
-        "downloads_count": 2344,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-11-08T14:01:11.000Z",
-        "downloads_count": 2344,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-11-09T14:01:45.000Z",
-        "downloads_count": 2344,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-11-10T14:02:37.000Z",
-        "downloads_count": 2344,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-11-11T14:03:05.000Z",
-        "downloads_count": 2344,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-11-12T14:03:58.000Z",
-        "downloads_count": 2344,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-11-13T14:04:29.000Z",
-        "downloads_count": 2344,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-11-14T14:05:10.000Z",
-        "downloads_count": 2344,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-11-15T14:05:26.000Z",
-        "downloads_count": 2344,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-11-16T14:05:55.000Z",
-        "downloads_count": 2344,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-11-17T14:05:51.000Z",
-        "downloads_count": 2344,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-11-18T16:16:54.000Z",
-        "downloads_count": 2344,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-11-19T14:06:13.000Z",
-        "downloads_count": 2344,
-        "downloads_delta": 1.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-11-20T15:13:42.000Z",
-        "downloads_count": 2345,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-11-21T14:06:34.000Z",
-        "downloads_count": 2345,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-11-22T14:07:00.000Z",
-        "downloads_count": 2345,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-11-23T14:07:09.000Z",
-        "downloads_count": 2345,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-11-24T14:07:53.000Z",
-        "downloads_count": 2345,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-11-25T14:08:46.000Z",
-        "downloads_count": 2345,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-11-26T15:25:11.000Z",
-        "downloads_count": 2345,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
-    },
-    {
-        "data_at": "2019-11-27T14:09:44.000Z",
-        "downloads_count": 2345,
-        "downloads_delta": 0.0,
-        "repository_name": "ansible_role_zram_config"
+        "repository_name": "ansible-role-maven-notifier"
     },
     {
         "data_at": "2018-09-04T10:09:41.000Z",
@@ -10725,6 +8055,12 @@
         "data_at": "2019-11-27T14:09:44.000Z",
         "downloads_count": 5398,
         "downloads_delta": 1.0,
+        "repository_name": "ansible-role-keyboard"
+    },
+    {
+        "data_at": "2019-11-28T14:09:37.000Z",
+        "downloads_count": 5399,
+        "downloads_delta": 5.0,
         "repository_name": "ansible-role-keyboard"
     },
     {
@@ -13410,6 +10746,12 @@
         "repository_name": "ansible-role-atom"
     },
     {
+        "data_at": "2019-11-28T14:09:37.000Z",
+        "downloads_count": 3429,
+        "downloads_delta": 7.0,
+        "repository_name": "ansible-role-atom"
+    },
+    {
         "data_at": "2018-09-04T10:09:41.000Z",
         "downloads_count": 1358,
         "downloads_delta": 15.0,
@@ -16087,6 +13429,12 @@
     },
     {
         "data_at": "2019-11-27T14:09:44.000Z",
+        "downloads_count": 2434,
+        "downloads_delta": 0.0,
+        "repository_name": "ansible-role-audio"
+    },
+    {
+        "data_at": "2019-11-28T14:09:37.000Z",
         "downloads_count": 2434,
         "downloads_delta": 0.0,
         "repository_name": "ansible-role-audio"
@@ -18774,6 +16122,12 @@
         "repository_name": "ansible-role-intellij"
     },
     {
+        "data_at": "2019-11-28T14:09:37.000Z",
+        "downloads_count": 10668,
+        "downloads_delta": 13.0,
+        "repository_name": "ansible-role-intellij"
+    },
+    {
         "data_at": "2018-09-04T10:09:41.000Z",
         "downloads_count": 1370,
         "downloads_delta": 15.0,
@@ -21451,6 +18805,12 @@
     },
     {
         "data_at": "2019-11-27T14:09:44.000Z",
+        "downloads_count": 2467,
+        "downloads_delta": 0.0,
+        "repository_name": "ansible-role-apt"
+    },
+    {
+        "data_at": "2019-11-28T14:09:37.000Z",
         "downloads_count": 2467,
         "downloads_delta": 0.0,
         "repository_name": "ansible-role-apt"
@@ -24138,6 +21498,12 @@
         "repository_name": "ansible-role-visual-studio-code"
     },
     {
+        "data_at": "2019-11-28T14:09:37.000Z",
+        "downloads_count": 9434,
+        "downloads_delta": 19.0,
+        "repository_name": "ansible-role-visual-studio-code"
+    },
+    {
         "data_at": "2018-09-04T10:09:41.000Z",
         "downloads_count": 8074,
         "downloads_delta": 98.0,
@@ -26817,6 +24183,12 @@
         "data_at": "2019-11-27T14:09:44.000Z",
         "downloads_count": 33158,
         "downloads_delta": 66.0,
+        "repository_name": "ansible-role-maven"
+    },
+    {
+        "data_at": "2019-11-28T14:09:37.000Z",
+        "downloads_count": 33224,
+        "downloads_delta": 177.0,
         "repository_name": "ansible-role-maven"
     },
     {
@@ -29502,6 +26874,12 @@
         "repository_name": "ansible-role-java"
     },
     {
+        "data_at": "2019-11-28T14:09:37.000Z",
+        "downloads_count": 16354,
+        "downloads_delta": 74.0,
+        "repository_name": "ansible-role-java"
+    },
+    {
         "data_at": "2018-09-04T10:09:41.000Z",
         "downloads_count": 2851,
         "downloads_delta": 19.0,
@@ -32181,6 +29559,12 @@
         "data_at": "2019-11-27T14:09:44.000Z",
         "downloads_count": 12851,
         "downloads_delta": 41.0,
+        "repository_name": "ansible-role-oh-my-zsh"
+    },
+    {
+        "data_at": "2019-11-28T14:09:37.000Z",
+        "downloads_count": 12892,
+        "downloads_delta": 55.0,
         "repository_name": "ansible-role-oh-my-zsh"
     },
     {
@@ -34866,6 +32250,12 @@
         "repository_name": "ansible-role-pin-to-launcher"
     },
     {
+        "data_at": "2019-11-28T14:09:37.000Z",
+        "downloads_count": 3067,
+        "downloads_delta": 5.0,
+        "repository_name": "ansible-role-pin-to-launcher"
+    },
+    {
         "data_at": "2018-09-04T10:09:41.000Z",
         "downloads_count": 1367,
         "downloads_delta": 15.0,
@@ -37543,6 +34933,12 @@
     },
     {
         "data_at": "2019-11-27T14:09:44.000Z",
+        "downloads_count": 2860,
+        "downloads_delta": 0.0,
+        "repository_name": "ansible-role-terminator"
+    },
+    {
+        "data_at": "2019-11-28T14:09:37.000Z",
         "downloads_count": 2860,
         "downloads_delta": 0.0,
         "repository_name": "ansible-role-terminator"
@@ -40230,6 +37626,12 @@
         "repository_name": "ansible-role-default-web-browser"
     },
     {
+        "data_at": "2019-11-28T14:09:37.000Z",
+        "downloads_count": 2375,
+        "downloads_delta": 0.0,
+        "repository_name": "ansible-role-default-web-browser"
+    },
+    {
         "data_at": "2018-09-04T10:09:41.000Z",
         "downloads_count": 1030,
         "downloads_delta": 15.0,
@@ -42912,6 +40314,12 @@
         "repository_name": "ansible-role-inotify"
     },
     {
+        "data_at": "2019-11-28T14:09:37.000Z",
+        "downloads_count": 2351,
+        "downloads_delta": 0.0,
+        "repository_name": "ansible-role-inotify"
+    },
+    {
         "data_at": "2018-09-04T10:09:41.000Z",
         "downloads_count": 928,
         "downloads_delta": 15.0,
@@ -45589,6 +42997,12 @@
     },
     {
         "data_at": "2019-11-27T14:09:44.000Z",
+        "downloads_count": 1995,
+        "downloads_delta": 0.0,
+        "repository_name": "ansible-role-gnome-proxy"
+    },
+    {
+        "data_at": "2019-11-28T14:09:37.000Z",
         "downloads_count": 1995,
         "downloads_delta": 0.0,
         "repository_name": "ansible-role-gnome-proxy"
@@ -48276,6 +45690,12 @@
         "repository_name": "alt-galaxy"
     },
     {
+        "data_at": "2019-11-28T14:09:37.000Z",
+        "downloads_count": 2283,
+        "downloads_delta": 4.0,
+        "repository_name": "alt-galaxy"
+    },
+    {
         "data_at": "2018-09-04T10:09:41.000Z",
         "downloads_count": 1257,
         "downloads_delta": 1.0,
@@ -50958,6 +48378,12 @@
         "repository_name": "ansible-role-golang"
     },
     {
+        "data_at": "2019-11-28T14:09:37.000Z",
+        "downloads_count": 15514,
+        "downloads_delta": 32.0,
+        "repository_name": "ansible-role-golang"
+    },
+    {
         "data_at": "2018-09-04T10:09:41.000Z",
         "downloads_count": 1005,
         "downloads_delta": 0.0,
@@ -53635,6 +51061,12 @@
     },
     {
         "data_at": "2019-11-27T14:09:44.000Z",
+        "downloads_count": 2197,
+        "downloads_delta": 0.0,
+        "repository_name": "ansible-role-intellij-plugins"
+    },
+    {
+        "data_at": "2019-11-28T14:09:37.000Z",
         "downloads_count": 2197,
         "downloads_delta": 0.0,
         "repository_name": "ansible-role-intellij-plugins"
@@ -56322,6 +53754,12 @@
         "repository_name": "ansible-role-visual-studio-code-extensions"
     },
     {
+        "data_at": "2019-11-28T14:09:37.000Z",
+        "downloads_count": 2438,
+        "downloads_delta": 1.0,
+        "repository_name": "ansible-role-visual-studio-code-extensions"
+    },
+    {
         "data_at": "2018-09-04T10:09:41.000Z",
         "downloads_count": 1025,
         "downloads_delta": 0.0,
@@ -59004,6 +56442,12 @@
         "repository_name": "ansible-role-atom-packages"
     },
     {
+        "data_at": "2019-11-28T14:09:37.000Z",
+        "downloads_count": 1937,
+        "downloads_delta": 2.0,
+        "repository_name": "ansible-role-atom-packages"
+    },
+    {
         "data_at": "2018-09-04T10:09:41.000Z",
         "downloads_count": 1331,
         "downloads_delta": 15.0,
@@ -61681,6 +59125,12 @@
     },
     {
         "data_at": "2019-11-27T14:09:44.000Z",
+        "downloads_count": 2770,
+        "downloads_delta": 0.0,
+        "repository_name": "ansible-role-kubernetes"
+    },
+    {
+        "data_at": "2019-11-28T14:09:37.000Z",
         "downloads_count": 2770,
         "downloads_delta": 0.0,
         "repository_name": "ansible-role-kubernetes"
@@ -64368,6 +61818,12 @@
         "repository_name": "ansible-role-postman"
     },
     {
+        "data_at": "2019-11-28T14:09:37.000Z",
+        "downloads_count": 4597,
+        "downloads_delta": 2.0,
+        "repository_name": "ansible-role-postman"
+    },
+    {
         "data_at": "2018-09-04T10:09:41.000Z",
         "downloads_count": 175,
         "downloads_delta": 0.0,
@@ -67050,6 +64506,12 @@
         "repository_name": "ansible_role_antigen"
     },
     {
+        "data_at": "2019-11-28T14:09:37.000Z",
+        "downloads_count": 2533,
+        "downloads_delta": 0.0,
+        "repository_name": "ansible_role_antigen"
+    },
+    {
         "data_at": "2018-09-04T10:09:41.000Z",
         "downloads_count": 170,
         "downloads_delta": 0.0,
@@ -69727,6 +67189,12 @@
     },
     {
         "data_at": "2019-11-27T14:09:44.000Z",
+        "downloads_count": 1543,
+        "downloads_delta": 0.0,
+        "repository_name": "ansible_role_git_credential_manager"
+    },
+    {
+        "data_at": "2019-11-28T14:09:37.000Z",
         "downloads_count": 1543,
         "downloads_delta": 0.0,
         "repository_name": "ansible_role_git_credential_manager"
@@ -72414,6 +69882,12 @@
         "repository_name": "ansible_role_hub"
     },
     {
+        "data_at": "2019-11-28T14:09:37.000Z",
+        "downloads_count": 1079,
+        "downloads_delta": 0.0,
+        "repository_name": "ansible_role_hub"
+    },
+    {
         "data_at": "2018-09-04T10:09:41.000Z",
         "downloads_count": 164,
         "downloads_delta": 0.0,
@@ -75091,6 +72565,12 @@
     },
     {
         "data_at": "2019-11-27T14:09:44.000Z",
+        "downloads_count": 1045,
+        "downloads_delta": 0.0,
+        "repository_name": "ansible_role_antigen_bundles"
+    },
+    {
+        "data_at": "2019-11-28T14:09:37.000Z",
         "downloads_count": 1045,
         "downloads_delta": 0.0,
         "repository_name": "ansible_role_antigen_bundles"
@@ -77778,6 +75258,12 @@
         "repository_name": "ansible_role_sdkman"
     },
     {
+        "data_at": "2019-11-28T14:09:37.000Z",
+        "downloads_count": 1637,
+        "downloads_delta": 47.0,
+        "repository_name": "ansible_role_sdkman"
+    },
+    {
         "data_at": "2018-09-04T10:09:41.000Z",
         "downloads_count": 116,
         "downloads_delta": 0.0,
@@ -80455,6 +77941,12 @@
     },
     {
         "data_at": "2019-11-27T14:09:44.000Z",
+        "downloads_count": 1081,
+        "downloads_delta": 0.0,
+        "repository_name": "ansible_role_sdkman_init"
+    },
+    {
+        "data_at": "2019-11-28T14:09:37.000Z",
         "downloads_count": 1081,
         "downloads_delta": 0.0,
         "repository_name": "ansible_role_sdkman_init"
@@ -83142,6 +80634,12 @@
         "repository_name": "ansible_role_backup"
     },
     {
+        "data_at": "2019-11-28T14:09:37.000Z",
+        "downloads_count": 988,
+        "downloads_delta": 0.0,
+        "repository_name": "ansible_role_backup"
+    },
+    {
         "data_at": "2018-09-04T10:09:41.000Z",
         "downloads_count": 40,
         "downloads_delta": 0.0,
@@ -85821,6 +83319,12 @@
         "data_at": "2019-11-27T14:09:44.000Z",
         "downloads_count": 6737,
         "downloads_delta": 12.0,
+        "repository_name": "ansible_role_minikube"
+    },
+    {
+        "data_at": "2019-11-28T14:09:37.000Z",
+        "downloads_count": 6749,
+        "downloads_delta": 0.0,
         "repository_name": "ansible_role_minikube"
     },
     {
@@ -88506,6 +86010,12 @@
         "repository_name": "ansible_role_helm"
     },
     {
+        "data_at": "2019-11-28T14:09:37.000Z",
+        "downloads_count": 1520,
+        "downloads_delta": 1.0,
+        "repository_name": "ansible_role_helm"
+    },
+    {
         "data_at": "2018-09-04T10:09:41.000Z",
         "downloads_count": 28,
         "downloads_delta": 0.0,
@@ -91185,6 +88695,12 @@
         "data_at": "2019-11-27T14:09:44.000Z",
         "downloads_count": 1738,
         "downloads_delta": 0.0,
+        "repository_name": "ansible_role_ctop"
+    },
+    {
+        "data_at": "2019-11-28T14:09:37.000Z",
+        "downloads_count": 1738,
+        "downloads_delta": 4.0,
         "repository_name": "ansible_role_ctop"
     },
     {
@@ -93870,6 +91386,12 @@
         "repository_name": "ansible_role_git_user"
     },
     {
+        "data_at": "2019-11-28T14:09:37.000Z",
+        "downloads_count": 2010,
+        "downloads_delta": 2.0,
+        "repository_name": "ansible_role_git_user"
+    },
+    {
         "data_at": "2018-09-10T10:31:52.000Z",
         "downloads_count": 4.0,
         "downloads_delta": 5.0,
@@ -96511,6 +94033,12 @@
     },
     {
         "data_at": "2019-11-27T14:09:44.000Z",
+        "downloads_count": 886.0,
+        "downloads_delta": 0.0,
+        "repository_name": "ansible_role_kompose"
+    },
+    {
+        "data_at": "2019-11-28T14:09:37.000Z",
         "downloads_count": 886.0,
         "downloads_delta": 0.0,
         "repository_name": "ansible_role_kompose"
@@ -99162,6 +96690,12 @@
         "repository_name": "ansible_role_pipenv"
     },
     {
+        "data_at": "2019-11-28T14:09:37.000Z",
+        "downloads_count": 1340.0,
+        "downloads_delta": 0.0,
+        "repository_name": "ansible_role_pipenv"
+    },
+    {
         "data_at": "2018-09-18T10:37:18.000Z",
         "downloads_count": 4.0,
         "downloads_delta": 23.0,
@@ -101760,6 +99294,12 @@
         "repository_name": "ansible_role_pyenv"
     },
     {
+        "data_at": "2019-11-28T14:09:37.000Z",
+        "downloads_count": 1312.0,
+        "downloads_delta": 0.0,
+        "repository_name": "ansible_role_pyenv"
+    },
+    {
         "data_at": "2018-09-25T10:41:21.000Z",
         "downloads_count": 0,
         "downloads_delta": 0.0,
@@ -104316,6 +101856,12 @@
         "repository_name": "ansible_role_intellij_jdks"
     },
     {
+        "data_at": "2019-11-28T14:09:37.000Z",
+        "downloads_count": 792,
+        "downloads_delta": 0.0,
+        "repository_name": "ansible_role_intellij_jdks"
+    },
+    {
         "data_at": "2018-09-29T10:42:58.000Z",
         "downloads_count": 6.0,
         "downloads_delta": 1.0,
@@ -106843,6 +104389,12 @@
     },
     {
         "data_at": "2019-11-27T14:09:44.000Z",
+        "downloads_count": 773.0,
+        "downloads_delta": 0.0,
+        "repository_name": "ansible_role_fd"
+    },
+    {
+        "data_at": "2019-11-28T14:09:37.000Z",
         "downloads_count": 773.0,
         "downloads_delta": 0.0,
         "repository_name": "ansible_role_fd"
@@ -109380,6 +106932,12 @@
         "repository_name": "ansible_role_bat"
     },
     {
+        "data_at": "2019-11-28T14:09:37.000Z",
+        "downloads_count": 1024.0,
+        "downloads_delta": 0.0,
+        "repository_name": "ansible_role_bat"
+    },
+    {
         "data_at": "2018-10-01T10:44:35.000Z",
         "downloads_count": 25.0,
         "downloads_delta": 10.0,
@@ -111897,6 +109455,12 @@
         "data_at": "2019-11-27T14:09:44.000Z",
         "downloads_count": 1182.0,
         "downloads_delta": 1.0,
+        "repository_name": "ansible_role_timezone"
+    },
+    {
+        "data_at": "2019-11-28T14:09:37.000Z",
+        "downloads_count": 1183.0,
+        "downloads_delta": 0.0,
         "repository_name": "ansible_role_timezone"
     },
     {
@@ -114420,6 +111984,12 @@
         "repository_name": "ansible_role_kops"
     },
     {
+        "data_at": "2019-11-28T14:09:37.000Z",
+        "downloads_count": 1067,
+        "downloads_delta": 0.0,
+        "repository_name": "ansible_role_kops"
+    },
+    {
         "data_at": "2018-10-09T11:04:14.000Z",
         "downloads_count": 5.0,
         "downloads_delta": 0.0,
@@ -116892,6 +114462,12 @@
         "repository_name": "ansible_role_pwquality"
     },
     {
+        "data_at": "2019-11-28T14:09:37.000Z",
+        "downloads_count": 709.0,
+        "downloads_delta": 0.0,
+        "repository_name": "ansible_role_pwquality"
+    },
+    {
         "data_at": "2019-10-07T13:45:28.000Z",
         "downloads_count": 28.0,
         "downloads_delta": 0.0,
@@ -117199,6 +114775,12 @@
     },
     {
         "data_at": "2019-11-27T14:09:44.000Z",
+        "downloads_count": 42.0,
+        "downloads_delta": 0.0,
+        "repository_name": "ansible_role_swapspace"
+    },
+    {
+        "data_at": "2019-11-28T14:09:37.000Z",
         "downloads_count": 42.0,
         "downloads_delta": 0.0,
         "repository_name": "ansible_role_swapspace"
@@ -117516,6 +115098,12 @@
         "repository_name": "ansible_role_zswap"
     },
     {
+        "data_at": "2019-11-28T14:09:37.000Z",
+        "downloads_count": 39,
+        "downloads_delta": 0.0,
+        "repository_name": "ansible_role_zswap"
+    },
+    {
         "data_at": "2019-11-01T13:56:40.000Z",
         "downloads_count": 0,
         "downloads_delta": 2.0,
@@ -117673,6 +115261,12 @@
     },
     {
         "data_at": "2019-11-27T14:09:44.000Z",
+        "downloads_count": 8,
+        "downloads_delta": 0.0,
+        "repository_name": "ansible_role_lazygit"
+    },
+    {
+        "data_at": "2019-11-28T14:09:37.000Z",
         "downloads_count": 8,
         "downloads_delta": 0.0,
         "repository_name": "ansible_role_lazygit"
