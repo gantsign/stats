@@ -5439,6 +5439,18 @@
             "open_issues_count": 0,
             "open_pull_requests_count": 0,
             "stargazers_count": 1
+        },
+        {
+            "commits_since_release": 7,
+            "commits_since_release_url": "https://github.com/gantsign/ansible_role_ctop/compare/1.1.1...master",
+            "data_at": "2019-12-04T14:13:25Z",
+            "downloads_count": 1754,
+            "latest_release_at": "2019-07-26T16:24:52Z",
+            "latest_release_url": "https://github.com/gantsign/ansible_role_ctop/releases/tag/1.1.1",
+            "latest_release_version": "1.1.1",
+            "open_issues_count": 0,
+            "open_pull_requests_count": 0,
+            "stargazers_count": 1
         }
     ],
     "name": "ansible_role_ctop",
