@@ -139,11 +139,11 @@
         },
         "tqdm": {
             "hashes": [
-                "sha256:5a1f3d58f3eb53264387394387fe23df469d2a3fab98c9e7f99d5c146c119873",
-                "sha256:f1a1613fee07cc30a253051617f2a219a785c58877f9f6bfa129446cbaf8b4c1"
+                "sha256:895796ea8df435b6f502bf122f2b2034a3d48e6d8ff52175606ac1051b0e3e12",
+                "sha256:e405d16c98fcf30725d0c9d493ed07302a18846b5452de5253030ccd18996f87"
             ],
             "index": "pypi",
-            "version": "==4.39.0"
+            "version": "==4.40.1"
         },
         "urllib3": {
             "hashes": [
@@ -204,11 +204,11 @@
         },
         "importlib-metadata": {
             "hashes": [
-                "sha256:aa18d7378b00b40847790e7c27e11673d7fed219354109d0e7b9e5b25dc3ad26",
-                "sha256:d5f18a79777f3aa179c145737780282e27b508fc8fd688cb17c7a813e8bd39af"
+                "sha256:3a8b2dfd0a2c6a3636e7c016a7e54ae04b997d30e69d5eacdca7a6c2221a1402",
+                "sha256:41e688146d000891f32b1669e8573c57e39e5060e7f5f647aa617cd9a9568278"
             ],
             "markers": "python_version < '3.8'",
-            "version": "==0.23"
+            "version": "==1.2.0"
         },
         "ipython-genutils": {
             "hashes": [
@@ -320,10 +320,10 @@
         },
         "more-itertools": {
             "hashes": [
-                "sha256:53ff73f186307d9c8ef17a9600309154a6ae27f25579e80af4db8f047ba14bc2",
-                "sha256:a0ea684c39bc4315ba7aae406596ef191fd84f873d2d2751f84d64e81a7a2d45"
+                "sha256:b84b238cce0d9adad5ed87e745778d20a3f8487d0f0cb8b8a586816c7496458d",
+                "sha256:c833ef592a0324bcc6a60e48440da07645063c453880c9477ceb22490aec1564"
             ],
-            "version": "==8.0.0"
+            "version": "==8.0.2"
         },
         "nbconvert": {
             "hashes": [
