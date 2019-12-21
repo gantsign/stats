@@ -25,7 +25,7 @@ import {
 } from './App';
 import { StyleRules } from '@material-ui/core/styles';
 import { Summary } from '../model/Summary';
-import Semver from 'semver';
+import { compare as compareVersions } from 'semver';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 class Column {
@@ -132,7 +132,7 @@ const columns: Column[] = [
       if (latestReleaseVersionA == null || latestReleaseVersionB == null) {
         return latestReleaseVersionA == null ? -1 : 1;
       }
-      return Semver.compare(latestReleaseVersionA, latestReleaseVersionB);
+      return compareVersions(latestReleaseVersionA, latestReleaseVersionB);
     },
     () => '',
     () => null,
