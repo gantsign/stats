@@ -18,7 +18,7 @@ organization = 'gantsign'
 
 github_token = os.environ['GITHUB_TOKEN']
 
-g = Github(github_token)
+g = Github(github_token, timeout=20, retry=5)
 
 
 def format_iso_datetime(value):
