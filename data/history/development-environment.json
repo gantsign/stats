@@ -5907,6 +5907,18 @@
             "open_issues_count": 0,
             "open_pull_requests_count": 0,
             "stargazers_count": 30
+        },
+        {
+            "commits_since_release": 1,
+            "commits_since_release_url": "https://github.com/gantsign/development-environment/compare/2.17.0...master",
+            "data_at": "2020-01-12T14:42:43Z",
+            "downloads_count": null,
+            "latest_release_at": "2019-12-22T11:37:08Z",
+            "latest_release_url": "https://github.com/gantsign/development-environment/releases/tag/2.17.0",
+            "latest_release_version": "2.17.0",
+            "open_issues_count": 0,
+            "open_pull_requests_count": 0,
+            "stargazers_count": 30
         }
     ],
     "name": "development-environment",
