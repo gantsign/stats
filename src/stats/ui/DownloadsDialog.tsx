@@ -124,6 +124,7 @@ class DownloadsDialogBase extends React.Component<
         open={open}
         fullScreen={true}
         TransitionComponent={DialogTransition}
+        className="full-screen-dialog"
       >
         <AppBar position="static">
           <Toolbar>
