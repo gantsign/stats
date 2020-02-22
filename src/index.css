@@ -7,11 +7,11 @@ body {
     font-family: sans-serif;
 }
 
-.full-screen-dialog > div:nth-child(2) > div:nth-child(1) {
+.MuiDialog-paperFullScreen {
     display: flex;
 }
 
-.full-screen-dialog > div:nth-child(2) > div:nth-child(1) > div {
+.MuiDialog-paperFullScreen > div {
     margin-top: 10px;
     flex-grow: 1;
     overflow: hidden;
