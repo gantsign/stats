@@ -124,7 +124,6 @@ class DownloadsDialogBase extends React.Component<
         open={open}
         fullScreen={true}
         TransitionComponent={DialogTransition}
-        className="full-screen-dialog"
       >
         <AppBar position="static">
           <Toolbar>
@@ -187,8 +186,8 @@ class DownloadsDialogBase extends React.Component<
 const styles = (theme: Theme): StyleRules => ({
   closeButton: {
     position: 'absolute',
-    right: theme.spacing.unit,
-    top: theme.spacing.unit,
+    right: theme.spacing(1),
+    top: theme.spacing(1),
   },
 });
 const DownloadsDialog = withStyles(styles)(DownloadsDialogBase);

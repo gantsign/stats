@@ -1,7 +1,7 @@
 import React from 'react';
 import {
+  createMuiTheme,
   IconButton,
-  MuiThemeProvider,
   Paper,
   Table,
   TableBody,
@@ -11,6 +11,7 @@ import {
   TableRow,
   TableSortLabel,
   Theme,
+  ThemeProvider,
   Tooltip,
   withStyles,
 } from '@material-ui/core';
@@ -237,8 +238,10 @@ class TotalRowBase extends React.Component<TotalRowProps, {}> {
     const classes = this.props.classes;
 
     return (
-      <TableRow className={classes.totals}>
-        <TableCell key="totals">Totals</TableCell>
+      <TableRow>
+        <TableCell key="totals" className={classes.totalCell}>
+          Totals
+        </TableCell>
         {columns
           .filter((column: Column) => column.id !== 'name')
           .map((column: Column) => {
@@ -254,6 +257,7 @@ class TotalRowBase extends React.Component<TotalRowProps, {}> {
               <TableCell
                 key={column.id}
                 align={column.numeric ? 'right' : 'left'}
+                className={classes.totalCell}
               >
                 {contents}
               </TableCell>
@@ -264,26 +268,62 @@ class TotalRowBase extends React.Component<TotalRowProps, {}> {
   }
 }
 
+const lightTheme = createMuiTheme({});
+
 const totalRowStyles = (theme: Theme): StyleRules => ({
-  totals: {
+  totalCell: {
+    fontWeight: lightTheme.typography.caption.fontWeight,
+    color: lightTheme.palette.text.secondary,
     backgroundColor: theme.palette.grey['300'],
   },
   totalLink: {
-    fontWeight: theme.typography.caption.fontWeight,
-    color: theme.typography.caption.color,
+    fontWeight: lightTheme.typography.caption.fontWeight,
+    color: lightTheme.palette.text.secondary,
     textDecoration: 'none',
     '&:focus, &:visited, &:link, &:active': {
-      color: theme.typography.caption.color,
+      color: lightTheme.palette.text.secondary,
       textDecoration: 'none',
     },
     '&:hover': {
-      color: theme.typography.caption.color,
+      color: lightTheme.palette.text.secondary,
       textDecoration: 'underline',
     },
   },
 });
 
 const TotalRow = withStyles(totalRowStyles)(TotalRowBase);
+
+const theme = createMuiTheme({
+  palette: {
+    type: 'dark',
+  },
+  overrides: {
+    MuiTableRow: {
+      root: {
+        '&:nth-of-type(odd)': {
+          backgroundColor: lightTheme.palette.background.default,
+        },
+      },
+    },
+    MuiTableCell: {
+      head: {
+        backgroundColor: lightTheme.palette.primary.dark,
+        color: darkTheme.palette.text.primary,
+      },
+      body: {
+        color: lightTheme.palette.text.primary,
+      },
+    },
+    MuiTableSortLabel: {
+      root: {
+        color: darkTheme.palette.text.secondary,
+        '&:hover': {
+          color: darkTheme.palette.text.primary,
+        },
+      },
+    },
+  },
+});
 
 interface SummaryTableProps {
   summary: Summary;
@@ -349,10 +389,10 @@ class SummaryTableBase extends React.Component<
 
     return (
       <Paper className={classes.root}>
-        <Table padding="dense">
-          <TableHead>
-            <MuiThemeProvider theme={darkTheme}>
-              <TableRow className={classes.header}>
+        <ThemeProvider theme={theme}>
+          <Table>
+            <TableHead>
+              <TableRow>
                 <TableCell colSpan={columns.length}>
                   <h2 className={classes.title}>
                     GantSign open-source project statistics
@@ -362,7 +402,7 @@ class SummaryTableBase extends React.Component<
                   </div>
                 </TableCell>
               </TableRow>
-              <TableRow className={classes.header}>
+              <TableRow>
                 {columns.map((column: Column) => {
                   const sortDirection: SortDirection =
                     orderBy === column.id ? order : false;
@@ -394,38 +434,38 @@ class SummaryTableBase extends React.Component<
                   );
                 })}
               </TableRow>
-            </MuiThemeProvider>
-            <TotalRow summary={summary} />
-          </TableHead>
-          <TableFooter>
-            <TotalRow summary={summary} />
-          </TableFooter>
-          <TableBody>
-            {sortedRepositories.map((repository: SummaryRepository) => (
-              <TableRow key={repository.name} className={classes.row}>
-                {columns.map((column: Column) => {
-                  const link = column.linkAccessor(repository);
-                  const contents = link ? (
-                    <a className={classes.bodyLink} href={link}>
-                      {column.accessor(repository)}
-                    </a>
-                  ) : (
-                    column.accessor(repository)
-                  );
-                  return (
-                    <TableCell
-                      key={column.id}
-                      align={column.numeric ? 'right' : 'left'}
-                    >
-                      {contents}
-                      {column.iconAccessor(repository, this.props) || ''}
-                    </TableCell>
-                  );
-                })}
-              </TableRow>
-            ))}
-          </TableBody>
-        </Table>
+              <TotalRow summary={summary} />
+            </TableHead>
+            <TableFooter>
+              <TotalRow summary={summary} />
+            </TableFooter>
+            <TableBody>
+              {sortedRepositories.map((repository: SummaryRepository) => (
+                <TableRow key={repository.name}>
+                  {columns.map((column: Column) => {
+                    const link = column.linkAccessor(repository);
+                    const contents = link ? (
+                      <a className={classes.bodyLink} href={link}>
+                        {column.accessor(repository)}
+                      </a>
+                    ) : (
+                      column.accessor(repository)
+                    );
+                    return (
+                      <TableCell
+                        key={column.id}
+                        align={column.numeric ? 'right' : 'left'}
+                      >
+                        {contents}
+                        {column.iconAccessor(repository, this.props) || ''}
+                      </TableCell>
+                    );
+                  })}
+                </TableRow>
+              ))}
+            </TableBody>
+          </Table>
+        </ThemeProvider>
       </Paper>
     );
   }
@@ -433,40 +473,30 @@ class SummaryTableBase extends React.Component<
 
 const styles = (theme: Theme): StyleRules => ({
   root: {
-    overflowX: 'auto',
-  },
-  row: {
-    '&:nth-of-type(odd)': {
-      backgroundColor: theme.palette.background.default,
-    },
-  },
-  header: {
-    backgroundColor: theme.palette.primary.dark,
+    overflow: 'hidden',
   },
   title: {
-    fontSize: theme.typography.title.fontSize,
-    fontWeight: theme.typography.title.fontWeight,
-    fontFamily: theme.typography.title.fontFamily,
-    lineHeight: theme.typography.title.lineHeight,
-    color: theme.palette.common.white,
+    fontSize: theme.typography.h6.fontSize,
+    fontWeight: theme.typography.h6.fontWeight,
+    fontFamily: theme.typography.h6.fontFamily,
+    lineHeight: theme.typography.h6.lineHeight,
   },
   subtitle: {
     fontSize: theme.typography.caption.fontSize,
     fontWeight: theme.typography.caption.fontWeight,
     fontFamily: theme.typography.caption.fontFamily,
     lineHeight: theme.typography.caption.lineHeight,
-    color: theme.palette.common.white,
   },
   bodyLink: {
-    fontWeight: theme.typography.body1.fontWeight,
-    color: theme.typography.body1.color,
+    fontWeight: theme.typography.body2.fontWeight,
+    color: theme.palette.text.primary,
     textDecoration: 'none',
     '&:focus, &:visited, &:link, &:active': {
-      color: theme.typography.body1.color,
+      color: theme.palette.text.primary,
       textDecoration: 'none',
     },
     '&:hover': {
-      color: theme.typography.body1.color,
+      color: theme.palette.text.primary,
       textDecoration: 'underline',
     },
   },
@@ -474,6 +504,7 @@ const styles = (theme: Theme): StyleRules => ({
     padding: 0,
     paddingLeft: '0.25em',
     borderRadius: 0,
+    color: theme.palette.text.secondary,
   },
 });
 const SummaryTable = withStyles(styles)(SummaryTableBase);
