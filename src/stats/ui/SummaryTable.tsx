@@ -133,7 +133,11 @@ const columns: Column[] = [
       if (latestReleaseVersionA == null || latestReleaseVersionB == null) {
         return latestReleaseVersionA == null ? -1 : 1;
       }
-      return Semver.compare(latestReleaseVersionA, latestReleaseVersionB);
+      try {
+        return Semver.compare(latestReleaseVersionA, latestReleaseVersionB);
+      } catch (e) {
+        return latestReleaseVersionA.localeCompare(latestReleaseVersionB);
+      }
     },
     () => '',
     () => null,
