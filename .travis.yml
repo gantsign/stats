@@ -5,8 +5,7 @@ jobs:
 
       language: python
 
-      python:
-        - '3.5'
+      python: '3.5'
 
       install:
         - pipenv install
@@ -18,8 +17,7 @@ jobs:
       if: type != cron
 
       language: node_js
-      node_js:
-        - '12'
+      node_js: '12'
 
       script:
         - .travis/build-web.sh
