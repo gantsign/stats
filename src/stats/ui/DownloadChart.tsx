@@ -1,8 +1,10 @@
 import * as React from 'react';
-import Plot from 'react-plotly.js';
-import * as Plotly from 'plotly.js';
+import createPlotlyComponent from 'react-plotly.js/factory';
 import { IDataFrame } from 'data-forge';
 import Measure, { ContentRect } from 'react-measure';
+
+const Plotly = require('plotly.js-basic-dist');
+const Plot = createPlotlyComponent(Plotly);
 
 interface DownloadChartProps {
   downloadsDf: IDataFrame;
