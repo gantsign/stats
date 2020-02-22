@@ -66,7 +66,7 @@ class DownloadChart extends React.Component<
           };
           const layout: Partial<Plotly.Layout> = {
             width: state.width,
-            height: state.height - 50,
+            height: state.height,
             title: repositoryName,
             xaxis: { title: 'Date' },
             yaxis: { title: variantLabel },
