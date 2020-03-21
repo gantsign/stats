@@ -6411,6 +6411,18 @@
             "open_issues_count": 0,
             "open_pull_requests_count": 0,
             "stargazers_count": 3
+        },
+        {
+            "commits_since_release": 0,
+            "commits_since_release_url": "https://github.com/gantsign/ansible_role_kops/compare/1.6.0...master",
+            "data_at": "2020-03-21T15:26:00Z",
+            "downloads_count": 1203,
+            "latest_release_at": "2020-02-29T08:29:46Z",
+            "latest_release_url": "https://github.com/gantsign/ansible_role_kops/releases/tag/1.6.0",
+            "latest_release_version": "1.6.0",
+            "open_issues_count": 0,
+            "open_pull_requests_count": 0,
+            "stargazers_count": 3
         }
     ],
     "name": "ansible_role_kops",
