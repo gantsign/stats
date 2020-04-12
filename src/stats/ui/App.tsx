@@ -1,11 +1,11 @@
-import React, { Suspense } from 'react';
-import { createMuiTheme } from '@material-ui/core';
-import { library } from '@fortawesome/fontawesome-svg-core';
-import { faChartLine } from '@fortawesome/free-solid-svg-icons';
-import { AxiosResponse } from 'axios';
-import { Summary } from '../model/Summary';
+import React, {Suspense} from 'react';
+import {createMuiTheme} from '@material-ui/core';
+import {library} from '@fortawesome/fontawesome-svg-core';
+import {faChartLine} from '@fortawesome/free-solid-svg-icons';
+import {AxiosResponse} from 'axios';
+import {Summary} from '../model/Summary';
 import StatsService from '../service/StatsService';
-import { DownloadSnapshot } from '../model/DownloadSnapshot';
+import {DownloadSnapshot} from '../model/DownloadSnapshot';
 
 const SummaryTable = React.lazy(() => import('./SummaryTable'));
 const DownloadsDialog = React.lazy(() => import('./DownloadsDialog'));
@@ -36,8 +36,7 @@ class App extends React.Component<{}, AppState> {
           `Summary request failed: [${summaryResponse.status} ${summaryResponse.statusText}] ${summaryResponse.data}`
         );
         this.setState({
-          errorMessage:
-            'Unable to access repository data, please try again later.',
+          errorMessage: 'Unable to access repository data, please try again later.',
         });
         return;
       }
@@ -48,8 +47,7 @@ class App extends React.Component<{}, AppState> {
           `Downloads request failed: [${downloadsResponse.status} ${downloadsResponse.statusText}] ${downloadsResponse.data}`
         );
         this.setState({
-          errorMessage:
-            'Unable to access repository data, please try again later.',
+          errorMessage: 'Unable to access repository data, please try again later.',
         });
         return;
       }
@@ -110,12 +108,7 @@ class App extends React.Component<{}, AppState> {
     return (
       <>
         <Suspense fallback={<div>Loading...</div>}>
-          <SummaryTable
-            summary={summary}
-            onShowDownloadsChart={repositoryName =>
-              this.showChart(repositoryName)
-            }
-          />
+          <SummaryTable summary={summary} onShowDownloadsChart={repositoryName => this.showChart(repositoryName)} />
         </Suspense>
         <Suspense fallback={<></>}>
           <DownloadsDialog
@@ -136,27 +129,21 @@ export const darkTheme = createMuiTheme({
   },
 });
 
-export const parseIsoDateToMillis = (
-  value: string | null | undefined
-): number | null => {
+export const parseIsoDateToMillis = (value: string | null | undefined): number | null => {
   if (!value) {
     return null;
   }
   return Date.parse(value);
 };
 
-export const reformatIsoAsLocaleDate = (
-  value: string | null | undefined
-): string => {
+export const reformatIsoAsLocaleDate = (value: string | null | undefined): string => {
   if (!value) {
     return '';
   }
   return new Date(value).toLocaleDateString();
 };
 
-export const reformatIsoAsLocaleDatetime = (
-  value: string | null | undefined
-): string => {
+export const reformatIsoAsLocaleDatetime = (value: string | null | undefined): string => {
   if (!value) {
     return '';
   }
@@ -165,7 +152,7 @@ export const reformatIsoAsLocaleDatetime = (
 };
 
 export const toLocaleString = (value: number | null | undefined): string => {
-  if (value == null || value === undefined) {
+  if (value === null || value === undefined) {
     return '';
   }
   return value.toLocaleString();

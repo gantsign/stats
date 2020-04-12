@@ -11,16 +11,18 @@ import {
   Theme,
   Toolbar,
   withStyles,
+  WithStyles,
 } from '@material-ui/core';
-import { DownloadSnapshot } from '../model/DownloadSnapshot';
+import {TransitionProps} from '@material-ui/core/transitions';
+import {DownloadSnapshot} from '../model/DownloadSnapshot';
 import * as DataForge from 'data-forge';
-import { IDataFrame } from 'data-forge';
+import {IDataFrame} from 'data-forge';
 import DownloadChart from './DownloadChart';
-import { darkTheme } from './App';
+import {darkTheme} from './App';
 import CloseIcon from '@material-ui/icons/Close';
-import { StyleRules } from '@material-ui/core/styles';
+import {StyleRules} from '@material-ui/core/styles';
 
-interface DownloadsDialogProps {
+interface DownloadsDialogProps extends WithStyles {
   repositoryName: string | null;
 
   downloads: DownloadSnapshot[];
@@ -28,8 +30,6 @@ interface DownloadsDialogProps {
   open: boolean;
 
   onClose?: React.ReactEventHandler<{}>;
-
-  classes: any;
 }
 
 interface DownloadsDialogState {
@@ -38,14 +38,11 @@ interface DownloadsDialogState {
   variant: 'count' | 'delta';
 }
 
-function DialogTransition(props: any) {
+function DialogTransition(props: TransitionProps) {
   return <Slide direction="up" {...props} />;
 }
 
-class DownloadsDialogBase extends React.Component<
-  DownloadsDialogProps,
-  DownloadsDialogState
-> {
+class DownloadsDialogBase extends React.Component<DownloadsDialogProps, DownloadsDialogState> {
   componentDidMount(): void {
     this.setState({
       repositoryName: this.props.repositoryName,
@@ -62,12 +59,12 @@ class DownloadsDialogBase extends React.Component<
     }
   }
 
-  repoChanged = (event: any) => {
+  repoChanged = (event: React.ChangeEvent<{name?: string; value: unknown}>) => {
     const state = this.state;
     if (!state) {
       return;
     }
-    const repositoryName: string = event.target.value;
+    const repositoryName = String(event.target.value);
     const variant = state.variant;
 
     this.setState({
@@ -76,13 +73,13 @@ class DownloadsDialogBase extends React.Component<
     });
   };
 
-  variantChanged = (event: any) => {
+  variantChanged = (event: React.ChangeEvent<{name?: string; value: unknown}>) => {
     const state = this.state;
     if (!state) {
       return;
     }
     const repositoryName = state.repositoryName;
-    const variant: 'count' | 'delta' = event.target.value;
+    const variant: 'count' | 'delta' = event.target.value === 'count' ? 'count' : 'delta';
 
     this.setState({
       repositoryName,
@@ -117,22 +114,14 @@ class DownloadsDialogBase extends React.Component<
 
     const open = this.props.open;
 
-    const classes: any = this.props.classes;
+    const classes = this.props.classes;
 
     return (
-      <Dialog
-        open={open}
-        fullScreen={true}
-        TransitionComponent={DialogTransition}
-      >
+      <Dialog open={open} fullScreen={true} TransitionComponent={DialogTransition}>
         <AppBar position="static">
           <Toolbar>
             <MuiThemeProvider theme={darkTheme}>
-              <IconButton
-                aria-label="Close"
-                className={classes.closeButton}
-                onClick={this.props.onClose}
-              >
+              <IconButton aria-label="Close" className={classes.closeButton} onClick={this.props.onClose}>
                 <CloseIcon />
               </IconButton>
               <InputLabel htmlFor="repo">Repository</InputLabel>&nbsp;
@@ -170,13 +159,7 @@ class DownloadsDialogBase extends React.Component<
           if (!repositoryName) {
             return <></>;
           }
-          return (
-            <DownloadChart
-              downloadsDf={downloadsDf}
-              repositoryName={repositoryName}
-              variant={variant}
-            />
-          );
+          return <DownloadChart downloadsDf={downloadsDf} repositoryName={repositoryName} variant={variant} />;
         })()}
       </Dialog>
     );

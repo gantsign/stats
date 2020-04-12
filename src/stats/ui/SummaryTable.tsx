@@ -14,9 +14,10 @@ import {
   ThemeProvider,
   Tooltip,
   withStyles,
+  WithStyles,
 } from '@material-ui/core';
-import { SortDirection } from '@material-ui/core/TableCell';
-import { SummaryRepository } from '../model/SummaryRepository';
+import {SortDirection} from '@material-ui/core/TableCell';
+import {SummaryRepository} from '../model/SummaryRepository';
 import {
   darkTheme,
   parseIsoDateToMillis,
@@ -24,10 +25,10 @@ import {
   reformatIsoAsLocaleDatetime,
   toLocaleString,
 } from './App';
-import { StyleRules } from '@material-ui/core/styles';
-import { Summary } from '../model/Summary';
+import {StyleRules} from '@material-ui/core/styles';
+import {Summary} from '../model/Summary';
 import Semver from 'semver';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 
 class Column {
   constructor(
@@ -36,16 +37,10 @@ class Column {
     readonly numeric: boolean,
     readonly accessor: (repo: SummaryRepository) => string,
     readonly linkAccessor: (repo: SummaryRepository) => string | null,
-    readonly comparator: (
-      repoA: SummaryRepository,
-      repoB: SummaryRepository
-    ) => number,
+    readonly comparator: (repoA: SummaryRepository, repoB: SummaryRepository) => number,
     readonly totalAccessor: (summary: Summary) => string,
     readonly totalLinkAccessor: (summary: Summary) => string | null,
-    readonly iconAccessor: (
-      repo: SummaryRepository,
-      props: SummaryTableProps
-    ) => JSX.Element | null
+    readonly iconAccessor: (repo: SummaryRepository, props: SummaryTableProps) => JSX.Element | null
   ) {}
 }
 
@@ -117,21 +112,19 @@ const columns: Column[] = [
     repo => repo.latest_release_version || '',
     repo => repo.latest_release_url || null,
     (repoA, repoB) => {
-      let latestReleaseVersionA: string | undefined | null =
-        repoA.latest_release_version;
+      let latestReleaseVersionA: string | undefined | null = repoA.latest_release_version;
       if (!latestReleaseVersionA) {
         latestReleaseVersionA = null;
       }
-      let latestReleaseVersionB: string | undefined | null =
-        repoB.latest_release_version;
+      let latestReleaseVersionB: string | undefined | null = repoB.latest_release_version;
       if (!latestReleaseVersionB) {
         latestReleaseVersionB = null;
       }
-      if (latestReleaseVersionA == null && latestReleaseVersionB == null) {
+      if (latestReleaseVersionA === null && latestReleaseVersionB === null) {
         return 0;
       }
-      if (latestReleaseVersionA == null || latestReleaseVersionB == null) {
-        return latestReleaseVersionA == null ? -1 : 1;
+      if (latestReleaseVersionA === null || latestReleaseVersionB === null) {
+        return latestReleaseVersionA === null ? -1 : 1;
       }
       try {
         return Semver.compare(latestReleaseVersionA, latestReleaseVersionB);
@@ -150,10 +143,8 @@ const columns: Column[] = [
     repo => reformatIsoAsLocaleDate(repo.latest_release_at),
     () => null,
     (repoA, repoB) => {
-      const latestReleaseAtA =
-        parseIsoDateToMillis(repoA.latest_release_at) || 0;
-      const latestReleaseAtB =
-        parseIsoDateToMillis(repoB.latest_release_at) || 0;
+      const latestReleaseAtA = parseIsoDateToMillis(repoA.latest_release_at) || 0;
+      const latestReleaseAtB = parseIsoDateToMillis(repoB.latest_release_at) || 0;
       return latestReleaseAtA - latestReleaseAtB;
     },
     () => '',
@@ -220,16 +211,12 @@ interface ColumnMap {
   [key: string]: Column;
 }
 
-const columnMapping: ColumnMap = columns.reduce(
-  (map: ColumnMap, column: Column): ColumnMap => {
-    map[column.id] = column;
-    return map;
-  },
-  {}
-);
+const columnMapping: ColumnMap = columns.reduce((map: ColumnMap, column: Column): ColumnMap => {
+  map[column.id] = column;
+  return map;
+}, {});
 
-interface TotalRowProps {
-  classes: any;
+interface TotalRowProps extends WithStyles {
   summary?: Summary;
 }
 
@@ -258,11 +245,7 @@ class TotalRowBase extends React.Component<TotalRowProps, {}> {
               column.totalAccessor(summary)
             );
             return (
-              <TableCell
-                key={column.id}
-                align={column.numeric ? 'right' : 'left'}
-                className={classes.totalCell}
-              >
+              <TableCell key={column.id} align={column.numeric ? 'right' : 'left'} className={classes.totalCell}>
                 {contents}
               </TableCell>
             );
@@ -329,10 +312,8 @@ const theme = createMuiTheme({
   },
 });
 
-interface SummaryTableProps {
+interface SummaryTableProps extends WithStyles {
   summary: Summary;
-
-  classes: any;
 
   onShowDownloadsChart: (repositoryName: string) => void;
 }
@@ -343,10 +324,7 @@ interface SummaryTableState {
   order?: SortDirection;
 }
 
-class SummaryTableBase extends React.Component<
-  SummaryTableProps,
-  SummaryTableState
-> {
+class SummaryTableBase extends React.Component<SummaryTableProps, SummaryTableState> {
   componentDidMount(): void {
     this.setState({
       orderBy: 'name',
@@ -359,13 +337,7 @@ class SummaryTableBase extends React.Component<
     const currentOrder: SortDirection = this.state.order || 'asc';
 
     const order: SortDirection =
-      currentOrderBy === columnId
-        ? currentOrder === 'desc'
-          ? 'asc'
-          : 'desc'
-        : columnId === 'name'
-        ? 'asc'
-        : 'desc';
+      currentOrderBy === columnId ? (currentOrder === 'desc' ? 'asc' : 'desc') : columnId === 'name' ? 'asc' : 'desc';
 
     this.setState({
       orderBy: columnId,
@@ -379,7 +351,7 @@ class SummaryTableBase extends React.Component<
       return <div>Loading...</div>;
     }
     const summary = this.props.summary;
-    const classes: any = this.props.classes;
+    const classes = this.props.classes;
     const orderBy: string = state.orderBy || 'name';
     const order: SortDirection = state.order || 'asc';
     const repositories: SummaryRepository[] = summary.repositories;
@@ -398,39 +370,20 @@ class SummaryTableBase extends React.Component<
             <TableHead>
               <TableRow>
                 <TableCell colSpan={columns.length}>
-                  <h2 className={classes.title}>
-                    GantSign open-source project statistics
-                  </h2>
-                  <div className={classes.subtitle}>
-                    Last updated: {reformatIsoAsLocaleDatetime(summary.data_at)}
-                  </div>
+                  <h2 className={classes.title}>GantSign open-source project statistics</h2>
+                  <div className={classes.subtitle}>Last updated: {reformatIsoAsLocaleDatetime(summary.data_at)}</div>
                 </TableCell>
               </TableRow>
               <TableRow>
                 {columns.map((column: Column) => {
-                  const sortDirection: SortDirection =
-                    orderBy === column.id ? order : false;
-                  const tooltipPlacement = column.numeric
-                    ? 'bottom-end'
-                    : 'bottom-start';
+                  const sortDirection: SortDirection = orderBy === column.id ? order : false;
+                  const tooltipPlacement = column.numeric ? 'bottom-end' : 'bottom-start';
                   const sortActive = orderBy === column.id;
 
                   return (
-                    <TableCell
-                      key={column.id}
-                      align={column.numeric ? 'right' : 'left'}
-                      sortDirection={sortDirection}
-                    >
-                      <Tooltip
-                        title="Sort"
-                        placement={tooltipPlacement}
-                        enterDelay={300}
-                      >
-                        <TableSortLabel
-                          active={sortActive}
-                          direction={order}
-                          onClick={() => this.sortBy(column.id)}
-                        >
+                    <TableCell key={column.id} align={column.numeric ? 'right' : 'left'} sortDirection={sortDirection}>
+                      <Tooltip title="Sort" placement={tooltipPlacement} enterDelay={300}>
+                        <TableSortLabel active={sortActive} direction={order} onClick={() => this.sortBy(column.id)}>
                           {column.name}
                         </TableSortLabel>
                       </Tooltip>
@@ -456,10 +409,7 @@ class SummaryTableBase extends React.Component<
                       column.accessor(repository)
                     );
                     return (
-                      <TableCell
-                        key={column.id}
-                        align={column.numeric ? 'right' : 'left'}
-                      >
+                      <TableCell key={column.id} align={column.numeric ? 'right' : 'left'}>
                         {contents}
                         {column.iconAccessor(repository, this.props) || ''}
                       </TableCell>
