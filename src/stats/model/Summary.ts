@@ -1,4 +1,4 @@
-import { SummaryRepository } from './SummaryRepository';
+import {SummaryRepository} from './SummaryRepository';
 
 export interface Summary {
   data_at: string;

@@ -1,6 +1,6 @@
-import Axios, { AxiosResponse } from 'axios';
-import { Summary } from '../model/Summary';
-import { DownloadSnapshot } from '../model/DownloadSnapshot';
+import Axios, {AxiosResponse} from 'axios';
+import {Summary} from '../model/Summary';
+import {DownloadSnapshot} from '../model/DownloadSnapshot';
 
 class StatsService {
   getSummary(): Promise<AxiosResponse<Summary>> {
