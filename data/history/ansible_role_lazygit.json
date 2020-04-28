@@ -2127,6 +2127,18 @@
             "open_issues_count": 0,
             "open_pull_requests_count": 0,
             "stargazers_count": 1
+        },
+        {
+            "commits_since_release": 1,
+            "commits_since_release_url": "https://github.com/gantsign/ansible_role_lazygit/compare/1.0.0...master",
+            "data_at": "2020-04-28T10:33:22Z",
+            "downloads_count": 220,
+            "latest_release_at": "2019-10-31T22:43:54Z",
+            "latest_release_url": "https://github.com/gantsign/ansible_role_lazygit/releases/tag/1.0.0",
+            "latest_release_version": "1.0.0",
+            "open_issues_count": 0,
+            "open_pull_requests_count": 0,
+            "stargazers_count": 1
         }
     ],
     "name": "ansible_role_lazygit",
