@@ -35,7 +35,7 @@
     "plotly.js-basic-dist": "^1.55.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-measure": "^2.5.0",
+    "react-measure": "^2.5.2",
     "react-plotly.js": "^2.4.0",
     "semver": "^7.3.2"
   },
