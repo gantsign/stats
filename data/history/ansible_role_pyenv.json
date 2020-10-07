@@ -8931,6 +8931,18 @@
             "open_issues_count": 0,
             "open_pull_requests_count": 0,
             "stargazers_count": 3
+        },
+        {
+            "commits_since_release": 18,
+            "commits_since_release_url": "https://github.com/gantsign/ansible_role_pyenv/compare/1.0.0...master",
+            "data_at": "2020-10-07T12:02:57Z",
+            "downloads_count": 1982,
+            "latest_release_at": "2018-09-17T21:25:25Z",
+            "latest_release_url": "https://github.com/gantsign/ansible_role_pyenv/releases/tag/1.0.0",
+            "latest_release_version": "1.0.0",
+            "open_issues_count": 0,
+            "open_pull_requests_count": 0,
+            "stargazers_count": 3
         }
     ],
     "name": "ansible_role_pyenv",
