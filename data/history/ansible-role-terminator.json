@@ -9183,6 +9183,18 @@
             "open_issues_count": 0,
             "open_pull_requests_count": 0,
             "stargazers_count": 3
+        },
+        {
+            "commits_since_release": 16,
+            "commits_since_release_url": "https://github.com/gantsign/ansible-role-terminator/compare/2.0.1...master",
+            "data_at": "2020-10-15T18:17:53Z",
+            "downloads_count": 3424,
+            "latest_release_at": "2018-09-16T06:47:00Z",
+            "latest_release_url": "https://github.com/gantsign/ansible-role-terminator/releases/tag/2.0.1",
+            "latest_release_version": "2.0.1",
+            "open_issues_count": 0,
+            "open_pull_requests_count": 0,
+            "stargazers_count": 3
         }
     ],
     "name": "ansible-role-terminator",
