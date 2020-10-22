@@ -5379,6 +5379,18 @@
             "open_issues_count": 0,
             "open_pull_requests_count": 0,
             "stargazers_count": 5
+        },
+        {
+            "commits_since_release": 16,
+            "commits_since_release_url": "https://github.com/gantsign/maven-parent-poms/compare/2.7.1...master",
+            "data_at": "2020-10-22T12:10:57Z",
+            "downloads_count": null,
+            "latest_release_at": "2020-09-12T06:46:56Z",
+            "latest_release_url": "https://github.com/gantsign/maven-parent-poms/releases/tag/2.7.1",
+            "latest_release_version": "2.7.1",
+            "open_issues_count": 0,
+            "open_pull_requests_count": 0,
+            "stargazers_count": 5
         }
     ],
     "name": "maven-parent-poms",
