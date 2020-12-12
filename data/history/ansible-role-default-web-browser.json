@@ -9879,6 +9879,18 @@
             "open_issues_count": 0,
             "open_pull_requests_count": 0,
             "stargazers_count": 3
+        },
+        {
+            "commits_since_release": 15,
+            "commits_since_release_url": "https://github.com/gantsign/ansible-role-default-web-browser/compare/3.2.0...master",
+            "data_at": "2020-12-12T12:37:12Z",
+            "downloads_count": 3156,
+            "latest_release_at": "2018-09-15T14:53:32Z",
+            "latest_release_url": "https://github.com/gantsign/ansible-role-default-web-browser/releases/tag/3.2.0",
+            "latest_release_version": "3.2.0",
+            "open_issues_count": 0,
+            "open_pull_requests_count": 0,
+            "stargazers_count": 3
         }
     ],
     "name": "ansible-role-default-web-browser",
