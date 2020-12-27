@@ -40,6 +40,7 @@ class Column {
     readonly comparator: (repoA: SummaryRepository, repoB: SummaryRepository) => number,
     readonly totalAccessor: (summary: Summary) => string,
     readonly totalLinkAccessor: (summary: Summary) => string | null,
+    // eslint-disable-next-line no-undef
     readonly iconAccessor: (repo: SummaryRepository, props: SummaryTableProps) => JSX.Element | null
   ) {}
 }
