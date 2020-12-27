@@ -5,6 +5,7 @@ on:
     - cron: '0 19 * * *'
 
 env:
+  GH_TOKEN: ${{ secrets.GH_TOKEN }}
   PY_COLORS: '1'
 
 jobs:
