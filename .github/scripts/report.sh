@@ -2,7 +2,7 @@
 
 set -e
 
-repo_url=https://${GITHUB_TOKEN}@github.com/gantsign/stats.git
+repo_url=https://${GH_TOKEN}@github.com/gantsign/stats.git
 
 git clone --single-branch --branch=gh-pages --depth=1 "$repo_url" tmp
 
