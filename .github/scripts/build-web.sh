@@ -3,7 +3,7 @@
 set -e
 
 # Install dependencies
-npm install
+npm ci
 
 # Check if files are properly formatted
 npm run fix
@@ -18,10 +18,10 @@ fi
 # Build web app
 npm run build
 
-if [ "$TRAVIS_PULL_REQUEST" == "false" ] && [ "$TRAVIS_BRANCH" == "master" ]; then
+if [ "${GITHUB_REF##*/}" == "master" ]; then
     # Deploy changes
 
-    repo_url=https://${GITHUB_TOKEN}@github.com/gantsign/stats.git
+    repo_url=https://${GH_TOKEN}@github.com/gantsign/stats.git
 
     git clone --single-branch --branch=gh-pages --depth=1 "$repo_url" tmp
 

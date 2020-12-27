@@ -1,6 +1,6 @@
 # GantSign open-source project statistics
 
-[![Build Status](https://travis-ci.com/gantsign/stats.svg?branch=master)](https://travis-ci.com/gantsign/stats)
+[![Build](https://github.com/gantsign/stats/workflows/Build/badge.svg)](https://github.com/gantsign/stats/actions?query=workflow%3ABuild)
 
 Project to collect and display information from
 [GitHub](https://developer.github.com/v3/) and
@@ -29,7 +29,7 @@ sudo pip install pipenv
 pipenv install
 
 # Set your GitHub token (no additional permissions necessary)
-export GITHUB_TOKEN=<YOUR GITHUB TOKEN HERE>
+export GH_TOKEN=<YOUR GITHUB TOKEN HERE>
 
 # Run the report
 pipenv run python report.py
@@ -49,7 +49,7 @@ pipenv run python report.py
 ## To build the web application
 
 Dependencies:
-* Node.js 8 (you can install this using https://github.com/creationix/nvm)
+* Node.js 12 (you can install this using https://github.com/creationix/nvm)
 
 To build the web interface run the following from the project root:
 

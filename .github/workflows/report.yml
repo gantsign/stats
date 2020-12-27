@@ -1,0 +1,32 @@
+name: Report
+
+on:
+  schedule:
+    - cron: '0 19 * * *'
+
+env:
+  PY_COLORS: '1'
+
+jobs:
+  web:
+    name: Report
+    runs-on: ubuntu-18.04
+    environment: build
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.5'
+
+      - name: Install pipenv
+        run: pip install pipenv
+
+      - name: Install dependencies
+        run: pipenv install
+
+      - name: Report
+        run: .github/scripts/report.sh
