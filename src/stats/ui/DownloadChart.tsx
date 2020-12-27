@@ -46,6 +46,7 @@ class DownloadChart extends React.Component<DownloadChartProps, DownloadChartSta
       .setIndex('data_at')
       .subset([columnName]);
 
+    // eslint-disable-next-line no-undef
     const data: Plotly.Data[] = [
       {
         x: downloadsDf.getIndex().toArray(),
@@ -60,6 +61,7 @@ class DownloadChart extends React.Component<DownloadChartProps, DownloadChartSta
             width: 800,
             height: 600,
           };
+          // eslint-disable-next-line no-undef
           const layout: Partial<Plotly.Layout> = {
             width: state.width,
             height: state.height,
