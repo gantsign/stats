@@ -16,7 +16,7 @@ from tqdm import tqdm
 
 organization = 'gantsign'
 
-github_token = os.environ['GITHUB_TOKEN']
+github_token = os.environ['GH_TOKEN']
 
 g = Github(github_token, timeout=20, retry=5)
 
