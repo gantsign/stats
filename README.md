@@ -16,7 +16,7 @@ You can view the web interface at
 
 Dependencies:
 * Linux (e.g. Ubuntu Xenial)
-* Python 3.5 (you can install this using https://github.com/pyenv/pyenv)
+* Python 3.6 (you can install this using https://github.com/pyenv/pyenv)
 
 If you'd like to gather the data for yourself you need to run the following
 from the project root:
