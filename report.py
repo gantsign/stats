@@ -8,6 +8,7 @@ import sys
 import time
 import urllib.request
 from datetime import datetime
+from socket import timeout
 
 import pandas as pd
 from github import Github
@@ -46,16 +47,19 @@ def get_galaxy_namespace():
     url = galaxy_server + '/api/v1/namespaces/?name=' + organization
 
     for _ in range(0, 3):
-        with urllib.request.urlopen(url, timeout=10) as url_connection:
-            if url_connection.getcode() != 200:
-                time.sleep(10)
-                continue
+        try:
+            with urllib.request.urlopen(url, timeout=10) as url_connection:
+                if url_connection.getcode() != 200:
+                    time.sleep(10)
+                    continue
 
-            galaxy_response = json.loads(url_connection.read().decode())
-            results = galaxy_response.get('results')
-            if results is None or len(results) != 1:
-                return None
-            return results[0].get('id')
+                galaxy_response = json.loads(url_connection.read().decode())
+                results = galaxy_response.get('results')
+                if results is None or len(results) != 1:
+                    return None
+                return results[0].get('id')
+        except timeout:
+            time.sleep(10)
     return None
 
 
@@ -74,16 +78,19 @@ def get_ansible_downloads(repo_name):
         galaxy_namespace, role_name)
 
     for _ in range(0, 3):
-        with urllib.request.urlopen(url, timeout=10) as url_connection:
-            if url_connection.getcode() != 200:
-                time.sleep(10)
-                continue
+        try:
+            with urllib.request.urlopen(url, timeout=10) as url_connection:
+                if url_connection.getcode() != 200:
+                    time.sleep(10)
+                    continue
 
-            galaxy_response = json.loads(url_connection.read().decode())
-            results = galaxy_response.get('results')
-            if results is None or len(results) != 1:
-                return None, role_name
-            return results[0].get('download_count'), role_name
+                galaxy_response = json.loads(url_connection.read().decode())
+                results = galaxy_response.get('results')
+                if results is None or len(results) != 1:
+                    return None, role_name
+                return results[0].get('download_count'), role_name
+        except timeout:
+            time.sleep(10)
     return None, role_name
 
 
