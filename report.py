@@ -157,6 +157,8 @@ def update_repo_data():
         if repo.archived:
             continue
 
+        time.sleep(1)
+
         try:
             latest_release = repo.get_latest_release()
         except:
