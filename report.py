@@ -12,7 +12,7 @@ from socket import timeout
 
 import pandas as pd
 from github import Github
-from pandas.io.json import json_normalize
+from pandas import json_normalize
 from tqdm import tqdm
 
 organization = 'gantsign'
