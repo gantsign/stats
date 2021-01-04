@@ -10131,6 +10131,18 @@
             "open_issues_count": 0,
             "open_pull_requests_count": 0,
             "stargazers_count": 0
+        },
+        {
+            "commits_since_release": 14,
+            "commits_since_release_url": "https://github.com/gantsign/doxia-sink-api-ktx/compare/1.1.0...master",
+            "data_at": "2021-01-04T11:17:09Z",
+            "downloads_count": null,
+            "latest_release_at": "2020-03-07T21:12:21Z",
+            "latest_release_url": "https://github.com/gantsign/doxia-sink-api-ktx/releases/tag/1.1.0",
+            "latest_release_version": "1.1.0",
+            "open_issues_count": 0,
+            "open_pull_requests_count": 0,
+            "stargazers_count": 0
         }
     ],
     "name": "doxia-sink-api-ktx",
