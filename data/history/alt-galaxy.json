@@ -10719,6 +10719,18 @@
             "open_issues_count": 0,
             "open_pull_requests_count": 0,
             "stargazers_count": 8
+        },
+        {
+            "commits_since_release": 2,
+            "commits_since_release_url": "https://github.com/gantsign/alt-galaxy/compare/1.4.1...master",
+            "data_at": "2021-02-22T11:04:51Z",
+            "downloads_count": 2721,
+            "latest_release_at": "2018-07-15T14:38:23Z",
+            "latest_release_url": "https://github.com/gantsign/alt-galaxy/releases/tag/1.4.1",
+            "latest_release_version": "1.4.1",
+            "open_issues_count": 0,
+            "open_pull_requests_count": 0,
+            "stargazers_count": 8
         }
     ],
     "name": "alt-galaxy",
