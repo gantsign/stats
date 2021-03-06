@@ -10851,6 +10851,18 @@
             "open_issues_count": 2,
             "open_pull_requests_count": 4,
             "stargazers_count": 6
+        },
+        {
+            "commits_since_release": 17,
+            "commits_since_release_url": "https://github.com/gantsign/kotlin-maven-plugin-tools/compare/0.9.25...master",
+            "data_at": "2021-03-06T11:04:31Z",
+            "downloads_count": null,
+            "latest_release_at": "2020-08-23T06:07:06Z",
+            "latest_release_url": "https://github.com/gantsign/kotlin-maven-plugin-tools/releases/tag/0.9.25",
+            "latest_release_version": "0.9.25",
+            "open_issues_count": 2,
+            "open_pull_requests_count": 5,
+            "stargazers_count": 6
         }
     ],
     "name": "kotlin-maven-plugin-tools",
