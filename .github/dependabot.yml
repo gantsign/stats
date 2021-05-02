@@ -1,0 +1,37 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: weekly
+    day: saturday
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: semver
+    versions:
+    - ">= 7.0.0.a, < 7.0.1"
+  - dependency-name: semver
+    versions:
+    - ">= 7.1.0.a, < 7.1.1"
+  - dependency-name: semver
+    versions:
+    - ">= 7.1.1.a, < 7.1.2"
+  - dependency-name: "@types/node"
+    versions:
+    - ">= 13.a, < 14"
+  - dependency-name: "@types/node"
+    versions:
+    - ">= 14.a, < 15"
+- package-ecosystem: pip
+  directory: "/"
+  schedule:
+    interval: weekly
+    day: saturday
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: tqdm
+    versions:
+    - 4.57.0
+  - dependency-name: pylint
+    versions:
+    - 2.6.2
