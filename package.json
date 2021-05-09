@@ -1,8 +1,8 @@
 {
   "private": true,
   "name": "stats",
-  "homepage": "http://gantsign.github.io/stats",
   "version": "0.1.0",
+  "homepage": "http://gantsign.github.io/stats",
   "scripts": {
     "build": "react-scripts --max_old_space_size=6144 build",
     "check": "gts check",
