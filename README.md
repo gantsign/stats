@@ -49,7 +49,7 @@ pipenv run python report.py
 ## To build the web application
 
 Dependencies:
-* Node.js 12 (you can install this using https://github.com/creationix/nvm)
+* Node.js 14 (you can install this using https://github.com/creationix/nvm)
 
 To build the web interface run the following from the project root:
 
