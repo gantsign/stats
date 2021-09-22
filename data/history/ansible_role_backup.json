@@ -13251,6 +13251,18 @@
             "open_issues_count": 0,
             "open_pull_requests_count": 0,
             "stargazers_count": 1
+        },
+        {
+            "commits_since_release": 13,
+            "commits_since_release_url": "https://github.com/gantsign/ansible_role_backup/compare/1.0.2...master",
+            "data_at": "2021-09-22T11:05:25Z",
+            "downloads_count": 1706,
+            "latest_release_at": "2019-05-22T20:00:22Z",
+            "latest_release_url": "https://github.com/gantsign/ansible_role_backup/releases/tag/1.0.2",
+            "latest_release_version": "1.0.2",
+            "open_issues_count": 0,
+            "open_pull_requests_count": 0,
+            "stargazers_count": 1
         }
     ],
     "name": "ansible_role_backup",
