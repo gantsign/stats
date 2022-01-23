@@ -14727,6 +14727,18 @@
             "open_issues_count": 0,
             "open_pull_requests_count": 0,
             "stargazers_count": 16
+        },
+        {
+            "commits_since_release": 3,
+            "commits_since_release_url": "https://github.com/gantsign/ansible-role-keyboard/compare/1.5.0...master",
+            "data_at": "2022-01-23T11:05:09Z",
+            "downloads_count": 9497,
+            "latest_release_at": "2021-05-23T20:21:15Z",
+            "latest_release_url": "https://github.com/gantsign/ansible-role-keyboard/releases/tag/1.5.0",
+            "latest_release_version": "1.5.0",
+            "open_issues_count": 0,
+            "open_pull_requests_count": 0,
+            "stargazers_count": 16
         }
     ],
     "name": "ansible-role-keyboard",
