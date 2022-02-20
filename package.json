@@ -30,7 +30,7 @@
     "@types/react-measure": "^2.0.8",
     "@types/react-plotly.js": "^2.5.0",
     "@types/semver": "^7.3.9",
-    "axios": "^0.25.0",
+    "axios": "^0.26.0",
     "data-forge": "^1.9.2",
     "plotly.js-basic-dist": "^2.9.0",
     "react": "^17.0.2",
