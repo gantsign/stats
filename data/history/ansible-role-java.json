@@ -15171,6 +15171,18 @@
             "open_issues_count": 0,
             "open_pull_requests_count": 0,
             "stargazers_count": 28
+        },
+        {
+            "commits_since_release": 0,
+            "commits_since_release_url": "https://github.com/gantsign/ansible-role-java/compare/10.0.0...master",
+            "data_at": "2022-03-01T11:07:32Z",
+            "downloads_count": 51926,
+            "latest_release_at": "2022-02-09T07:34:35Z",
+            "latest_release_url": "https://github.com/gantsign/ansible-role-java/releases/tag/10.0.0",
+            "latest_release_version": "10.0.0",
+            "open_issues_count": 0,
+            "open_pull_requests_count": 0,
+            "stargazers_count": 28
         }
     ],
     "name": "ansible-role-java",
