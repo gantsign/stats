@@ -15303,6 +15303,18 @@
             "open_issues_count": 0,
             "open_pull_requests_count": 0,
             "stargazers_count": 2
+        },
+        {
+            "commits_since_release": 4,
+            "commits_since_release_url": "https://github.com/gantsign/ansible_role_pipenv/compare/2.0.0...master",
+            "data_at": "2022-03-17T11:06:58Z",
+            "downloads_count": 2676,
+            "latest_release_at": "2021-03-20T23:17:17Z",
+            "latest_release_url": "https://github.com/gantsign/ansible_role_pipenv/releases/tag/2.0.0",
+            "latest_release_version": "2.0.0",
+            "open_issues_count": 0,
+            "open_pull_requests_count": 0,
+            "stargazers_count": 2
         }
     ],
     "name": "ansible_role_pipenv",
