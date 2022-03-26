@@ -11571,6 +11571,18 @@
             "open_issues_count": 0,
             "open_pull_requests_count": 2,
             "stargazers_count": 9
+        },
+        {
+            "commits_since_release": 6,
+            "commits_since_release_url": "https://github.com/gantsign/maven-parent-poms/compare/3.0.0...master",
+            "data_at": "2022-03-26T11:06:52Z",
+            "downloads_count": null,
+            "latest_release_at": "2022-03-06T18:53:28Z",
+            "latest_release_url": "https://github.com/gantsign/maven-parent-poms/releases/tag/3.0.0",
+            "latest_release_version": "3.0.0",
+            "open_issues_count": 0,
+            "open_pull_requests_count": 2,
+            "stargazers_count": 9
         }
     ],
     "name": "maven-parent-poms",
