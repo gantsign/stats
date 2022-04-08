@@ -15207,6 +15207,18 @@
             "open_issues_count": 0,
             "open_pull_requests_count": 0,
             "stargazers_count": 2
+        },
+        {
+            "commits_since_release": 1,
+            "commits_since_release_url": "https://github.com/gantsign/ansible_role_pwquality/compare/1.0.1...master",
+            "data_at": "2022-04-08T11:33:34Z",
+            "downloads_count": 1612,
+            "latest_release_at": "2022-01-11T20:17:21Z",
+            "latest_release_url": "https://github.com/gantsign/ansible_role_pwquality/releases/tag/1.0.1",
+            "latest_release_version": "1.0.1",
+            "open_issues_count": 0,
+            "open_pull_requests_count": 0,
+            "stargazers_count": 2
         }
     ],
     "name": "ansible_role_pwquality",
