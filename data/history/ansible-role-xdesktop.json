@@ -15903,6 +15903,18 @@
             "open_issues_count": 0,
             "open_pull_requests_count": 0,
             "stargazers_count": 1
+        },
+        {
+            "commits_since_release": 0,
+            "commits_since_release_url": "https://github.com/gantsign/ansible-role-xdesktop/compare/6.0.0...master",
+            "data_at": "2022-05-03T11:09:02Z",
+            "downloads_count": null,
+            "latest_release_at": "2022-01-16T01:16:18Z",
+            "latest_release_url": "https://github.com/gantsign/ansible-role-xdesktop/releases/tag/6.0.0",
+            "latest_release_version": "6.0.0",
+            "open_issues_count": 0,
+            "open_pull_requests_count": 0,
+            "stargazers_count": 1
         }
     ],
     "name": "ansible-role-xdesktop",
