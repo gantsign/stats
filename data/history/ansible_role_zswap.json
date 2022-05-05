@@ -11187,6 +11187,18 @@
             "open_issues_count": 1,
             "open_pull_requests_count": 0,
             "stargazers_count": 3
+        },
+        {
+            "commits_since_release": 0,
+            "commits_since_release_url": "https://github.com/gantsign/ansible_role_zswap/compare/1.0.1...master",
+            "data_at": "2022-05-05T11:07:49Z",
+            "downloads_count": 1124,
+            "latest_release_at": "2022-01-11T20:15:22Z",
+            "latest_release_url": "https://github.com/gantsign/ansible_role_zswap/releases/tag/1.0.1",
+            "latest_release_version": "1.0.1",
+            "open_issues_count": 1,
+            "open_pull_requests_count": 0,
+            "stargazers_count": 3
         }
     ],
     "name": "ansible_role_zswap",
