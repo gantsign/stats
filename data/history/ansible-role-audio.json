@@ -16131,6 +16131,18 @@
             "open_issues_count": 0,
             "open_pull_requests_count": 1,
             "stargazers_count": 1
+        },
+        {
+            "commits_since_release": 8,
+            "commits_since_release_url": "https://github.com/gantsign/ansible-role-audio/compare/2.0.1...master",
+            "data_at": "2022-05-22T11:07:19Z",
+            "downloads_count": 3494,
+            "latest_release_at": "2022-01-08T18:21:32Z",
+            "latest_release_url": "https://github.com/gantsign/ansible-role-audio/releases/tag/2.0.1",
+            "latest_release_version": "2.0.1",
+            "open_issues_count": 0,
+            "open_pull_requests_count": 1,
+            "stargazers_count": 1
         }
     ],
     "name": "ansible-role-audio",
