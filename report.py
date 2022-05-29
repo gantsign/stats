@@ -42,6 +42,14 @@ data_dir.mkdir(parents=True, exist_ok=True)
 galaxy_server = 'https://galaxy.ansible.com'
 role_prefix = 'ansible-role-'
 
+ignored_repos = [
+    'update-scripts',
+    'stats',
+    'spring-petclinic-openapi',
+    'gantsign.github.io',
+    'maven-benchmarks'
+]
+
 
 def get_galaxy_namespace():
     url = galaxy_server + '/api/v1/namespaces/?name=' + organization
@@ -162,6 +170,9 @@ def update_repo_data():
     for repo in tqdm(
             iterable=repos, desc='Processing repositories', unit='repo'):
         if repo.archived:
+            continue
+
+        if repo.name in ignored_repos:
             continue
 
         time.sleep(1)
