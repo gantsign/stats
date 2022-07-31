@@ -175,7 +175,7 @@ def update_repo_data():
         if repo.name in ignored_repos:
             continue
 
-        time.sleep(1)
+        time.sleep(5)
 
         try:
             latest_release = repo.get_latest_release()
