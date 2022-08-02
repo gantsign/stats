@@ -224,9 +224,12 @@ def update_repo_data():
             latest_release_version = latest_release.title
             latest_release_at = format_iso_datetime(latest_release.created_at)
             latest_release_url = github_url + '/releases/tag/' + latest_release.tag_name
-            comparision = repo.compare(latest_release.tag_name, 'master')
-            commits_since_release = comparision.ahead_by
-            commits_since_release_url = comparision.html_url
+            try:
+                comparison = repo.compare(latest_release.tag_name, 'master')
+            except Exception:
+                comparison = repo.compare(latest_release.tag_name, 'main')
+            commits_since_release = comparison.ahead_by
+            commits_since_release_url = comparison.html_url
 
         result_repo = {
             'name': repo.name,
