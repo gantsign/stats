@@ -17115,6 +17115,18 @@
             "open_issues_count": 0,
             "open_pull_requests_count": 0,
             "stargazers_count": 1
+        },
+        {
+            "commits_since_release": 0,
+            "commits_since_release_url": "https://github.com/gantsign/checkstyle-config/compare/3.7.0...master",
+            "data_at": "2022-08-12T11:07:49Z",
+            "downloads_count": null,
+            "latest_release_at": "2022-08-07T18:16:21Z",
+            "latest_release_url": "https://github.com/gantsign/checkstyle-config/releases/tag/3.7.0",
+            "latest_release_version": "3.7.0",
+            "open_issues_count": 0,
+            "open_pull_requests_count": 0,
+            "stargazers_count": 1
         }
     ],
     "name": "checkstyle-config",
