@@ -17199,6 +17199,18 @@
             "open_issues_count": 1,
             "open_pull_requests_count": 1,
             "stargazers_count": 39
+        },
+        {
+            "commits_since_release": 1,
+            "commits_since_release_url": "https://github.com/gantsign/ansible-role-intellij/compare/6.8.0...master",
+            "data_at": "2022-08-20T11:07:44Z",
+            "downloads_count": 35096,
+            "latest_release_at": "2022-07-26T18:01:20Z",
+            "latest_release_url": "https://github.com/gantsign/ansible-role-intellij/releases/tag/6.8.0",
+            "latest_release_version": "6.8.0",
+            "open_issues_count": 1,
+            "open_pull_requests_count": 1,
+            "stargazers_count": 39
         }
     ],
     "name": "ansible-role-intellij",
