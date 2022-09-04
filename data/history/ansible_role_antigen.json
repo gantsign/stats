@@ -17379,6 +17379,18 @@
             "open_issues_count": 4,
             "open_pull_requests_count": 2,
             "stargazers_count": 26
+        },
+        {
+            "commits_since_release": 12,
+            "commits_since_release_url": "https://github.com/gantsign/ansible_role_antigen/compare/1.4.2...master",
+            "data_at": "2022-09-04T11:07:05Z",
+            "downloads_count": 19720,
+            "latest_release_at": "2022-04-18T18:35:56Z",
+            "latest_release_url": "https://github.com/gantsign/ansible_role_antigen/releases/tag/1.4.2",
+            "latest_release_version": "1.4.2",
+            "open_issues_count": 4,
+            "open_pull_requests_count": 2,
+            "stargazers_count": 26
         }
     ],
     "name": "ansible_role_antigen",
