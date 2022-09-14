@@ -17499,6 +17499,18 @@
             "open_issues_count": 0,
             "open_pull_requests_count": 0,
             "stargazers_count": 8
+        },
+        {
+            "commits_since_release": 18,
+            "commits_since_release_url": "https://github.com/gantsign/ansible-role-atom/compare/2.1.0...master",
+            "data_at": "2022-09-14T11:08:33Z",
+            "downloads_count": 4849,
+            "latest_release_at": "2020-10-07T18:27:51Z",
+            "latest_release_url": "https://github.com/gantsign/ansible-role-atom/releases/tag/2.1.0",
+            "latest_release_version": "2.1.0",
+            "open_issues_count": 0,
+            "open_pull_requests_count": 0,
+            "stargazers_count": 8
         }
     ],
     "name": "ansible-role-atom",
