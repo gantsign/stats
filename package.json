@@ -24,7 +24,7 @@
     "@material-ui/core": "^4.12.4",
     "@material-ui/icons": "^4.11.3",
     "@types/jest": "29.1.1",
-    "@types/node": "^14.18.30",
+    "@types/node": "^14.18.31",
     "@types/react": "18.0.9",
     "@types/react-dom": "18.0.3",
     "@types/react-measure": "^2.0.8",
