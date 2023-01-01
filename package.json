@@ -11,8 +11,8 @@
     "eject": "react-scripts eject",
     "fix": "gts fix && prettier-package-json --write && json --output json --in-place -f tsconfig.json && json --output json --in-place -f .eslintrc.json && prettier --write .prettierrc.js",
     "prepare": "npm run compile",
-    "start": "react-scripts start",
     "prestat": "gts fix && prettier-package-json --write && json --output json --in-place -f tsconfig.json && json --output json --in-place -f .eslintrc.json && prettier --write .prettierrc.js",
+    "start": "react-scripts start",
     "pretest": "npm run compile",
     "test": "react-scripts test",
     "posttest": "npm run check"
@@ -42,7 +42,7 @@
   "devDependencies": {
     "gts": "^3.1.1",
     "json": "^11.0.0",
-    "prettier-package-json": "^2.7.0",
+    "prettier-package-json": "^2.8.0",
     "react-scripts": "5.0.1",
     "tslint": "^6.1.3",
     "typescript": "^4.9.4"
