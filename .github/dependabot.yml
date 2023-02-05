@@ -9,7 +9,7 @@ updates:
   ignore:
   - dependency-name: "@types/node"
     versions:
-    - ">= 15"
+    - ">= 19"
 - package-ecosystem: pip
   directory: "/"
   schedule:
