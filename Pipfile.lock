@@ -439,7 +439,7 @@
                 "sha256:29e95c7f6778868dbd49170f98f8818f78f3dc5e0e37c0b1f474e3561b240836",
                 "sha256:c9227bfc2f01993c03f68db37d1d15c9690188323c067c641f1a35ca58185f99"
             ],
-            "markers": "python_full_version >= '3.6.0'",
+            "markers": "python_version >= '3.6'",
             "version": "==22.2.0"
         },
         "beautifulsoup4": {
@@ -447,7 +447,7 @@
                 "sha256:0e79446b10b3ecb499c1556f7e228a53e64a2bfcebd455f370d8927cb5b59e39",
                 "sha256:bc4bdda6717de5a2987436fb8d72f45dc90dd856bdfd512a1314ce90349a0106"
             ],
-            "markers": "python_full_version >= '3.6.0'",
+            "markers": "python_version >= '3.6'",
             "version": "==4.11.2"
         },
         "bleach": {
@@ -632,7 +632,7 @@
                 "sha256:348e0240c33b60bbdf4e523192ef919f28cb2c3d7d5c7794f74009290f236325",
                 "sha256:6c2d30ab6be0e4a46919781807b4f0d834ebdd6c6e3dca0bda5a15f863427b6e"
             ],
-            "markers": "python_full_version >= '3.6.0'",
+            "markers": "python_version >= '3.6'",
             "version": "==0.7.0"
         },
         "mistune": {
@@ -695,16 +695,16 @@
                 "sha256:b3ed06a9e8ac9a9aae5a6f5dbe78a8a58655d17b43b93c078f094ddc476ae297",
                 "sha256:fa7bd7bd2771287c0de303af8bfdfc731f51bd2c6a47ab69d117138893b82717"
             ],
-            "markers": "python_full_version >= '3.6.0'",
+            "markers": "python_version >= '3.6'",
             "version": "==2.14.0"
         },
         "pylint": {
             "hashes": [
-                "sha256:13b2c805a404a9bf57d002cd5f054ca4d40b0b87542bdaba5e05321ae8262c84",
-                "sha256:ff22dde9c2128cd257c145cfd51adeff0be7df4d80d669055f24a962b351bbe4"
+                "sha256:1460829b6397cb5eb0cdb0b4fc4b556348e515cdca32115f74a1eb7c20b896b4",
+                "sha256:e097d8325f8c88e14ad12844e3fe2d963d3de871ea9a8f8ad25ab1c109889ddc"
             ],
             "index": "pypi",
-            "version": "==2.16.2"
+            "version": "==2.17.0"
         },
         "pyrsistent": {
             "hashes": [
@@ -838,7 +838,7 @@
                 "sha256:f3f96d452e9580cb961ece2e5a788e64abaecb1232a80e61deffb28e105ff84a",
                 "sha256:fc7c1421c5b1c916acf3128bf3cc7ea7f5018b58c69a6866d70c14190e600ce9"
             ],
-            "markers": "python_full_version >= '3.6.0'",
+            "markers": "python_version >= '3.6'",
             "version": "==25.0.0"
         },
         "rope": {
@@ -886,7 +886,7 @@
                 "sha256:07de26b0d8cfc18f871aec595fda24d95b08fef89d147caa861939f37230bf4b",
                 "sha256:71b952e5721688937fb02cf9d354dbcf0785066149d2855e44531ebdd2b65d73"
             ],
-            "markers": "python_full_version >= '3.6.0'",
+            "markers": "python_version >= '3.6'",
             "version": "==0.11.6"
         },
         "tornado": {
