@@ -19647,6 +19647,18 @@
             "open_issues_count": 3,
             "open_pull_requests_count": 1,
             "stargazers_count": 90
+        },
+        {
+            "commits_since_release": 0,
+            "commits_since_release_url": "https://github.com/gantsign/ansible-role-visual-studio-code/compare/6.10.0...master",
+            "data_at": "2023-03-12T11:06:01Z",
+            "downloads_count": 49436,
+            "latest_release_at": "2022-10-07T15:30:25Z",
+            "latest_release_url": "https://github.com/gantsign/ansible-role-visual-studio-code/releases/tag/6.10.0",
+            "latest_release_version": "6.10.0",
+            "open_issues_count": 3,
+            "open_pull_requests_count": 1,
+            "stargazers_count": 90
         }
     ],
     "name": "ansible-role-visual-studio-code",
