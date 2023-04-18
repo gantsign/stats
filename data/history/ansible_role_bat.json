@@ -19791,6 +19791,18 @@
             "open_issues_count": 0,
             "open_pull_requests_count": 0,
             "stargazers_count": 5
+        },
+        {
+            "commits_since_release": 0,
+            "commits_since_release_url": "https://github.com/gantsign/ansible_role_bat/compare/1.17.0...master",
+            "data_at": "2023-04-18T11:06:38Z",
+            "downloads_count": 5119,
+            "latest_release_at": "2023-03-25T19:02:38Z",
+            "latest_release_url": "https://github.com/gantsign/ansible_role_bat/releases/tag/1.17.0",
+            "latest_release_version": "1.17.0",
+            "open_issues_count": 0,
+            "open_pull_requests_count": 0,
+            "stargazers_count": 5
         }
     ],
     "name": "ansible_role_bat",
