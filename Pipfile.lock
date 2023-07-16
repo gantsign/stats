@@ -868,11 +868,11 @@
         },
         "rope": {
             "hashes": [
-                "sha256:0767424ed40ce237dcf1c1f5088054fef960e5b19f4a0850783a259a3600d7bd",
-                "sha256:3de1d1f1cf2412540c6a150067fe25298175e7c2b72455b6ca8395f61678da82"
+                "sha256:2ed32d72cd2c4395bb1d569e38fd4f15d6080cfadd61b6e5c565fd39e3f677aa",
+                "sha256:f48d708132c0e062b411308732ca13933b976486b4b53d1e804f94ed08d69503"
             ],
             "index": "pypi",
-            "version": "==1.8.0"
+            "version": "==1.9.0"
         },
         "rpds-py": {
             "hashes": [
@@ -1006,7 +1006,7 @@
                 "sha256:939de3e7a6161af0c887ef91b7d41a53e7c5a1ca976325f429cb46ea9bc30ecc",
                 "sha256:de526c12914f0c550d15924c62d72abc48d6fe7364aa87328337a31007fe8a4f"
             ],
-            "markers": "python_version < '3.11'",
+            "markers": "python_version >= '3.7'",
             "version": "==2.0.1"
         },
         "tomlkit": {
