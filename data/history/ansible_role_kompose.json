@@ -1,7 +1,7 @@
 {
-    "ansible_url": "https://galaxy.ansible.com/gantsign/kompose",
+    "ansible_url": null,
     "created_at": "2018-09-08T11:35:35Z",
-    "downloads_url": "https://galaxy.ansible.com/gantsign/kompose",
+    "downloads_url": null,
     "github_url": "https://github.com/gantsign/ansible_role_kompose",
     "history": [
         {
@@ -22011,11 +22011,23 @@
             "open_issues_count": 0,
             "open_pull_requests_count": 0,
             "stargazers_count": 2
+        },
+        {
+            "commits_since_release": 5,
+            "commits_since_release_url": "https://github.com/gantsign/ansible_role_kompose/compare/1.8.0...master",
+            "data_at": "2023-10-01T11:05:18Z",
+            "downloads_count": null,
+            "latest_release_at": "2023-07-15T21:54:10Z",
+            "latest_release_url": "https://github.com/gantsign/ansible_role_kompose/releases/tag/1.8.0",
+            "latest_release_version": "1.8.0",
+            "open_issues_count": 0,
+            "open_pull_requests_count": 0,
+            "stargazers_count": 2
         }
     ],
     "name": "ansible_role_kompose",
     "open_issues_url": "https://github.com/gantsign/ansible_role_kompose/issues",
     "open_pull_requests_url": "https://github.com/gantsign/ansible_role_kompose/pulls",
     "stargazers_url": "https://github.com/gantsign/ansible_role_kompose/stargazers",
-    "url": "https://galaxy.ansible.com/gantsign/kompose"
+    "url": "https://github.com/gantsign/ansible_role_kompose"
 }

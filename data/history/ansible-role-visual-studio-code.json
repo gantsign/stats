@@ -1,7 +1,7 @@
 {
-    "ansible_url": "https://galaxy.ansible.com/gantsign/visual-studio-code",
+    "ansible_url": null,
     "created_at": "2016-07-09T18:09:35Z",
-    "downloads_url": "https://galaxy.ansible.com/gantsign/visual-studio-code",
+    "downloads_url": null,
     "github_url": "https://github.com/gantsign/ansible-role-visual-studio-code",
     "history": [
         {
@@ -22059,11 +22059,23 @@
             "open_issues_count": 2,
             "open_pull_requests_count": 0,
             "stargazers_count": 93
+        },
+        {
+            "commits_since_release": 3,
+            "commits_since_release_url": "https://github.com/gantsign/ansible-role-visual-studio-code/compare/7.0.0...master",
+            "data_at": "2023-10-01T11:05:18Z",
+            "downloads_count": null,
+            "latest_release_at": "2023-09-04T05:50:20Z",
+            "latest_release_url": "https://github.com/gantsign/ansible-role-visual-studio-code/releases/tag/7.0.0",
+            "latest_release_version": "7.0.0",
+            "open_issues_count": 2,
+            "open_pull_requests_count": 0,
+            "stargazers_count": 93
         }
     ],
     "name": "ansible-role-visual-studio-code",
     "open_issues_url": "https://github.com/gantsign/ansible-role-visual-studio-code/issues",
     "open_pull_requests_url": "https://github.com/gantsign/ansible-role-visual-studio-code/pulls",
     "stargazers_url": "https://github.com/gantsign/ansible-role-visual-studio-code/stargazers",
-    "url": "https://galaxy.ansible.com/gantsign/visual-studio-code"
+    "url": "https://github.com/gantsign/ansible-role-visual-studio-code"
 }
