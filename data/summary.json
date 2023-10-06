@@ -1,5 +1,5 @@
 {
-    "data_at": "2023-10-05T11:06:28Z",
+    "data_at": "2023-10-06T11:06:24Z",
     "repositories": [
         {
             "ansible_url": null,
@@ -243,15 +243,15 @@
         },
         {
             "ansible_url": null,
-            "commits_since_release": 46,
-            "commits_since_release_url": "https://github.com/gantsign/ansible_role_git_user/compare/1.1.0...master",
+            "commits_since_release": 11,
+            "commits_since_release_url": "https://github.com/gantsign/ansible_role_git_user/compare/1.2.0...master",
             "created_at": "2018-08-26T15:21:25Z",
             "downloads_count": null,
             "downloads_url": null,
             "github_url": "https://github.com/gantsign/ansible_role_git_user",
-            "latest_release_at": "2018-09-16T06:58:03Z",
-            "latest_release_url": "https://github.com/gantsign/ansible_role_git_user/releases/tag/1.1.0",
-            "latest_release_version": "1.1.0",
+            "latest_release_at": "2022-01-10T22:50:19Z",
+            "latest_release_url": "https://github.com/gantsign/ansible_role_git_user/releases/tag/1.2.0",
+            "latest_release_version": "1.2.0",
             "name": "ansible_role_git_user",
             "open_issues_count": 0,
             "open_issues_url": "https://github.com/gantsign/ansible_role_git_user/issues",
@@ -1182,7 +1182,7 @@
             "url": "https://github.com/gantsign/zsh-plugins"
         }
     ],
-    "total_commits_since_release": 467,
+    "total_commits_since_release": 432,
     "total_downloads_count": 0,
     "total_open_issues_count": 25,
     "total_open_issues_url": "https://github.com/issues?q=is%3Aopen+is%3Aissue+archived%3Afalse+user%3Agantsign",
