@@ -1,5 +1,5 @@
 {
-    "data_at": "2023-10-13T11:06:33Z",
+    "data_at": "2023-10-14T11:05:44Z",
     "repositories": [
         {
             "ansible_url": null,
@@ -773,7 +773,7 @@
             "latest_release_url": "https://github.com/gantsign/ansible-role-visual-studio-code/releases/tag/7.0.0",
             "latest_release_version": "7.0.0",
             "name": "ansible-role-visual-studio-code",
-            "open_issues_count": 3,
+            "open_issues_count": 4,
             "open_issues_url": "https://github.com/gantsign/ansible-role-visual-studio-code/issues",
             "open_pull_requests_count": 0,
             "open_pull_requests_url": "https://github.com/gantsign/ansible-role-visual-studio-code/pulls",
@@ -1184,7 +1184,7 @@
     ],
     "total_commits_since_release": 432,
     "total_downloads_count": 0,
-    "total_open_issues_count": 26,
+    "total_open_issues_count": 27,
     "total_open_issues_url": "https://github.com/issues?q=is%3Aopen+is%3Aissue+archived%3Afalse+user%3Agantsign",
     "total_open_pull_requests_count": 51,
     "total_open_pull_requests_url": "https://github.com/pulls?q=is%3Aopen+is%3Apr+archived%3Afalse+user%3Agantsign",
