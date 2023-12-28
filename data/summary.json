@@ -1,5 +1,5 @@
 {
-    "data_at": "2023-12-27T11:06:24Z",
+    "data_at": "2023-12-28T11:06:28Z",
     "repositories": [
         {
             "ansible_url": null,
@@ -597,7 +597,7 @@
             "open_issues_url": "https://github.com/gantsign/ansible-role-oh-my-zsh/issues",
             "open_pull_requests_count": 2,
             "open_pull_requests_url": "https://github.com/gantsign/ansible-role-oh-my-zsh/pulls",
-            "stargazers_count": 156,
+            "stargazers_count": 157,
             "stargazers_url": "https://github.com/gantsign/ansible-role-oh-my-zsh/stargazers",
             "url": "https://github.com/gantsign/ansible-role-oh-my-zsh"
         },
@@ -1188,6 +1188,6 @@
     "total_open_issues_url": "https://github.com/issues?q=is%3Aopen+is%3Aissue+archived%3Afalse+user%3Agantsign",
     "total_open_pull_requests_count": 79,
     "total_open_pull_requests_url": "https://github.com/pulls?q=is%3Aopen+is%3Apr+archived%3Afalse+user%3Agantsign",
-    "total_stargazers_count": 828,
+    "total_stargazers_count": 829,
     "url": "https://github.com/gantsign?type=source"
 }
