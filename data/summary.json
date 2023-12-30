@@ -1,5 +1,5 @@
 {
-    "data_at": "2023-12-29T11:06:33Z",
+    "data_at": "2023-12-30T11:05:54Z",
     "repositories": [
         {
             "ansible_url": null,
@@ -793,9 +793,9 @@
             "latest_release_url": "https://github.com/gantsign/ansible-role-visual-studio-code-extensions/releases/tag/2.4.0",
             "latest_release_version": "2.4.0",
             "name": "ansible-role-visual-studio-code-extensions",
-            "open_issues_count": 2,
+            "open_issues_count": 3,
             "open_issues_url": "https://github.com/gantsign/ansible-role-visual-studio-code-extensions/issues",
-            "open_pull_requests_count": 0,
+            "open_pull_requests_count": 1,
             "open_pull_requests_url": "https://github.com/gantsign/ansible-role-visual-studio-code-extensions/pulls",
             "stargazers_count": 24,
             "stargazers_url": "https://github.com/gantsign/ansible-role-visual-studio-code-extensions/stargazers",
@@ -995,7 +995,7 @@
             "name": "ktlint-maven-plugin",
             "open_issues_count": 8,
             "open_issues_url": "https://github.com/gantsign/ktlint-maven-plugin/issues",
-            "open_pull_requests_count": 9,
+            "open_pull_requests_count": 11,
             "open_pull_requests_url": "https://github.com/gantsign/ktlint-maven-plugin/pulls",
             "stargazers_count": 53,
             "stargazers_url": "https://github.com/gantsign/ktlint-maven-plugin/stargazers",
@@ -1184,9 +1184,9 @@
     ],
     "total_commits_since_release": 451,
     "total_downloads_count": 0,
-    "total_open_issues_count": 31,
+    "total_open_issues_count": 32,
     "total_open_issues_url": "https://github.com/issues?q=is%3Aopen+is%3Aissue+archived%3Afalse+user%3Agantsign",
-    "total_open_pull_requests_count": 80,
+    "total_open_pull_requests_count": 83,
     "total_open_pull_requests_url": "https://github.com/pulls?q=is%3Aopen+is%3Apr+archived%3Afalse+user%3Agantsign",
     "total_stargazers_count": 830,
     "url": "https://github.com/gantsign?type=source"
