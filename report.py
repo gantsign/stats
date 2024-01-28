@@ -123,9 +123,10 @@ def update_repo_history(repo, repos_history_df):
     repo_history_df.data_at = pd.to_datetime(repo_history_df.data_at)
     repo_history_df['repository_name'] = repo['name']
     if 'downloads_count' in repo_history_df:
-        repo_history_df[
-            'downloads_delta'] = repo_history_df.downloads_count.fillna(
-                0).diff().shift(-1)
+        repo_history_df['downloads_count'] = pd.to_numeric(
+            repo_history_df['downloads_count'], errors='coerce')
+        repo_history_df['downloads_delta'] = repo_history_df.downloads_count.diff(
+        ).shift(-1)
     repos_history_df = pd.concat([repos_history_df, repo_history_df], sort=True)
 
     with repo_data_file.open('w') as outfile:
