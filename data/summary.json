@@ -1,5 +1,5 @@
 {
-    "data_at": "2024-01-27T11:05:02Z",
+    "data_at": "2024-01-28T11:04:52Z",
     "repositories": [
         {
             "ansible_url": null,
@@ -283,15 +283,15 @@
         },
         {
             "ansible_url": null,
-            "commits_since_release": 2,
-            "commits_since_release_url": "https://github.com/gantsign/ansible-role-golang/compare/3.2.5...master",
+            "commits_since_release": 0,
+            "commits_since_release_url": "https://github.com/gantsign/ansible-role-golang/compare/3.2.6...master",
             "created_at": "2016-11-03T16:28:31Z",
             "downloads_count": null,
             "downloads_url": null,
             "github_url": "https://github.com/gantsign/ansible-role-golang",
-            "latest_release_at": "2024-01-01T15:23:42Z",
-            "latest_release_url": "https://github.com/gantsign/ansible-role-golang/releases/tag/3.2.5",
-            "latest_release_version": "3.2.5",
+            "latest_release_at": "2024-01-28T10:59:08Z",
+            "latest_release_url": "https://github.com/gantsign/ansible-role-golang/releases/tag/3.2.6",
+            "latest_release_version": "3.2.6",
             "name": "ansible-role-golang",
             "open_issues_count": 2,
             "open_issues_url": "https://github.com/gantsign/ansible-role-golang/issues",
@@ -423,7 +423,7 @@
         },
         {
             "ansible_url": null,
-            "commits_since_release": 9,
+            "commits_since_release": 10,
             "commits_since_release_url": "https://github.com/gantsign/ansible-role-java/compare/11.1.5...master",
             "created_at": "2016-08-13T16:53:28Z",
             "downloads_count": null,
@@ -783,7 +783,7 @@
         },
         {
             "ansible_url": null,
-            "commits_since_release": 1,
+            "commits_since_release": 4,
             "commits_since_release_url": "https://github.com/gantsign/ansible-role-visual-studio-code-extensions/compare/2.5.0...master",
             "created_at": "2016-11-04T14:10:09Z",
             "downloads_count": null,
@@ -795,7 +795,7 @@
             "name": "ansible-role-visual-studio-code-extensions",
             "open_issues_count": 2,
             "open_issues_url": "https://github.com/gantsign/ansible-role-visual-studio-code-extensions/issues",
-            "open_pull_requests_count": 2,
+            "open_pull_requests_count": 0,
             "open_pull_requests_url": "https://github.com/gantsign/ansible-role-visual-studio-code-extensions/pulls",
             "stargazers_count": 26,
             "stargazers_url": "https://github.com/gantsign/ansible-role-visual-studio-code-extensions/stargazers",
@@ -983,7 +983,7 @@
         },
         {
             "ansible_url": null,
-            "commits_since_release": 14,
+            "commits_since_release": 15,
             "commits_since_release_url": "https://github.com/gantsign/ktlint-maven-plugin/compare/3.0.0...main",
             "created_at": "2018-05-06T10:44:37Z",
             "downloads_count": null,
@@ -995,7 +995,7 @@
             "name": "ktlint-maven-plugin",
             "open_issues_count": 8,
             "open_issues_url": "https://github.com/gantsign/ktlint-maven-plugin/issues",
-            "open_pull_requests_count": 4,
+            "open_pull_requests_count": 3,
             "open_pull_requests_url": "https://github.com/gantsign/ktlint-maven-plugin/pulls",
             "stargazers_count": 53,
             "stargazers_url": "https://github.com/gantsign/ktlint-maven-plugin/stargazers",
@@ -1023,7 +1023,7 @@
         },
         {
             "ansible_url": null,
-            "commits_since_release": 42,
+            "commits_since_release": 52,
             "commits_since_release_url": "https://github.com/gantsign/maven-parent-poms/compare/3.7.0...master",
             "created_at": "2019-07-27T17:26:45Z",
             "downloads_count": null,
@@ -1143,7 +1143,7 @@
         },
         {
             "ansible_url": null,
-            "commits_since_release": 6,
+            "commits_since_release": 7,
             "commits_since_release_url": "https://github.com/gantsign/workflows/compare/v1.1.1...main",
             "created_at": "2022-08-03T14:50:14Z",
             "downloads_count": null,
@@ -1182,11 +1182,11 @@
             "url": "https://github.com/gantsign/zsh-plugins"
         }
     ],
-    "total_commits_since_release": 501,
+    "total_commits_since_release": 515,
     "total_downloads_count": 0,
     "total_open_issues_count": 31,
     "total_open_issues_url": "https://github.com/issues?q=is%3Aopen+is%3Aissue+archived%3Afalse+user%3Agantsign",
-    "total_open_pull_requests_count": 44,
+    "total_open_pull_requests_count": 41,
     "total_open_pull_requests_url": "https://github.com/pulls?q=is%3Aopen+is%3Apr+archived%3Afalse+user%3Agantsign",
     "total_stargazers_count": 834,
     "url": "https://github.com/gantsign?type=source"
