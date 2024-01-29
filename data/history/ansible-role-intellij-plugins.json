@@ -1,7 +1,7 @@
 {
-    "ansible_url": null,
+    "ansible_url": "https://galaxy.ansible.com/gantsign/intellij-plugins",
     "created_at": "2016-11-04T10:23:58Z",
-    "downloads_url": null,
+    "downloads_url": "https://galaxy.ansible.com/gantsign/intellij-plugins",
     "github_url": "https://github.com/gantsign/ansible-role-intellij-plugins",
     "history": [
         {
@@ -23499,11 +23499,23 @@
             "open_issues_count": 1,
             "open_pull_requests_count": 0,
             "stargazers_count": 8
+        },
+        {
+            "commits_since_release": 14,
+            "commits_since_release_url": "https://github.com/gantsign/ansible-role-intellij-plugins/compare/3.1.1...master",
+            "data_at": "2024-01-29T11:06:50Z",
+            "downloads_count": 5289,
+            "latest_release_at": "2021-09-09T13:31:43Z",
+            "latest_release_url": "https://github.com/gantsign/ansible-role-intellij-plugins/releases/tag/3.1.1",
+            "latest_release_version": "3.1.1",
+            "open_issues_count": 1,
+            "open_pull_requests_count": 0,
+            "stargazers_count": 8
         }
     ],
     "name": "ansible-role-intellij-plugins",
     "open_issues_url": "https://github.com/gantsign/ansible-role-intellij-plugins/issues",
     "open_pull_requests_url": "https://github.com/gantsign/ansible-role-intellij-plugins/pulls",
     "stargazers_url": "https://github.com/gantsign/ansible-role-intellij-plugins/stargazers",
-    "url": "https://github.com/gantsign/ansible-role-intellij-plugins"
+    "url": "https://galaxy.ansible.com/gantsign/intellij-plugins"
 }

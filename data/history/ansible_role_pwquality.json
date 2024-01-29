@@ -1,7 +1,7 @@
 {
-    "ansible_url": null,
+    "ansible_url": "https://galaxy.ansible.com/gantsign/pwquality",
     "created_at": "2018-10-08T09:09:39Z",
-    "downloads_url": null,
+    "downloads_url": "https://galaxy.ansible.com/gantsign/pwquality",
     "github_url": "https://github.com/gantsign/ansible_role_pwquality",
     "history": [
         {
@@ -23091,11 +23091,23 @@
             "open_issues_count": 0,
             "open_pull_requests_count": 1,
             "stargazers_count": 3
+        },
+        {
+            "commits_since_release": 10,
+            "commits_since_release_url": "https://github.com/gantsign/ansible_role_pwquality/compare/1.0.1...master",
+            "data_at": "2024-01-29T11:06:50Z",
+            "downloads_count": 2393,
+            "latest_release_at": "2022-01-11T20:17:21Z",
+            "latest_release_url": "https://github.com/gantsign/ansible_role_pwquality/releases/tag/1.0.1",
+            "latest_release_version": "1.0.1",
+            "open_issues_count": 0,
+            "open_pull_requests_count": 1,
+            "stargazers_count": 3
         }
     ],
     "name": "ansible_role_pwquality",
     "open_issues_url": "https://github.com/gantsign/ansible_role_pwquality/issues",
     "open_pull_requests_url": "https://github.com/gantsign/ansible_role_pwquality/pulls",
     "stargazers_url": "https://github.com/gantsign/ansible_role_pwquality/stargazers",
-    "url": "https://github.com/gantsign/ansible_role_pwquality"
+    "url": "https://galaxy.ansible.com/gantsign/pwquality"
 }
