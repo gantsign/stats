@@ -1,5 +1,5 @@
 {
-    "data_at": "2024-04-07T11:06:07Z",
+    "data_at": "2024-04-08T11:07:07Z",
     "repositories": [
         {
             "ansible_url": null,
@@ -26,7 +26,7 @@
             "commits_since_release": 12,
             "commits_since_release_url": "https://github.com/gantsign/ansible_role_antigen/compare/1.4.2...master",
             "created_at": "2018-08-04T09:03:03Z",
-            "downloads_count": 83214,
+            "downloads_count": 83312,
             "downloads_url": "https://galaxy.ansible.com/gantsign/antigen",
             "github_url": "https://github.com/gantsign/ansible_role_antigen",
             "latest_release_at": "2022-04-18T18:35:56Z",
@@ -62,12 +62,12 @@
             "url": "https://galaxy.ansible.com/gantsign/antigen_bundles"
         },
         {
-            "ansible_url": null,
+            "ansible_url": "https://galaxy.ansible.com/gantsign/apt",
             "commits_since_release": 12,
             "commits_since_release_url": "https://github.com/gantsign/ansible-role-apt/compare/1.3.1...master",
             "created_at": "2016-07-08T09:22:01Z",
-            "downloads_count": null,
-            "downloads_url": null,
+            "downloads_count": 4194,
+            "downloads_url": "https://galaxy.ansible.com/gantsign/apt",
             "github_url": "https://github.com/gantsign/ansible-role-apt",
             "latest_release_at": "2022-01-08T18:17:01Z",
             "latest_release_url": "https://github.com/gantsign/ansible-role-apt/releases/tag/1.3.1",
@@ -79,15 +79,15 @@
             "open_pull_requests_url": "https://github.com/gantsign/ansible-role-apt/pulls",
             "stargazers_count": 4,
             "stargazers_url": "https://github.com/gantsign/ansible-role-apt/stargazers",
-            "url": "https://github.com/gantsign/ansible-role-apt"
+            "url": "https://galaxy.ansible.com/gantsign/apt"
         },
         {
-            "ansible_url": null,
+            "ansible_url": "https://galaxy.ansible.com/gantsign/audio",
             "commits_since_release": 11,
             "commits_since_release_url": "https://github.com/gantsign/ansible-role-audio/compare/2.0.1...master",
             "created_at": "2016-07-05T21:23:42Z",
-            "downloads_count": null,
-            "downloads_url": null,
+            "downloads_count": 4136,
+            "downloads_url": "https://galaxy.ansible.com/gantsign/audio",
             "github_url": "https://github.com/gantsign/ansible-role-audio",
             "latest_release_at": "2022-01-08T18:21:32Z",
             "latest_release_url": "https://github.com/gantsign/ansible-role-audio/releases/tag/2.0.1",
@@ -99,7 +99,7 @@
             "open_pull_requests_url": "https://github.com/gantsign/ansible-role-audio/pulls",
             "stargazers_count": 5,
             "stargazers_url": "https://github.com/gantsign/ansible-role-audio/stargazers",
-            "url": "https://github.com/gantsign/ansible-role-audio"
+            "url": "https://galaxy.ansible.com/gantsign/audio"
         },
         {
             "ansible_url": "https://galaxy.ansible.com/gantsign/backup",
@@ -126,7 +126,7 @@
             "commits_since_release": 8,
             "commits_since_release_url": "https://github.com/gantsign/ansible_role_bat/compare/1.17.0...master",
             "created_at": "2018-09-27T12:15:50Z",
-            "downloads_count": 14835,
+            "downloads_count": 14863,
             "downloads_url": "https://galaxy.ansible.com/gantsign/bat",
             "github_url": "https://github.com/gantsign/ansible_role_bat",
             "latest_release_at": "2023-03-25T19:02:38Z",
@@ -166,7 +166,7 @@
             "commits_since_release": 10,
             "commits_since_release_url": "https://github.com/gantsign/ansible_role_ctop/compare/1.1.6...master",
             "created_at": "2018-08-26T11:06:56Z",
-            "downloads_count": 11338,
+            "downloads_count": 11347,
             "downloads_url": "https://galaxy.ansible.com/gantsign/ctop",
             "github_url": "https://github.com/gantsign/ansible_role_ctop",
             "latest_release_at": "2022-03-29T06:29:23Z",
@@ -182,12 +182,12 @@
             "url": "https://galaxy.ansible.com/gantsign/ctop"
         },
         {
-            "ansible_url": null,
+            "ansible_url": "https://galaxy.ansible.com/gantsign/default-web-browser",
             "commits_since_release": 12,
             "commits_since_release_url": "https://github.com/gantsign/ansible-role-default-web-browser/compare/4.0.0...master",
             "created_at": "2016-09-04T06:56:57Z",
-            "downloads_count": null,
-            "downloads_url": null,
+            "downloads_count": 5065,
+            "downloads_url": "https://galaxy.ansible.com/gantsign/default-web-browser",
             "github_url": "https://github.com/gantsign/ansible-role-default-web-browser",
             "latest_release_at": "2022-01-07T20:25:49Z",
             "latest_release_url": "https://github.com/gantsign/ansible-role-default-web-browser/releases/tag/4.0.0",
@@ -199,7 +199,7 @@
             "open_pull_requests_url": "https://github.com/gantsign/ansible-role-default-web-browser/pulls",
             "stargazers_count": 4,
             "stargazers_url": "https://github.com/gantsign/ansible-role-default-web-browser/stargazers",
-            "url": "https://github.com/gantsign/ansible-role-default-web-browser"
+            "url": "https://galaxy.ansible.com/gantsign/default-web-browser"
         },
         {
             "ansible_url": "https://galaxy.ansible.com/gantsign/fd",
@@ -266,7 +266,7 @@
             "commits_since_release": 12,
             "commits_since_release_url": "https://github.com/gantsign/ansible-role-gnome-proxy/compare/1.2.1...master",
             "created_at": "2016-10-01T15:48:19Z",
-            "downloads_count": 4777,
+            "downloads_count": 4784,
             "downloads_url": "https://galaxy.ansible.com/gantsign/gnome-proxy",
             "github_url": "https://github.com/gantsign/ansible-role-gnome-proxy",
             "latest_release_at": "2022-01-08T22:58:43Z",
@@ -282,31 +282,31 @@
             "url": "https://galaxy.ansible.com/gantsign/gnome-proxy"
         },
         {
-            "ansible_url": null,
+            "ansible_url": "https://galaxy.ansible.com/gantsign/golang",
             "commits_since_release": 0,
-            "commits_since_release_url": "https://github.com/gantsign/ansible-role-golang/compare/3.3.1...master",
+            "commits_since_release_url": "https://github.com/gantsign/ansible-role-golang/compare/3.3.2...master",
             "created_at": "2016-11-03T16:28:31Z",
-            "downloads_count": null,
-            "downloads_url": null,
+            "downloads_count": 369747,
+            "downloads_url": "https://galaxy.ansible.com/gantsign/golang",
             "github_url": "https://github.com/gantsign/ansible-role-golang",
-            "latest_release_at": "2024-03-24T16:09:36Z",
-            "latest_release_url": "https://github.com/gantsign/ansible-role-golang/releases/tag/3.3.1",
-            "latest_release_version": "3.3.1",
+            "latest_release_at": "2024-04-07T21:33:29Z",
+            "latest_release_url": "https://github.com/gantsign/ansible-role-golang/releases/tag/3.3.2",
+            "latest_release_version": "3.3.2",
             "name": "ansible-role-golang",
             "open_issues_count": 2,
             "open_issues_url": "https://github.com/gantsign/ansible-role-golang/issues",
-            "open_pull_requests_count": 0,
+            "open_pull_requests_count": 1,
             "open_pull_requests_url": "https://github.com/gantsign/ansible-role-golang/pulls",
             "stargazers_count": 59,
             "stargazers_url": "https://github.com/gantsign/ansible-role-golang/stargazers",
-            "url": "https://github.com/gantsign/ansible-role-golang"
+            "url": "https://galaxy.ansible.com/gantsign/golang"
         },
         {
             "ansible_url": "https://galaxy.ansible.com/gantsign/helm",
             "commits_since_release": 14,
             "commits_since_release_url": "https://github.com/gantsign/ansible_role_helm/compare/2.13.0...master",
             "created_at": "2018-08-24T07:47:21Z",
-            "downloads_count": 27224,
+            "downloads_count": 27316,
             "downloads_url": "https://galaxy.ansible.com/gantsign/helm",
             "github_url": "https://github.com/gantsign/ansible_role_helm",
             "latest_release_at": "2023-07-16T10:23:53Z",
@@ -342,12 +342,12 @@
             "url": "https://galaxy.ansible.com/gantsign/hub"
         },
         {
-            "ansible_url": null,
+            "ansible_url": "https://galaxy.ansible.com/gantsign/inotify",
             "commits_since_release": 13,
             "commits_since_release_url": "https://github.com/gantsign/ansible-role-inotify/compare/1.2.2...master",
             "created_at": "2016-09-23T08:49:27Z",
-            "downloads_count": null,
-            "downloads_url": null,
+            "downloads_count": 14189,
+            "downloads_url": "https://galaxy.ansible.com/gantsign/inotify",
             "github_url": "https://github.com/gantsign/ansible-role-inotify",
             "latest_release_at": "2022-01-09T11:15:50Z",
             "latest_release_url": "https://github.com/gantsign/ansible-role-inotify/releases/tag/1.2.2",
@@ -359,19 +359,19 @@
             "open_pull_requests_url": "https://github.com/gantsign/ansible-role-inotify/pulls",
             "stargazers_count": 10,
             "stargazers_url": "https://github.com/gantsign/ansible-role-inotify/stargazers",
-            "url": "https://github.com/gantsign/ansible-role-inotify"
+            "url": "https://galaxy.ansible.com/gantsign/inotify"
         },
         {
-            "ansible_url": null,
+            "ansible_url": "https://galaxy.ansible.com/gantsign/intellij",
             "commits_since_release": 0,
-            "commits_since_release_url": "https://github.com/gantsign/ansible-role-intellij/compare/6.15.6...master",
+            "commits_since_release_url": "https://github.com/gantsign/ansible-role-intellij/compare/6.16.0...master",
             "created_at": "2016-07-06T07:03:37Z",
-            "downloads_count": null,
-            "downloads_url": null,
+            "downloads_count": 48890,
+            "downloads_url": "https://galaxy.ansible.com/gantsign/intellij",
             "github_url": "https://github.com/gantsign/ansible-role-intellij",
-            "latest_release_at": "2024-03-24T15:45:12Z",
-            "latest_release_url": "https://github.com/gantsign/ansible-role-intellij/releases/tag/6.15.6",
-            "latest_release_version": "6.15.6",
+            "latest_release_at": "2024-04-07T20:41:29Z",
+            "latest_release_url": "https://github.com/gantsign/ansible-role-intellij/releases/tag/6.16.0",
+            "latest_release_version": "6.16.0",
             "name": "ansible-role-intellij",
             "open_issues_count": 0,
             "open_issues_url": "https://github.com/gantsign/ansible-role-intellij/issues",
@@ -379,7 +379,7 @@
             "open_pull_requests_url": "https://github.com/gantsign/ansible-role-intellij/pulls",
             "stargazers_count": 45,
             "stargazers_url": "https://github.com/gantsign/ansible-role-intellij/stargazers",
-            "url": "https://github.com/gantsign/ansible-role-intellij"
+            "url": "https://galaxy.ansible.com/gantsign/intellij"
         },
         {
             "ansible_url": "https://galaxy.ansible.com/gantsign/intellij_jdks",
@@ -402,12 +402,12 @@
             "url": "https://galaxy.ansible.com/gantsign/intellij_jdks"
         },
         {
-            "ansible_url": null,
+            "ansible_url": "https://galaxy.ansible.com/gantsign/intellij-plugins",
             "commits_since_release": 14,
             "commits_since_release_url": "https://github.com/gantsign/ansible-role-intellij-plugins/compare/3.1.1...master",
             "created_at": "2016-11-04T10:23:58Z",
-            "downloads_count": null,
-            "downloads_url": null,
+            "downloads_count": 5318,
+            "downloads_url": "https://galaxy.ansible.com/gantsign/intellij-plugins",
             "github_url": "https://github.com/gantsign/ansible-role-intellij-plugins",
             "latest_release_at": "2021-09-09T13:31:43Z",
             "latest_release_url": "https://github.com/gantsign/ansible-role-intellij-plugins/releases/tag/3.1.1",
@@ -419,15 +419,15 @@
             "open_pull_requests_url": "https://github.com/gantsign/ansible-role-intellij-plugins/pulls",
             "stargazers_count": 8,
             "stargazers_url": "https://github.com/gantsign/ansible-role-intellij-plugins/stargazers",
-            "url": "https://github.com/gantsign/ansible-role-intellij-plugins"
+            "url": "https://galaxy.ansible.com/gantsign/intellij-plugins"
         },
         {
-            "ansible_url": null,
+            "ansible_url": "https://galaxy.ansible.com/gantsign/java",
             "commits_since_release": 3,
             "commits_since_release_url": "https://github.com/gantsign/ansible-role-java/compare/12.0.0...master",
             "created_at": "2016-08-13T16:53:28Z",
-            "downloads_count": null,
-            "downloads_url": null,
+            "downloads_count": 126119,
+            "downloads_url": "https://galaxy.ansible.com/gantsign/java",
             "github_url": "https://github.com/gantsign/ansible-role-java",
             "latest_release_at": "2024-01-28T17:23:22Z",
             "latest_release_url": "https://github.com/gantsign/ansible-role-java/releases/tag/12.0.0",
@@ -439,15 +439,15 @@
             "open_pull_requests_url": "https://github.com/gantsign/ansible-role-java/pulls",
             "stargazers_count": 31,
             "stargazers_url": "https://github.com/gantsign/ansible-role-java/stargazers",
-            "url": "https://github.com/gantsign/ansible-role-java"
+            "url": "https://galaxy.ansible.com/gantsign/java"
         },
         {
-            "ansible_url": null,
+            "ansible_url": "https://galaxy.ansible.com/gantsign/keyboard",
             "commits_since_release": 14,
             "commits_since_release_url": "https://github.com/gantsign/ansible-role-keyboard/compare/1.5.0...master",
             "created_at": "2016-07-05T18:10:27Z",
-            "downloads_count": null,
-            "downloads_url": null,
+            "downloads_count": 41501,
+            "downloads_url": "https://galaxy.ansible.com/gantsign/keyboard",
             "github_url": "https://github.com/gantsign/ansible-role-keyboard",
             "latest_release_at": "2021-05-23T20:21:15Z",
             "latest_release_url": "https://github.com/gantsign/ansible-role-keyboard/releases/tag/1.5.0",
@@ -459,7 +459,7 @@
             "open_pull_requests_url": "https://github.com/gantsign/ansible-role-keyboard/pulls",
             "stargazers_count": 17,
             "stargazers_url": "https://github.com/gantsign/ansible-role-keyboard/stargazers",
-            "url": "https://github.com/gantsign/ansible-role-keyboard"
+            "url": "https://galaxy.ansible.com/gantsign/keyboard"
         },
         {
             "ansible_url": "https://galaxy.ansible.com/gantsign/kompose",
@@ -482,12 +482,12 @@
             "url": "https://galaxy.ansible.com/gantsign/kompose"
         },
         {
-            "ansible_url": null,
+            "ansible_url": "https://galaxy.ansible.com/gantsign/kubernetes",
             "commits_since_release": 14,
             "commits_since_release_url": "https://github.com/gantsign/ansible-role-kubernetes/compare/3.3.0...master",
             "created_at": "2016-11-05T19:41:26Z",
-            "downloads_count": null,
-            "downloads_url": null,
+            "downloads_count": 4436,
+            "downloads_url": "https://galaxy.ansible.com/gantsign/kubernetes",
             "github_url": "https://github.com/gantsign/ansible-role-kubernetes",
             "latest_release_at": "2023-06-07T21:49:36Z",
             "latest_release_url": "https://github.com/gantsign/ansible-role-kubernetes/releases/tag/3.3.0",
@@ -499,15 +499,15 @@
             "open_pull_requests_url": "https://github.com/gantsign/ansible-role-kubernetes/pulls",
             "stargazers_count": 23,
             "stargazers_url": "https://github.com/gantsign/ansible-role-kubernetes/stargazers",
-            "url": "https://github.com/gantsign/ansible-role-kubernetes"
+            "url": "https://galaxy.ansible.com/gantsign/kubernetes"
         },
         {
-            "ansible_url": null,
+            "ansible_url": "https://galaxy.ansible.com/gantsign/lightdm",
             "commits_since_release": 12,
             "commits_since_release_url": "https://github.com/gantsign/ansible-role-lightdm/compare/v3.0.1...master",
             "created_at": "2016-04-14T18:22:33Z",
-            "downloads_count": null,
-            "downloads_url": null,
+            "downloads_count": 7365,
+            "downloads_url": "https://galaxy.ansible.com/gantsign/lightdm",
             "github_url": "https://github.com/gantsign/ansible-role-lightdm",
             "latest_release_at": "2022-01-08T23:43:17Z",
             "latest_release_url": "https://github.com/gantsign/ansible-role-lightdm/releases/tag/v3.0.1",
@@ -519,15 +519,15 @@
             "open_pull_requests_url": "https://github.com/gantsign/ansible-role-lightdm/pulls",
             "stargazers_count": 4,
             "stargazers_url": "https://github.com/gantsign/ansible-role-lightdm/stargazers",
-            "url": "https://github.com/gantsign/ansible-role-lightdm"
+            "url": "https://galaxy.ansible.com/gantsign/lightdm"
         },
         {
-            "ansible_url": null,
+            "ansible_url": "https://galaxy.ansible.com/gantsign/maven",
             "commits_since_release": 11,
             "commits_since_release_url": "https://github.com/gantsign/ansible-role-maven/compare/5.7.4...master",
             "created_at": "2016-08-13T09:17:34Z",
-            "downloads_count": null,
-            "downloads_url": null,
+            "downloads_count": 252170,
+            "downloads_url": "https://galaxy.ansible.com/gantsign/maven",
             "github_url": "https://github.com/gantsign/ansible-role-maven",
             "latest_release_at": "2023-08-31T06:24:15Z",
             "latest_release_url": "https://github.com/gantsign/ansible-role-maven/releases/tag/5.7.4",
@@ -539,15 +539,15 @@
             "open_pull_requests_url": "https://github.com/gantsign/ansible-role-maven/pulls",
             "stargazers_count": 20,
             "stargazers_url": "https://github.com/gantsign/ansible-role-maven/stargazers",
-            "url": "https://github.com/gantsign/ansible-role-maven"
+            "url": "https://galaxy.ansible.com/gantsign/maven"
         },
         {
-            "ansible_url": null,
+            "ansible_url": "https://galaxy.ansible.com/gantsign/maven-notifier",
             "commits_since_release": 13,
             "commits_since_release_url": "https://github.com/gantsign/ansible-role-maven-notifier/compare/3.0.2...master",
             "created_at": "2016-05-05T20:00:06Z",
-            "downloads_count": null,
-            "downloads_url": null,
+            "downloads_count": 4038,
+            "downloads_url": "https://galaxy.ansible.com/gantsign/maven-notifier",
             "github_url": "https://github.com/gantsign/ansible-role-maven-notifier",
             "latest_release_at": "2021-12-04T15:51:57Z",
             "latest_release_url": "https://github.com/gantsign/ansible-role-maven-notifier/releases/tag/3.0.2",
@@ -559,14 +559,14 @@
             "open_pull_requests_url": "https://github.com/gantsign/ansible-role-maven-notifier/pulls",
             "stargazers_count": 4,
             "stargazers_url": "https://github.com/gantsign/ansible-role-maven-notifier/stargazers",
-            "url": "https://github.com/gantsign/ansible-role-maven-notifier"
+            "url": "https://galaxy.ansible.com/gantsign/maven-notifier"
         },
         {
             "ansible_url": "https://galaxy.ansible.com/gantsign/minikube",
             "commits_since_release": 7,
             "commits_since_release_url": "https://github.com/gantsign/ansible_role_minikube/compare/1.34.0...master",
             "created_at": "2018-08-23T16:00:49Z",
-            "downloads_count": 44284,
+            "downloads_count": 44341,
             "downloads_url": "https://galaxy.ansible.com/gantsign/minikube",
             "github_url": "https://github.com/gantsign/ansible_role_minikube",
             "latest_release_at": "2023-04-08T22:21:10Z",
@@ -582,12 +582,12 @@
             "url": "https://galaxy.ansible.com/gantsign/minikube"
         },
         {
-            "ansible_url": null,
+            "ansible_url": "https://galaxy.ansible.com/gantsign/oh-my-zsh",
             "commits_since_release": 1,
             "commits_since_release_url": "https://github.com/gantsign/ansible-role-oh-my-zsh/compare/2.7.0...master",
             "created_at": "2016-08-18T17:33:09Z",
-            "downloads_count": null,
-            "downloads_url": null,
+            "downloads_count": 221398,
+            "downloads_url": "https://galaxy.ansible.com/gantsign/oh-my-zsh",
             "github_url": "https://github.com/gantsign/ansible-role-oh-my-zsh",
             "latest_release_at": "2023-04-09T06:39:15Z",
             "latest_release_url": "https://github.com/gantsign/ansible-role-oh-my-zsh/releases/tag/2.7.0",
@@ -599,15 +599,15 @@
             "open_pull_requests_url": "https://github.com/gantsign/ansible-role-oh-my-zsh/pulls",
             "stargazers_count": 158,
             "stargazers_url": "https://github.com/gantsign/ansible-role-oh-my-zsh/stargazers",
-            "url": "https://github.com/gantsign/ansible-role-oh-my-zsh"
+            "url": "https://galaxy.ansible.com/gantsign/oh-my-zsh"
         },
         {
-            "ansible_url": null,
+            "ansible_url": "https://galaxy.ansible.com/gantsign/pin-to-launcher",
             "commits_since_release": 11,
             "commits_since_release_url": "https://github.com/gantsign/ansible-role-pin-to-launcher/compare/4.0.0...master",
             "created_at": "2016-08-26T14:41:14Z",
-            "downloads_count": null,
-            "downloads_url": null,
+            "downloads_count": 6837,
+            "downloads_url": "https://galaxy.ansible.com/gantsign/pin-to-launcher",
             "github_url": "https://github.com/gantsign/ansible-role-pin-to-launcher",
             "latest_release_at": "2022-01-10T21:40:28Z",
             "latest_release_url": "https://github.com/gantsign/ansible-role-pin-to-launcher/releases/tag/4.0.0",
@@ -619,15 +619,15 @@
             "open_pull_requests_url": "https://github.com/gantsign/ansible-role-pin-to-launcher/pulls",
             "stargazers_count": 5,
             "stargazers_url": "https://github.com/gantsign/ansible-role-pin-to-launcher/stargazers",
-            "url": "https://github.com/gantsign/ansible-role-pin-to-launcher"
+            "url": "https://galaxy.ansible.com/gantsign/pin-to-launcher"
         },
         {
-            "ansible_url": null,
+            "ansible_url": "https://galaxy.ansible.com/gantsign/postman",
             "commits_since_release": 11,
             "commits_since_release_url": "https://github.com/gantsign/ansible-role-postman/compare/2.4.0...master",
             "created_at": "2016-11-11T09:11:33Z",
-            "downloads_count": null,
-            "downloads_url": null,
+            "downloads_count": 80232,
+            "downloads_url": "https://galaxy.ansible.com/gantsign/postman",
             "github_url": "https://github.com/gantsign/ansible-role-postman",
             "latest_release_at": "2022-01-09T18:43:58Z",
             "latest_release_url": "https://github.com/gantsign/ansible-role-postman/releases/tag/2.4.0",
@@ -639,7 +639,7 @@
             "open_pull_requests_url": "https://github.com/gantsign/ansible-role-postman/pulls",
             "stargazers_count": 10,
             "stargazers_url": "https://github.com/gantsign/ansible-role-postman/stargazers",
-            "url": "https://github.com/gantsign/ansible-role-postman"
+            "url": "https://galaxy.ansible.com/gantsign/postman"
         },
         {
             "ansible_url": "https://galaxy.ansible.com/gantsign/pwquality",
@@ -686,7 +686,7 @@
             "commits_since_release": 0,
             "commits_since_release_url": "https://github.com/gantsign/ansible_role_sdkman/compare/2.2.0...master",
             "created_at": "2018-08-16T13:47:49Z",
-            "downloads_count": 6435,
+            "downloads_count": 6453,
             "downloads_url": "https://galaxy.ansible.com/gantsign/sdkman",
             "github_url": "https://github.com/gantsign/ansible_role_sdkman",
             "latest_release_at": "2022-10-09T13:06:33Z",
@@ -706,7 +706,7 @@
             "commits_since_release": 10,
             "commits_since_release_url": "https://github.com/gantsign/ansible_role_sdkman_init/compare/1.2.2...master",
             "created_at": "2018-08-18T09:01:20Z",
-            "downloads_count": 3712,
+            "downloads_count": 3719,
             "downloads_url": "https://galaxy.ansible.com/gantsign/sdkman_init",
             "github_url": "https://github.com/gantsign/ansible_role_sdkman_init",
             "latest_release_at": "2022-01-12T21:16:21Z",
@@ -762,12 +762,12 @@
             "url": "https://galaxy.ansible.com/gantsign/timezone"
         },
         {
-            "ansible_url": null,
+            "ansible_url": "https://galaxy.ansible.com/gantsign/visual-studio-code",
             "commits_since_release": 6,
             "commits_since_release_url": "https://github.com/gantsign/ansible-role-visual-studio-code/compare/7.0.0...master",
             "created_at": "2016-07-09T18:09:35Z",
-            "downloads_count": null,
-            "downloads_url": null,
+            "downloads_count": 115787,
+            "downloads_url": "https://galaxy.ansible.com/gantsign/visual-studio-code",
             "github_url": "https://github.com/gantsign/ansible-role-visual-studio-code",
             "latest_release_at": "2023-09-04T05:50:20Z",
             "latest_release_url": "https://github.com/gantsign/ansible-role-visual-studio-code/releases/tag/7.0.0",
@@ -779,15 +779,15 @@
             "open_pull_requests_url": "https://github.com/gantsign/ansible-role-visual-studio-code/pulls",
             "stargazers_count": 101,
             "stargazers_url": "https://github.com/gantsign/ansible-role-visual-studio-code/stargazers",
-            "url": "https://github.com/gantsign/ansible-role-visual-studio-code"
+            "url": "https://galaxy.ansible.com/gantsign/visual-studio-code"
         },
         {
-            "ansible_url": null,
+            "ansible_url": "https://galaxy.ansible.com/gantsign/visual-studio-code-extensions",
             "commits_since_release": 9,
             "commits_since_release_url": "https://github.com/gantsign/ansible-role-visual-studio-code-extensions/compare/2.5.0...master",
             "created_at": "2016-11-04T14:10:09Z",
-            "downloads_count": null,
-            "downloads_url": null,
+            "downloads_count": 12890,
+            "downloads_url": "https://galaxy.ansible.com/gantsign/visual-studio-code-extensions",
             "github_url": "https://github.com/gantsign/ansible-role-visual-studio-code-extensions",
             "latest_release_at": "2024-01-01T23:07:44Z",
             "latest_release_url": "https://github.com/gantsign/ansible-role-visual-studio-code-extensions/releases/tag/2.5.0",
@@ -799,7 +799,7 @@
             "open_pull_requests_url": "https://github.com/gantsign/ansible-role-visual-studio-code-extensions/pulls",
             "stargazers_count": 27,
             "stargazers_url": "https://github.com/gantsign/ansible-role-visual-studio-code-extensions/stargazers",
-            "url": "https://github.com/gantsign/ansible-role-visual-studio-code-extensions"
+            "url": "https://galaxy.ansible.com/gantsign/visual-studio-code-extensions"
         },
         {
             "ansible_url": null,
@@ -826,7 +826,7 @@
             "commits_since_release": 10,
             "commits_since_release_url": "https://github.com/gantsign/ansible_role_zswap/compare/1.0.1...master",
             "created_at": "2019-10-06T14:47:54Z",
-            "downloads_count": 2274,
+            "downloads_count": 2280,
             "downloads_url": "https://galaxy.ansible.com/gantsign/zswap",
             "github_url": "https://github.com/gantsign/ansible_role_zswap",
             "latest_release_at": "2022-01-11T20:15:22Z",
@@ -1183,10 +1183,10 @@
         }
     ],
     "total_commits_since_release": 549,
-    "total_downloads_count": 250682,
+    "total_downloads_count": 1575316,
     "total_open_issues_count": 32,
     "total_open_issues_url": "https://github.com/issues?q=is%3Aopen+is%3Aissue+archived%3Afalse+user%3Agantsign",
-    "total_open_pull_requests_count": 57,
+    "total_open_pull_requests_count": 58,
     "total_open_pull_requests_url": "https://github.com/pulls?q=is%3Aopen+is%3Apr+archived%3Afalse+user%3Agantsign",
     "total_stargazers_count": 854,
     "url": "https://github.com/gantsign?type=source"
