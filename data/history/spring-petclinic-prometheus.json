@@ -7131,6 +7131,18 @@
             "open_issues_count": 0,
             "open_pull_requests_count": 0,
             "stargazers_count": 0
+        },
+        {
+            "commits_since_release": null,
+            "commits_since_release_url": null,
+            "data_at": "2025-01-27T11:08:23Z",
+            "downloads_count": null,
+            "latest_release_at": null,
+            "latest_release_url": null,
+            "latest_release_version": null,
+            "open_issues_count": 0,
+            "open_pull_requests_count": 0,
+            "stargazers_count": 0
         }
     ],
     "name": "spring-petclinic-prometheus",
