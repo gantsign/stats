@@ -28071,6 +28071,18 @@
             "open_issues_count": 0,
             "open_pull_requests_count": 0,
             "stargazers_count": 4
+        },
+        {
+            "commits_since_release": 12,
+            "commits_since_release_url": "https://github.com/gantsign/ansible-role-default-web-browser/compare/4.0.0...master",
+            "data_at": "2025-02-16T11:07:09Z",
+            "downloads_count": 5290,
+            "latest_release_at": "2022-01-07T20:25:49Z",
+            "latest_release_url": "https://github.com/gantsign/ansible-role-default-web-browser/releases/tag/4.0.0",
+            "latest_release_version": "4.0.0",
+            "open_issues_count": 0,
+            "open_pull_requests_count": 0,
+            "stargazers_count": 4
         }
     ],
     "name": "ansible-role-default-web-browser",
