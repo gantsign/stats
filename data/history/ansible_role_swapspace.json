@@ -23391,6 +23391,18 @@
             "open_issues_count": 0,
             "open_pull_requests_count": 1,
             "stargazers_count": 3
+        },
+        {
+            "commits_since_release": 10,
+            "commits_since_release_url": "https://github.com/gantsign/ansible_role_swapspace/compare/1.0.1...master",
+            "data_at": "2025-02-20T11:08:41Z",
+            "downloads_count": 1683,
+            "latest_release_at": "2022-01-11T19:37:23Z",
+            "latest_release_url": "https://github.com/gantsign/ansible_role_swapspace/releases/tag/1.0.1",
+            "latest_release_version": "1.0.1",
+            "open_issues_count": 0,
+            "open_pull_requests_count": 1,
+            "stargazers_count": 3
         }
     ],
     "name": "ansible_role_swapspace",
