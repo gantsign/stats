@@ -28239,6 +28239,18 @@
             "open_issues_count": 0,
             "open_pull_requests_count": 1,
             "stargazers_count": 5
+        },
+        {
+            "commits_since_release": 10,
+            "commits_since_release_url": "https://github.com/gantsign/ansible_role_timezone/compare/1.1.1...master",
+            "data_at": "2025-03-28T11:09:08Z",
+            "downloads_count": 4442,
+            "latest_release_at": "2022-01-11T21:01:36Z",
+            "latest_release_url": "https://github.com/gantsign/ansible_role_timezone/releases/tag/1.1.1",
+            "latest_release_version": "1.1.1",
+            "open_issues_count": 0,
+            "open_pull_requests_count": 1,
+            "stargazers_count": 5
         }
     ],
     "name": "ansible_role_timezone",
