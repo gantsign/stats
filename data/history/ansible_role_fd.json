@@ -28419,6 +28419,18 @@
             "open_issues_count": 0,
             "open_pull_requests_count": 1,
             "stargazers_count": 5
+        },
+        {
+            "commits_since_release": 0,
+            "commits_since_release_url": "https://github.com/gantsign/ansible_role_fd/compare/1.12.0...master",
+            "data_at": "2025-04-09T11:09:39Z",
+            "downloads_count": 2368,
+            "latest_release_at": "2023-02-26T22:56:47Z",
+            "latest_release_url": "https://github.com/gantsign/ansible_role_fd/releases/tag/1.12.0",
+            "latest_release_version": "1.12.0",
+            "open_issues_count": 0,
+            "open_pull_requests_count": 1,
+            "stargazers_count": 5
         }
     ],
     "name": "ansible_role_fd",
