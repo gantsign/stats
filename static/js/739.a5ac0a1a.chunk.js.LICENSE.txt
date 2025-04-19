@@ -1,0 +1,37 @@
+/* @license
+Papa Parse
+v5.2.0
+https://github.com/mholt/PapaParse
+License: MIT
+*/
+
+/*! @preserve
+ * numeral.js
+ * version : 2.0.6
+ * author : Adam Draper
+ * license : MIT
+ * http://adamwdraper.github.com/Numeral-js/
+ */
+
+/*! Bundled license information:
+  
+  native-promise-only/lib/npo.src.js:
+    (*! Native Promise Only
+        v0.8.1 (c) Kyle Simpson
+        MIT License: http://getify.mit-license.org
+    *)
+  
+  polybooljs/index.js:
+    (*
+     * @copyright 2016 Sean Connelly (@voidqk), http://syntheti.cc
+     * @license MIT
+     * @preserve Project Home: https://github.com/voidqk/polybooljs
+     *)
+  
+  object-assign/index.js:
+    (*
+    object-assign
+    (c) Sindre Sorhus
+    @license MIT
+    *)
+  */
