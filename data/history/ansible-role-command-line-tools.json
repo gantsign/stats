@@ -28899,6 +28899,18 @@
             "open_issues_count": 0,
             "open_pull_requests_count": 0,
             "stargazers_count": 3
+        },
+        {
+            "commits_since_release": 4,
+            "commits_since_release_url": "https://github.com/gantsign/ansible-role-command-line-tools/compare/3.1.0...master",
+            "data_at": "2025-04-27T11:08:15Z",
+            "downloads_count": null,
+            "latest_release_at": "2022-12-04T23:15:25Z",
+            "latest_release_url": "https://github.com/gantsign/ansible-role-command-line-tools/releases/tag/3.1.0",
+            "latest_release_version": "3.1.0",
+            "open_issues_count": 0,
+            "open_pull_requests_count": 0,
+            "stargazers_count": 3
         }
     ],
     "name": "ansible-role-command-line-tools",
