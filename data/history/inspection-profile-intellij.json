@@ -29367,6 +29367,18 @@
             "open_issues_count": 0,
             "open_pull_requests_count": 0,
             "stargazers_count": 5
+        },
+        {
+            "commits_since_release": 0,
+            "commits_since_release_url": "https://github.com/gantsign/inspection-profile-intellij/compare/1.0.0...master",
+            "data_at": "2025-06-05T11:09:57Z",
+            "downloads_count": null,
+            "latest_release_at": "2018-09-20T09:23:19Z",
+            "latest_release_url": "https://github.com/gantsign/inspection-profile-intellij/releases/tag/1.0.0",
+            "latest_release_version": "1.0.0",
+            "open_issues_count": 0,
+            "open_pull_requests_count": 0,
+            "stargazers_count": 5
         }
     ],
     "name": "inspection-profile-intellij",
