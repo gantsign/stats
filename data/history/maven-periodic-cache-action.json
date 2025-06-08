@@ -12399,6 +12399,18 @@
             "open_issues_count": 0,
             "open_pull_requests_count": 0,
             "stargazers_count": 0
+        },
+        {
+            "commits_since_release": 0,
+            "commits_since_release_url": "https://github.com/gantsign/maven-periodic-cache-action/compare/v1.2.1...main",
+            "data_at": "2025-06-08T11:08:56Z",
+            "downloads_count": null,
+            "latest_release_at": "2024-01-21T17:29:59Z",
+            "latest_release_url": "https://github.com/gantsign/maven-periodic-cache-action/releases/tag/v1.2.1",
+            "latest_release_version": "1.2.1",
+            "open_issues_count": 0,
+            "open_pull_requests_count": 0,
+            "stargazers_count": 0
         }
     ],
     "name": "maven-periodic-cache-action",
