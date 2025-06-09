@@ -29415,6 +29415,18 @@
             "open_issues_count": 3,
             "open_pull_requests_count": 2,
             "stargazers_count": 168
+        },
+        {
+            "commits_since_release": 1,
+            "commits_since_release_url": "https://github.com/gantsign/ansible-role-oh-my-zsh/compare/2.7.0...master",
+            "data_at": "2025-06-09T11:10:25Z",
+            "downloads_count": 294672,
+            "latest_release_at": "2023-04-09T06:39:15Z",
+            "latest_release_url": "https://github.com/gantsign/ansible-role-oh-my-zsh/releases/tag/2.7.0",
+            "latest_release_version": "2.7.0",
+            "open_issues_count": 3,
+            "open_pull_requests_count": 2,
+            "stargazers_count": 168
         }
     ],
     "name": "ansible-role-oh-my-zsh",
