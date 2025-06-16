@@ -1,7 +1,7 @@
 {
-    "ansible_url": "https://galaxy.ansible.com/gantsign/lightdm",
+    "ansible_url": null,
     "created_at": "2016-04-14T18:22:33Z",
-    "downloads_url": "https://galaxy.ansible.com/gantsign/lightdm",
+    "downloads_url": null,
     "github_url": "https://github.com/gantsign/ansible-role-lightdm",
     "history": [
         {
@@ -29499,11 +29499,23 @@
             "open_issues_count": 0,
             "open_pull_requests_count": 1,
             "stargazers_count": 4
+        },
+        {
+            "commits_since_release": 12,
+            "commits_since_release_url": "https://github.com/gantsign/ansible-role-lightdm/compare/v3.0.1...master",
+            "data_at": "2025-06-16T11:10:29Z",
+            "downloads_count": null,
+            "latest_release_at": "2022-01-08T23:43:17Z",
+            "latest_release_url": "https://github.com/gantsign/ansible-role-lightdm/releases/tag/v3.0.1",
+            "latest_release_version": "3.0.1",
+            "open_issues_count": 0,
+            "open_pull_requests_count": 1,
+            "stargazers_count": 4
         }
     ],
     "name": "ansible-role-lightdm",
     "open_issues_url": "https://github.com/gantsign/ansible-role-lightdm/issues",
     "open_pull_requests_url": "https://github.com/gantsign/ansible-role-lightdm/pulls",
     "stargazers_url": "https://github.com/gantsign/ansible-role-lightdm/stargazers",
-    "url": "https://galaxy.ansible.com/gantsign/lightdm"
+    "url": "https://github.com/gantsign/ansible-role-lightdm"
 }

@@ -1,7 +1,7 @@
 {
-    "ansible_url": "https://galaxy.ansible.com/gantsign/bat",
+    "ansible_url": null,
     "created_at": "2018-09-27T12:15:50Z",
-    "downloads_url": "https://galaxy.ansible.com/gantsign/bat",
+    "downloads_url": null,
     "github_url": "https://github.com/gantsign/ansible_role_bat",
     "history": [
         {
@@ -29211,11 +29211,23 @@
             "open_issues_count": 0,
             "open_pull_requests_count": 0,
             "stargazers_count": 6
+        },
+        {
+            "commits_since_release": 8,
+            "commits_since_release_url": "https://github.com/gantsign/ansible_role_bat/compare/1.17.0...master",
+            "data_at": "2025-06-16T11:10:29Z",
+            "downloads_count": null,
+            "latest_release_at": "2023-03-25T19:02:38Z",
+            "latest_release_url": "https://github.com/gantsign/ansible_role_bat/releases/tag/1.17.0",
+            "latest_release_version": "1.17.0",
+            "open_issues_count": 0,
+            "open_pull_requests_count": 0,
+            "stargazers_count": 6
         }
     ],
     "name": "ansible_role_bat",
     "open_issues_url": "https://github.com/gantsign/ansible_role_bat/issues",
     "open_pull_requests_url": "https://github.com/gantsign/ansible_role_bat/pulls",
     "stargazers_url": "https://github.com/gantsign/ansible_role_bat/stargazers",
-    "url": "https://galaxy.ansible.com/gantsign/bat"
+    "url": "https://github.com/gantsign/ansible_role_bat"
 }
