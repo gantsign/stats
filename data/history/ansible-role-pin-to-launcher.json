@@ -1,7 +1,7 @@
 {
-    "ansible_url": null,
+    "ansible_url": "https://galaxy.ansible.com/gantsign/pin-to-launcher",
     "created_at": "2016-08-26T14:41:14Z",
-    "downloads_url": null,
+    "downloads_url": "https://galaxy.ansible.com/gantsign/pin-to-launcher",
     "github_url": "https://github.com/gantsign/ansible-role-pin-to-launcher",
     "history": [
         {
@@ -29511,11 +29511,23 @@
             "open_issues_count": 0,
             "open_pull_requests_count": 1,
             "stargazers_count": 5
+        },
+        {
+            "commits_since_release": 11,
+            "commits_since_release_url": "https://github.com/gantsign/ansible-role-pin-to-launcher/compare/4.0.0...master",
+            "data_at": "2025-06-17T11:10:16Z",
+            "downloads_count": 7158,
+            "latest_release_at": "2022-01-10T21:40:28Z",
+            "latest_release_url": "https://github.com/gantsign/ansible-role-pin-to-launcher/releases/tag/4.0.0",
+            "latest_release_version": "4.0.0",
+            "open_issues_count": 0,
+            "open_pull_requests_count": 1,
+            "stargazers_count": 5
         }
     ],
     "name": "ansible-role-pin-to-launcher",
     "open_issues_url": "https://github.com/gantsign/ansible-role-pin-to-launcher/issues",
     "open_pull_requests_url": "https://github.com/gantsign/ansible-role-pin-to-launcher/pulls",
     "stargazers_url": "https://github.com/gantsign/ansible-role-pin-to-launcher/stargazers",
-    "url": "https://github.com/gantsign/ansible-role-pin-to-launcher"
+    "url": "https://galaxy.ansible.com/gantsign/pin-to-launcher"
 }
