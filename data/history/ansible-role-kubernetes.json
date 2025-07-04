@@ -29715,6 +29715,18 @@
             "open_issues_count": 0,
             "open_pull_requests_count": 5,
             "stargazers_count": 22
+        },
+        {
+            "commits_since_release": 14,
+            "commits_since_release_url": "https://github.com/gantsign/ansible-role-kubernetes/compare/3.3.0...master",
+            "data_at": "2025-07-04T11:10:29Z",
+            "downloads_count": 4675,
+            "latest_release_at": "2023-06-07T21:49:36Z",
+            "latest_release_url": "https://github.com/gantsign/ansible-role-kubernetes/releases/tag/3.3.0",
+            "latest_release_version": "3.3.0",
+            "open_issues_count": 0,
+            "open_pull_requests_count": 5,
+            "stargazers_count": 22
         }
     ],
     "name": "ansible-role-kubernetes",
